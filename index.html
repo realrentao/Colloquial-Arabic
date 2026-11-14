@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>阿拉伯语口语教材库 · 总导航</title>
+<meta name="description" content="面向中国学习者的阿拉伯语口语教材库总导航页。以教材为单位组织，首册《埃及口语》已接入，其余教材位预留。">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">ع</span> 阿拉伯语口语教材库 <span class="brand-sub">总导航 · 教材目录</span></a>
+    <span class="header-spacer"></span>
+    <div class="header-tools">
+      <a class="btn btn-ghost btn-sm" href="#library">教材目录</a>
+      <a class="btn btn-ghost btn-sm" href="#how-to-add">接入新教材</a>
+    </div>
+  </div>
+  <div class="progressbar" id="scroll-progress"></div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <p class="eyebrow">Library Index · 教材库总导航</p>
+    <h1>以「教材」为单位的阿拉伯语口语学习站</h1>
+    <div class="hero-ar" id="lib-name-ar">مَكْتَبَةُ الْعَرَبِيَّةِ الْمُحَكَّاةِ</div>
+    <p>本页是整个站点的顶层入口，按「一册教材 = 一个入口」组织。下方每一个卡片代表一册教材或一个预留教材位；《埃及口语》是目前已接入的第 01 册，<strong>它只是全部教材中的一册，并非本站的全部内容</strong>。其余同层级位置保持空白，等待后续教材按同一规则接入。</p>
+    <div class="hero-meta">
+      <span class="hero-chip">教材位总数 <strong id="stat-total">6</strong></span>
+      <span class="hero-chip">已接入 <strong id="stat-active">1</strong> 册</span>
+      <span class="hero-chip">预留 <strong id="stat-reserved">5</strong> 位</span>
+      <span class="hero-chip">面向中国学习者 · 全站中文</span>
+    </div>
+  </section>
+
+  <div class="note-band" style="margin-top:22px">
+    <strong>入口规则：</strong>总导航页只负责「选教材」。点击已接入的教材卡片 → 进入该教材首页 → 逐级展开到单元与学习模块；每个层级的页面都提供返回上级与「返回总导航」的入口。空白教材位与已接入教材位<strong>同层级、同版式、同字段结构</strong>，只是状态标注为「尚未接入」，不提供跳转。
+  </div>
+
+  <section class="section" id="library">
+    <div class="section-head">
+      <h2>教材目录</h2>
+      <span class="hint">共 <span id="stat-total-2">6</span> 个教材位 · 点击已接入教材进入学习流程</span>
+    </div>
+    <div class="book-grid" id="book-grid"></div>
+    <p class="empty-hint">说明：编号为「教材位 02」及之后的虚线卡片是预留占位区域，不属于《埃及口语》，也不隶属于任何单一教材；新增教材时它们会依次自动让位。</p>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>学习流程</h2><span class="hint">从本页出发，逐级展开，逐级返回</span></div>
+    <div class="block">
+      <div class="path-flow">
+        <span class="path-node on">① 总导航（本页）</span><span class="path-arrow">→</span>
+        <span class="path-node">② 教材首页</span><span class="path-arrow">→</span>
+        <span class="path-node">③ 单元目录 / 专题入口</span><span class="path-arrow">→</span>
+        <span class="path-node">④ 单元页（对话·词汇·语法·练习）</span><span class="path-arrow">→</span>
+        <span class="path-node">⑤ 返回任意上级 / 返回总导航</span>
+      </div>
+      <div class="info-grid">
+        <div class="info-card"><div class="k">内容改写</div><div class="v">带完整元音标注的阿拉伯文</div><div class="d">原书以罗马音转写呈现阿拉伯语，本站逐词改写为带元音符号（تَشْكِيل）的阿拉伯文，元音位置对应埃及口语实际读音。</div></div>
+        <div class="info-card"><div class="k">讲解语言</div><div class="v">润色过的简体中文</div><div class="d">原书英文讲解、词汇释义、练习指令、文化说明全部改写为中文教材式讲解，并补充中国学习者易错点提示。</div></div>
+        <div class="info-card"><div class="k">原书转写</div><div class="v">可按需对照，默认收起</div><div class="d">每页顶部可开启「显示原书罗马音」，用于核对重音与读法；默认只显示阿拉伯文与中文，避免依赖罗马音。</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="how-to-add">
+    <div class="section-head"><h2>后续教材如何接入</h2><span class="hint">只改数据，不改页面</span></div>
+    <div class="block">
+      <p style="margin:0 0 12px;font-size:14px;color:var(--ink-2)">总导航页不写死任何一本教材：卡片由 <code>assets/catalog.js</code> 的 <code>books</code> 数组渲染。追加教材时只需两步，现有页面与已接入教材的内容完全不用改动：</p>
+      <div class="review-list">
+        <li>在 <code>assets/catalog.js</code> 的 <code>books</code> 数组末尾追加一条同结构记录（id、中文名、阿拉伯文名、原书名、简介、入口路径、标签、统计），并把新教材的页面放到 <code>books/&lt;id&gt;/</code> 目录下，入口指向该目录的 <code>index.html</code>。</li>
+        <li>刷新总导航页即可：新教材自动占据最靠前的预留位，剩余预留卡自动顺延；卡片尺寸、字段、按钮位、返回规则与第 01 册完全一致。</li>
+      </div>
+      <div class="note-band" style="margin-top:16px"><strong id="slot-note-text"></strong></div>
+      <details style="margin-top:16px;font-size:13.5px;color:var(--ink-2)">
+        <summary style="cursor:pointer;color:var(--teal);font-weight:600">查看教材记录结构（catalog.js 字段示例）</summary>
+        <pre style="background:var(--paper-2);padding:16px;border-radius:10px;overflow:auto;font-size:12.5px;line-height:1.7;direction:ltr;text-align:left"><code>{
+  id: "levantine-arabic",              // 目录名，须与 books/&lt;id&gt;/ 一致
+  status: "active",
+  title_zh: "沙姆口语",
+  title_ar: "الْعَرَبِيَّةُ الشَّامِيَّةُ",   // 带元音标注
+  title_original: "Colloquial Arabic (Levantine)",
+  authors: "……", edition: "……",
+  entry: "books/levantine-arabic/index.html",
+  summary: "……",
+  tags: ["黎凡特方言", "零起点", "中文精讲"],
+  stats: [{label:"单元",value:"15"}, {label:"词条",value:"0"}],
+  level: "第 02 册 · 已接入"
+}</code></pre>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <div class="fl">
+    <div>阿拉伯语口语教材库 · 总导航页　|　当前唯一已接入教材：《埃及口语》（第 01 册），其余教材位为空白预留。</div>
+    <div><a href="#library">回到教材目录 ↑</a>　·　教材数据见 assets/catalog.js</div>
+  </div>
+</footer>
+
+<script src="assets/catalog.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
