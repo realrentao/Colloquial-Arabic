@@ -1,6 +1,6 @@
-# 阿拉伯语口语教材库 · Colloquial-Arabic
+# 阿拉伯语口语学习站 · Colloquial-Arabic
 
-面向中国阿拉伯语学习者的在线教材库。**总导航页以「一册教材 = 一个入口」为单位组织**，《埃及口语》是目前已接入的**第 01 册**，并非教材库的全部内容；总导航页同时保留了若干同层级的空白教材位，等待后续教材按同一规则接入。
+面向中国阿拉伯语学习者的在线学习站。**总导航页以「一册教材 = 一个入口」为单位组织**，《埃及口语》是目前已接入的**第 01 册**，并非学习站的全部内容；总导航页同时保留了若干同层级的空白教材位，等待后续教材按同一规则接入。
 
 线上入口：<https://realrentao.github.io/Colloquial-Arabic/>（即仓库根目录的 `index.html`）
 
@@ -15,7 +15,7 @@
 ## 站点结构
 
 ```
-index.html                       总导航页（教材库首页，由 assets/catalog.js 渲染）
+index.html                       总导航页（学习站首页，由 assets/catalog.js 渲染）
 assets/
   catalog.js                     教材注册表：唯一需要维护的教材清单
   style.css / app.js / favicon.svg

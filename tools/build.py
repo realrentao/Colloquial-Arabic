@@ -81,7 +81,7 @@ def shell(title, crumb_html, body, footer_nav, desc="", unit_id=None, tools=True
                  if tools else "")
     header = """<header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="{r}index.html"><span class="brand-mark">ع</span> 阿拉伯语口语教材库 <span class="brand-sub">《埃及口语》</span></a>
+    <a class="brand" href="{r}index.html"><span class="brand-mark">ع</span> 阿拉伯语口语学习站 <span class="brand-sub">《埃及口语》</span></a>
     <span class="header-spacer"></span>
     <div class="header-tools">
       <a class="header-back" href="{r}index.html"><span class="lbl-long">← 返回总导航</span><span class="lbl-short">← 总导航</span></a>
@@ -93,7 +93,7 @@ def shell(title, crumb_html, body, footer_nav, desc="", unit_id=None, tools=True
 </header>""".format(r=REL, btn=roman_btn)
     footer = """<footer class="site-footer wrap">
   <div class="fl">
-    <div>《埃及口语》· 教材库第 01 册　|　本页内容依据 Routledge《Colloquial Arabic of Egypt》第三版重编，阿拉伯文已加注完整元音，讲解为中文。</div>
+    <div>《埃及口语》· 本站第 01 册　|　本页内容依据 Routledge《Colloquial Arabic of Egypt》第三版重编，阿拉伯文已加注完整元音，讲解为中文。</div>
     <div><a href="index.html">教材首页</a>　·　<a href="{r}index.html">返回总导航 ↑</a></div>
   </div>
 </footer>""".format(r=REL)
@@ -103,7 +103,7 @@ def shell(title, crumb_html, body, footer_nav, desc="", unit_id=None, tools=True
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{title} · 埃及口语 · 阿拉伯语口语教材库</title>
+<title>{title} · 埃及口语 · 阿拉伯语口语学习站</title>
 <meta name="description" content="{desc}">
 <link rel="stylesheet" href="{r}assets/style.css">
 <link rel="icon" type="image/svg+xml" href="{r}assets/favicon.svg">
@@ -295,7 +295,7 @@ def build_unit(u, idx, page_path):
                   % (rich(u.get("summary_zh", "")), num))
 
     body = back_strip("第 %02d 单元 · %s" % (num, u["title_zh"])) + hero + mnav + "".join(blocks)
-    cr = crumb([("教材库", REL + "index.html"), ("《埃及口语》", "index.html"),
+    cr = crumb([("总导航", REL + "index.html"), ("《埃及口语》", "index.html"),
                 ("第 %02d 单元 · %s" % (num, u["title_zh"]), None)])
     page = shell("第 %02d 单元 %s" % (num, u["title_zh"]), cr, body,
                  unit_nav_html(u, modules, num),
@@ -347,7 +347,7 @@ def build_book_index():
 </section>""".format(ar=esc(BOOK_INFO["title_ar"]), intro=esc(BOOK_INFO["rewrite"]))
 
     body = back_strip("教材首页") + hero
-    body += """<div class="note-band" style="margin-top:22px"><strong>本册在教材库中的位置：</strong>《埃及口语》是总导航页中的<strong>第 01 册</strong>，也是目前唯一已接入的教材；总导航页还预留了若干同层级的空白教材位。<strong>本册不等于教材库的全部内容</strong>。任何时候点击页顶「返回总导航」即可回到教材选择层。</div>"""
+    body += """<div class="note-band" style="margin-top:22px"><strong>本册在学习站中的位置：</strong>《埃及口语》是总导航页中的<strong>第 01 册</strong>，也是目前唯一已接入的教材；总导航页还预留了若干同层级的空白教材位。<strong>本册不等于学习站的全部内容</strong>。任何时候点击页顶「返回总导航」即可回到教材选择层。</div>"""
 
     body += """<section class="section"><div class="section-head"><h2>教材信息</h2><span class="hint">依据原书版权页与前言</span></div>
 <div class="info-grid">
@@ -374,7 +374,7 @@ def build_book_index():
 
     body += """<section class="section"><div class="section-head"><h2>专题与工具页</h2><span class="hint">与单元同属本册，随时可返回总导航</span></div><div class="resource-grid">%s</div></section>""" % reshtml
 
-    cr = crumb([("教材库", REL + "index.html"), ("《埃及口语》", None)])
+    cr = crumb([("总导航", REL + "index.html"), ("《埃及口语》", None)])
     nav = std_footer([("← 返回总导航", REL + "index.html", False),
                       ("发音与字母", "sounds.html", False),
                       ("从第 01 单元开始 →", "unit-01.html", True)])
@@ -417,7 +417,7 @@ def build_sounds():
     ]
     (OUT / "sounds.html").write_text(topic_page(
         "发音与转写规则", "辅音、元音、重音与叠音；罗马音 → 带元音阿拉伯文的完整对照。",
-        [("教材库", REL + "index.html"), ("《埃及口语》", "index.html"), ("发音与转写规则", None)],
+        [("总导航", REL + "index.html"), ("《埃及口语》", "index.html"), ("发音与转写规则", None)],
         blocks, "埃及阿拉伯语发音规则中文版，含罗马音转写与带元音阿拉伯文的对照表。", "专题 · 发音与转写规则"),
         encoding="utf-8")
 
@@ -440,7 +440,7 @@ def build_alphabet():
     ]
     (OUT / "alphabet.html").write_text(topic_page(
         "阿拉伯字母表", "28 个字母与阴性词尾 ة：名称、标准语／埃及读音对比，以及各单元所学字母索引。",
-        [("教材库", REL + "index.html"), ("《埃及口语》", "index.html"), ("阿拉伯字母表", None)],
+        [("总导航", REL + "index.html"), ("《埃及口语》", "index.html"), ("阿拉伯字母表", None)],
         blocks, "阿拉伯语字母表中文版，含埃及口语读音与标准语对比、按单元学习顺序。", "专题 · 阿拉伯字母表"),
         encoding="utf-8")
 
@@ -462,7 +462,7 @@ def build_grammar():
     ]
     (OUT / "grammar.html").write_text(topic_page(
         "语法结构总表", "原书 Structure summary 的 19 个专题中文梳理，并汇总 15 个单元全部语法点入口。",
-        [("教材库", REL + "index.html"), ("《埃及口语》", "index.html"), ("语法结构总表", None)],
+        [("总导航", REL + "index.html"), ("《埃及口语》", "index.html"), ("语法结构总表", None)],
         blocks, "埃及阿拉伯语语法结构总表，19 个专题与 15 单元语法点索引。", "专题 · 语法结构总表"),
         encoding="utf-8")
 
@@ -480,7 +480,7 @@ def build_glossary():
 <div class="tbl-wrap"><table id="glossary-table"><thead><tr><th>阿拉伯文（带元音）</th><th>中文</th><th>用法提示</th><th>出处 / 原书转写</th></tr></thead><tbody>%s</tbody></table></div></div></section>""" % (total, total, "".join(rows))]
     (OUT / "glossary.html").write_text(topic_page(
         "分类词汇总表", "15 个单元全部 %d 条词条，可按中文、阿拉伯文或原书罗马音检索，点击即可朗读。" % total,
-        [("教材库", REL + "index.html"), ("《埃及口语》", "index.html"), ("分类词汇总表", None)],
+        [("总导航", REL + "index.html"), ("《埃及口语》", "index.html"), ("分类词汇总表", None)],
         blocks, "埃及口语教材全部词汇中文对照表，带元音阿拉伯文与检索功能。", "专题 · 分类词汇总表"),
         encoding="utf-8")
 
@@ -501,7 +501,7 @@ def build_script():
     ]
     (OUT / "script.html").write_text(topic_page(
         "阿拉伯文字书写补充", "元音符号、长元音、连写规则、太阳字母、ق 的埃及读法与数字书写。",
-        [("教材库", REL + "index.html"), ("《埃及口语》", "index.html"), ("书写补充", None)],
+        [("总导航", REL + "index.html"), ("《埃及口语》", "index.html"), ("书写补充", None)],
         blocks, "阿拉伯文书写规则中文讲解，含元音符号与埃及口语拼写特点。", "专题 · 书写补充"),
         encoding="utf-8")
 
