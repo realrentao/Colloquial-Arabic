@@ -13,8 +13,10 @@ from pathlib import Path
 
 from content_extra import (ALPHABET, BOOK_INFO, CONSONANTS, SCRIPT_NOTES,
                            STRUCTURE, VOWELS)
+import audio_spec as AUDIO
 
 ROOT = Path(__file__).resolve().parent.parent
+AUDIO_MAP = AUDIO.read_map()
 DATA = ROOT / "tools" / "data"
 OUT = ROOT / "books" / "egyptian-arabic"
 OUT.mkdir(parents=True, exist_ok=True)
@@ -33,8 +35,17 @@ def esc(s):
     return html.escape(str(s if s is not None else ""), quote=True)
 
 
-def ar(t, cls=""):
-    return '<span class="ar %s" dir="rtl" lang="ar">%s</span>' % (cls, esc(t))
+def pa(t, key="narrator"):
+    """点击阿文发音：命中预生成 mp3 就给出页面相对音频路径；否则只留文本供浏览器兜底。"""
+    t = str(t if t is not None else "")
+    src = AUDIO_MAP.get(AUDIO.map_key(t, key))
+    if src:
+        return ' data-audio="%s" data-say="%s" title="点击朗读"' % (esc(REL + src), esc(t))
+    return ' data-say="%s"' % esc(t)
+
+
+def ar(t, cls="", key="narrator"):
+    return '<span class="ar %s playable" dir="rtl" lang="ar"%s>%s</span>' % (cls, pa(t, key), esc(t))
 
 
 def rich(t):
@@ -51,10 +62,6 @@ def rich(t):
         last = m.end()
     out.append(esc(t[last:]))
     return "".join(out)
-
-
-def say(t):
-    return '<button class="speak-btn" data-say="%s" title="朗读该句">▸ 朗读</button>' % esc(t)
 
 
 def roman(t):
@@ -181,7 +188,7 @@ def build_unit(u, idx, page_path):
     hero = """<section class="unit-hero" data-num="{n:02d}">
   <div class="u-kicker">第 {n} 单元 · {level} {review}</div>
   <h1>{title}</h1>
-  <div class="u-ar" dir="rtl" lang="ar">{ar}</div>
+  <div class="u-ar playable" dir="rtl" lang="ar"{pa}>{ar}</div>
   <div class="u-sub">{sub}</div>
   <div class="u-roman">原书标题转写：{rom}</div>
   <div style="margin-top:14px;display:flex;gap:9px;flex-wrap:wrap;align-items:center">
@@ -189,7 +196,7 @@ def build_unit(u, idx, page_path):
     <span class="badge-done" id="done-badge" data-unit-id="{n}"></span>
   </div>
 </section>""".format(n=num, level=esc(u.get("level_zh", "")), review="· 复习单元" if u.get("is_review") else "",
-                     title=esc(u["title_zh"]), ar=esc(u["title_ar"]),
+                     title=esc(u["title_zh"]), ar=esc(u["title_ar"]), pa=pa(u["title_ar"]),
                      sub=esc(u.get("subtitle_zh", "")), rom=esc(u.get("title_roman", "")))
 
     mnav = '<nav class="module-nav">' + "".join(
@@ -207,19 +214,21 @@ def build_unit(u, idx, page_path):
         for d in u["dialogues"]:
             lines = []
             for ln in d.get("lines", []):
+                a = ln.get("ar", "")
+                spk = ln.get("speaker_zh", "")
                 lines.append("""<div class="dline">
   <div class="who">%s</div>
   <div class="txt">
-    <div class="ar-main" dir="rtl" lang="ar">%s</div>
-    <div class="zh">%s %s</div>
+    <div class="ar-main playable" dir="rtl" lang="ar"%s>%s</div>
+    <div class="zh">%s</div>
     %s
   </div>
-</div>""" % (esc(ln.get("speaker_zh", "")), esc(ln.get("ar", "")), rich(ln.get("zh", "")),
-             say(ln.get("ar", "")), roman(ln.get("roman", ""))))
+</div>""" % (esc(spk), pa(a, AUDIO.speaker_key(spk)), esc(a), rich(ln.get("zh", "")),
+             roman(ln.get("roman", ""))))
             ds.append("""<div class="dialog">
-  <div class="dialog-head"><h3>%s　<span class="d-ar" dir="rtl" lang="ar">%s</span></h3><p>%s</p></div>
+  <div class="dialog-head"><h3>%s　<span class="d-ar playable" dir="rtl" lang="ar"%s>%s</span></h3><p>%s</p></div>
   %s
-</div>""" % (esc(d.get("title_zh", "")), esc(d.get("title_ar", "")),
+</div>""" % (esc(d.get("title_zh", "")), pa(d.get("title_ar", "")), esc(d.get("title_ar", "")),
              rich(d.get("context_zh", "")), "".join(lines)))
         blocks.append('<section class="block" id="dialogues"><h2><span class="zh-num">02</span> 情景对话</h2>%s</section>' % "".join(ds))
 
@@ -227,8 +236,9 @@ def build_unit(u, idx, page_path):
         rows = []
         for v in u["vocab"]:
             note = v.get("note_zh", "")
-            rows.append("<tr><td class='ar-cell'>%s</td><td class='zh-cell'>%s %s</td><td class='note-cell'>%s%s</td></tr>"
-                        % (esc(v.get("ar", "")), rich(v.get("zh", "")), say(v.get("ar", "")),
+            a = v.get("ar", "")
+            rows.append("<tr><td class='ar-cell playable' dir='rtl' lang='ar'%s>%s</td><td class='zh-cell'>%s</td><td class='note-cell'>%s%s</td></tr>"
+                        % (pa(a), esc(a), rich(v.get("zh", "")),
                            rich(note), roman(v.get("roman", ""))))
         blocks.append("""<section class="block" id="vocab"><h2><span class="zh-num">03</span> 词汇表 <span class="hint" style="font-size:12px;color:var(--ink-3);font-weight:400">共 %d 条 · 可检索阿拉伯文／中文／罗马音</span></h2>
   <div class="filter-bar"><input type="search" placeholder="输入中文、阿拉伯文或原书罗马音检索本单元词汇……" oninput="filterRows(this,'vocab-table','vocab-count')"><span style="font-size:12.5px;color:var(--ink-3)">显示 <strong id="vocab-count">%d</strong> 条</span></div>
@@ -240,8 +250,9 @@ def build_unit(u, idx, page_path):
         for g in u["grammar"]:
             exs = []
             for e in g.get("examples", []):
-                exs.append('<div class="ex-row"><div class="e-ar" dir="rtl" lang="ar">%s %s</div><div class="e-zh">%s%s</div></div>'
-                           % (esc(e.get("ar", "")), say(e.get("ar", "")), rich(e.get("zh", "")), roman(e.get("roman", ""))))
+                a = e.get("ar", "")
+                exs.append('<div class="ex-row"><div class="e-ar playable" dir="rtl" lang="ar"%s>%s</div><div class="e-zh">%s%s</div></div>'
+                           % (pa(a), esc(a), rich(e.get("zh", "")), roman(e.get("roman", ""))))
             tip = ('<div class="g-tip">%s</div>' % rich(g["tip_zh"])) if g.get("tip_zh") else ""
             gs.append('<div class="gram-card"><h3>%s</h3><div class="g-body">%s</div><div class="ex-list">%s</div>%s</div>'
                       % (esc(g.get("title_zh", "")), rich(g.get("body_zh", "")), "".join(exs), tip))
@@ -253,15 +264,15 @@ def build_unit(u, idx, page_path):
         for e in u["exercises"]:
             items = []
             for k, it in enumerate(e.get("items", []), 1):
-                ans = '<div class="answer">%s %s<br>%s</div>' % (
-                    ar(it.get("answer_ar", "")), say(it.get("answer_ar", "")), rich(it.get("answer_zh", "")))
+                ans = '<div class="answer">%s<br>%s</div>' % (
+                    ar(it.get("answer_ar", "")), rich(it.get("answer_zh", "")))
                 items.append('<div class="ex-item"><div class="n">%d</div><div><div class="q">%s</div>'
                              '<button class="ans-toggle" onclick="toggleAnswer(this)">查看参考答案</button>%s</div></div>'
                              % (k, rich(it.get("q_zh", "")), ans))
             ex.append('<div class="ex-group"><h3>%s</h3><div class="e-prompt">%s</div>%s</div>'
                       % (esc(e.get("title_zh", "")), rich(e.get("prompt_zh", "")), "".join(items)))
         blocks.append("""<section class="block" id="exercises"><h2><span class="zh-num">05</span> 练习与参考答案 <span class="hint" style="font-size:12px;color:var(--ink-3);font-weight:400">共 %d 小题</span></h2>
-  <div class="filter-bar" style="margin-bottom:16px"><button class="btn btn-sm" onclick="toggleAllAnswers(true)">展开全部答案</button><button class="btn btn-sm" onclick="toggleAllAnswers(false)">收起全部答案</button><span style="font-size:12.5px;color:var(--ink-3)">答案均为带元音阿拉伯文，可点击朗读</span></div>
+  <div class="filter-bar" style="margin-bottom:16px"><button class="btn btn-sm" onclick="toggleAllAnswers(true)">展开全部答案</button><button class="btn btn-sm" onclick="toggleAllAnswers(false)">收起全部答案</button><span style="font-size:12.5px;color:var(--ink-3)">点击阿拉伯文即可发音</span></div>
   %s</section>""" % (total_items, "".join(ex)))
 
     cp = u.get("cultural_point") or {}
@@ -341,9 +352,9 @@ def build_book_index():
     hero = """<section class="hero">
   <p class="eyebrow">教材 01 / 已接入 · 埃及方言</p>
   <h1>《埃及口语》</h1>
-  <div class="hero-ar" dir="rtl" lang="ar">{ar}</div>
+  <div class="hero-ar playable" dir="rtl" lang="ar"{pa}>{ar}</div>
   <div class="hero-meta"><span class="hero-chip">15 个单元（含 2 个复习单元）</span><span class="hero-chip">零起点 → B1</span><span class="hero-chip">带元音阿拉伯文</span><span class="hero-chip">中文精讲</span></div>
-</section>""".format(ar=esc(BOOK_INFO["title_ar"]))
+</section>""".format(ar=esc(BOOK_INFO["title_ar"]), pa=pa(BOOK_INFO["title_ar"]))
 
     body = back_strip("教材首页") + hero
     body += """<div class="note-band" style="margin-top:22px"><strong>本册在学习站中的位置：</strong>《埃及口语》是总导航页中的<strong>第 01 册</strong>，也是目前唯一已接入的教材；总导航页还预留了若干同层级的空白教材位。<strong>本册不等于学习站的全部内容</strong>。任何时候点击页顶「返回总导航」即可回到教材选择层。</div>"""
@@ -422,8 +433,8 @@ def build_sounds():
 
 
 def build_alphabet():
-    rows = "".join("<tr><td class='ar-cell' style='font-size:28px'>%s</td><td class='zh-cell'>%s<br><span style='font-size:12px;color:var(--ink-3)'>%s</span></td><td class='note-cell'>%s</td><td class='note-cell'>%s</td><td class='note-cell'>%s</td></tr>"
-                   % (esc(a[0]), esc(a[1]), esc(a[2]), esc(a[3]), esc(a[4]), esc(a[5])) for a in ALPHABET)
+    rows = "".join("<tr><td class='ar-cell playable' dir='rtl' lang='ar' style='font-size:28px'%s>%s</td><td class='zh-cell'>%s<br><span style='font-size:12px;color:var(--ink-3)'>%s</span></td><td class='note-cell'>%s</td><td class='note-cell'>%s</td><td class='note-cell'>%s</td></tr>"
+                   % (pa(a[0]), esc(a[0]), ar(a[1]), esc(a[2]), esc(a[3]), esc(a[4]), esc(a[5])) for a in ALPHABET)
     by_unit = []
     for u in UNITS:
         if u.get("letters"):
@@ -471,8 +482,9 @@ def build_glossary():
     rows = []
     for u in UNITS:
         for v in u.get("vocab", []):
-            rows.append("<tr><td class='ar-cell'>%s</td><td class='zh-cell'>%s %s</td><td class='note-cell'>%s</td><td class='note-cell'><a href='unit-%02d.html#vocab'>第 %02d 单元</a>%s</td></tr>"
-                        % (esc(v.get("ar", "")), rich(v.get("zh", "")), say(v.get("ar", "")),
+            a = v.get("ar", "")
+            rows.append("<tr><td class='ar-cell playable' dir='rtl' lang='ar'%s>%s</td><td class='zh-cell'>%s</td><td class='note-cell'>%s</td><td class='note-cell'><a href='unit-%02d.html#vocab'>第 %02d 单元</a>%s</td></tr>"
+                        % (pa(a), esc(a), rich(v.get("zh", "")),
                            rich(v.get("note_zh", "")), u["id"], u["id"], roman(v.get("roman", ""))))
     blocks = ["""<section class="section"><div class="section-head"><h2>全部词条</h2><span class="hint">共 %d 条 · 来自 15 个单元教材原表</span></div>
 <div class="block"><div class="filter-bar"><input type="search" placeholder="检索中文、阿拉伯文或原书罗马音……" oninput="filterRows(this,'glossary-table','glossary-count')"><span style="font-size:12.5px;color:var(--ink-3)">显示 <strong id="glossary-count">%d</strong> 条</span><button class="btn btn-sm" data-roman-toggle onclick="toggleRoman()">原书罗马音</button></div>

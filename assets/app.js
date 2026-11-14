@@ -66,23 +66,47 @@
     if (ar) ar.textContent = lib.name_ar;
   };
 
-  /* ---------- 2. 朗读（浏览器语音合成，优先埃及/阿拉伯语音色） ---------- */
-  var voiceWarned = false;
-  window.speak = function (text, btn) {
-    if (!('speechSynthesis' in window)) { alert('当前浏览器不支持语音朗读'); return; }
+  /* ---------- 2. 点击阿拉伯文发音（站内预生成 mp3，不依赖系统语音包） ---------- */
+  var audioEl = null, playingEl = null;
+
+  function clearPlaying() {
+    if (playingEl) { playingEl.classList.remove('playing'); playingEl = null; }
+  }
+
+  function fallbackSpeak(text) {
+    if (!text || !('speechSynthesis' in window)) return;
     try {
       window.speechSynthesis.cancel();
       var u = new SpeechSynthesisUtterance(text);
-      u.lang = 'ar-EG'; u.rate = 0.82; u.pitch = 1;
+      u.lang = 'ar-EG'; u.rate = 0.82;
       var vs = window.speechSynthesis.getVoices() || [];
       var v = vs.find(function (x) { return /^ar[-_]?EG/i.test(x.lang); }) ||
               vs.find(function (x) { return /^ar/i.test(x.lang); });
       if (v) u.voice = v;
-      else if (!voiceWarned) { voiceWarned = true; console.info('未检测到阿拉伯语系统语音，将使用浏览器默认语音朗读。'); }
-      if (btn) { btn.textContent = '▸ 播放中'; setTimeout(function () { btn.textContent = '▸ 朗读'; }, 1800); }
       window.speechSynthesis.speak(u);
-    } catch (e) { console.warn(e); }
+    } catch (e) {}
+  }
+
+  window.playArabic = function (el) {
+    var src = el.getAttribute('data-audio');
+    var text = el.getAttribute('data-say') || (el.textContent || '').trim();
+    if (audioEl) { try { audioEl.pause(); } catch (e) {} }
+    clearPlaying();
+    if (!src) { fallbackSpeak(text); return; }
+    if (!audioEl) {
+      audioEl = new Audio();
+      audioEl.preload = 'none';
+      audioEl.addEventListener('ended', clearPlaying);
+      audioEl.addEventListener('error', clearPlaying);
+    }
+    audioEl.src = src;
+    playingEl = el;
+    el.classList.add('playing');
+    var pr = audioEl.play();
+    if (pr && pr.catch) pr.catch(function () { clearPlaying(); fallbackSpeak(text); });
   };
+
+  window.speak = function (text) { fallbackSpeak(text); };
 
   /* ---------- 3. 原书罗马音显示开关（默认隐藏，主体为带元音阿拉伯文） ---------- */
   var ROMAN_KEY = 'ca.showRoman';
@@ -161,10 +185,12 @@
     el.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
   }
 
-  /* ---------- 朗读按钮事件委托（data-say 存原始阿拉伯文） ---------- */
+  /* ---------- 点击阿语原文发音（不再需要独立朗读按钮） ---------- */
   document.addEventListener('click', function (e) {
-    var b = e.target.closest && e.target.closest('[data-say]');
-    if (b) { e.preventDefault(); window.speak(b.getAttribute('data-say'), b); }
+    if (!e.target.closest) return;
+    var el = e.target.closest('.playable[data-say], .playable[data-audio]');
+    if (!el || el.tagName === 'A') return;
+    window.playArabic(el);
   });
 
   /* ---------- 初始化 ---------- */
