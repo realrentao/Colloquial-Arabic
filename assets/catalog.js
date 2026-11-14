@@ -33,6 +33,25 @@ window.LIBRARY = {
         { label: "练习题", value: "661" }
       ],
       level: "第 01 册 · 已接入"
+    },
+    {
+      id: "levantine-arabic",
+      status: "active",
+      title_zh: "黎凡特口语",
+      title_ar: "الْعَرَبِيَّةُ الشَّامِيَّةُ",
+      title_original: "Colloquial Arabic of the Levantine · The Complete Course for Beginners",
+      authors: "穆罕默德·阿尔-马斯里（Mohammad Al-Masri）",
+      edition: "Routledge 第一版，2016",
+      entry: "books/levantine-arabic/index.html",
+      summary: "黎凡特方言（叙利亚、黎巴嫩、约旦、巴勒斯坦一带）零起点到 B1 的完整课程。本站将原书罗马音转写改写为带完整元音标注的阿拉伯文，英文讲解润色为中文，并按「发音 → 字母 → 13 个单元 → 语法总表 → 词汇总表」重整为可逐级展开的学习流程。",
+      tags: ["黎凡特方言", "零起点 → B1", "带元音标注", "中文精讲", "已接入"],
+      stats: [
+        { label: "正课单元", value: "13" },
+        { label: "情景对话", value: "420" },
+        { label: "词条", value: "731" },
+        { label: "练习题", value: "370" }
+      ],
+      level: "第 02 册 · 已接入"
     }
   ]
 };

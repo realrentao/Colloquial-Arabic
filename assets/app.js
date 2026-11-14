@@ -67,6 +67,14 @@
   };
 
   /* ---------- 2. 点击阿拉伯文发音（站内预生成 mp3，不依赖系统语音包） ---------- */
+  /* 多册教材共用的配置：页面可用 body 上的 data-* 覆盖，未设置时保持第 01 册原有行为。 */
+  var bodyEl = document.body || null;
+  function bodyAttr(name, fallback) {
+    return (bodyEl && bodyEl.getAttribute(name)) || fallback;
+  }
+  var BOOK_ID = bodyAttr('data-book-id', 'egyptian-arabic');
+  var UNIT_COUNT = parseInt(bodyAttr('data-unit-count', '15'), 10) || 15;
+  var TTS_LOCALE = bodyAttr('data-tts-locale', 'ar-EG');
   var audioEl = null, playingEl = null;
 
   function clearPlaying() {
@@ -78,9 +86,10 @@
     try {
       window.speechSynthesis.cancel();
       var u = new SpeechSynthesisUtterance(text);
-      u.lang = 'ar-EG'; u.rate = 0.82;
+      u.lang = TTS_LOCALE; u.rate = 0.82;
       var vs = window.speechSynthesis.getVoices() || [];
-      var v = vs.find(function (x) { return /^ar[-_]?EG/i.test(x.lang); }) ||
+      var loc = TTS_LOCALE.replace('-', '[-_]');
+      var v = vs.find(function (x) { return new RegExp('^' + loc, 'i').test(x.lang); }) ||
               vs.find(function (x) { return /^ar/i.test(x.lang); });
       if (v) u.voice = v;
       window.speechSynthesis.speak(u);
@@ -142,7 +151,7 @@
   };
 
   /* ---------- 6. 学习进度（localStorage，仅本机保存） ---------- */
-  var PKEY = 'ca.egyptian-arabic.progress';
+  var PKEY = 'ca.' + BOOK_ID + '.progress';
   function progress() {
     try { return JSON.parse(localStorage.getItem(PKEY) || '[]'); } catch (e) { return []; }
   }
@@ -166,7 +175,7 @@
     var n = document.getElementById('progress-count');
     if (n) n.textContent = String(p.length);
     var bar = document.getElementById('progress-bar');
-    if (bar) bar.style.width = (p.length / 15 * 100) + '%';
+    if (bar) bar.style.width = (p.length / UNIT_COUNT * 100) + '%';
     var btn = document.getElementById('mark-done');
     if (btn && btn.getAttribute('data-unit-id')) {
       btn.textContent = p.indexOf(btn.getAttribute('data-unit-id')) >= 0 ? '✓ 已完成 · 点击取消' : '标记本单元已学完';

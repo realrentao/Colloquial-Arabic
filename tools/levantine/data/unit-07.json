@@ -1,0 +1,306 @@
+{
+  "id": 7,
+  "slug": "unit-07",
+  "title_ar": "وَيْنَ نَرُوحْ؟",
+  "title_zh": "我们去哪儿？",
+  "title_roman": "weyn nruuH?",
+  "subtitle_zh": "休闲活动、问路与指路、颜色、数量，以及 3ind/ma3/fii、关系代词 illi 与过去时",
+  "level_zh": "初级",
+  "goals": [
+    "在咖啡馆点单，使用玻璃杯、杯、水烟、薄荷、甜度等相关词汇",
+    "用阿拉伯语问路、指路（左右、直行、远近、地标）",
+    "掌握颜色形容词的阴阳性一致",
+    "用 kam、gaddeish、bikamm 询问数量与价格",
+    "理解并使用 3ind、ma3、fii 表示「有」与存在",
+    "掌握关系代词 illi 连接句子",
+    "学会过去时的动词人称变位"
+  ],
+  "is_review": false,
+  "cultural_point": {
+    "title_zh": "阿拉伯人的外出社交与咖啡馆文化",
+    "body_zh": "在阿拉伯文化中，人们习惯结伴外出社交，这类活动大多在下班后进行，通常安排在晚上或夜里。最受青睐的去处是咖啡馆。传统上这种消遣男女分布不均——出门的男性多于女性；不过如今越来越多的年轻女性也开始光顾咖啡馆和其他休闲场所。对旅行者来说，进咖啡馆点一杯茶或咖啡，往往是体验当地日常、与人攀谈的好机会；若能用教材里的客气话（如「请」「愿主护佑你」）与店员交流，会显得既自然又得体。",
+    "tip_zh": "教材特别提醒：在咖啡馆点热饮时，对方常会问你「喜欢怎么调糖」（شُو بِتْحِبِّ السُّكَّر）——甜度从「加糖／偏甜」到「中等」再到「无糖」不等，照实回答即可；有些店还会单独附上糖包让你自己加。"
+  },
+  "dialogues": [
+    {
+      "title_zh": "咖啡馆点单",
+      "title_ar": "الْقَهْوَةُ",
+      "context_zh": "托马斯（Toomas）和玛丽（Meyri）在安曼市中心的一家咖啡馆里，与服务员点单。",
+      "lines": [
+        {"speaker_zh": "服务员", "ar": "أَهْلًا وَسَهْلًا، تَفَضَّلُوا.", "zh": "欢迎，请进（里边请）。", "roman": "ahlan wa sahlan, itfaDDalu."},
+        {"speaker_zh": "玛丽", "ar": "أَهْلًا بِكْ. بِدِّي كَاسِت شَايٍ، لَوْ سَمَحْتَ.", "zh": "欢迎你。我想要一杯茶，麻烦你。", "roman": "ahlan beik. biddi kaasit shay, law samaHt."},
+        {"speaker_zh": "服务员", "ar": "حَاضِرْ، وَإِنْتَ يَا أُسْتَاذُ؟", "zh": "好的，那您呢，先生？", "roman": "HaaDir, w inta ya ustaadh?"},
+        {"speaker_zh": "托马斯", "ar": "مُمْكِن فُنْجَان قَهْوَةٍ وَأَرْجِيلَةٍ؟", "zh": "能来一杯咖啡和一支水烟吗？", "roman": "mumkin funjaan gahwah wa ʔargiilih?"},
+        {"speaker_zh": "服务员", "ar": "كَيْفَ بِتْحِبِّي السُّكَّرَ يَا آَنِسَةُ؟", "zh": "小姐，您喜欢怎么调糖？", "roman": "keyf bitHibbi issukkar ya aaniseh?"},
+        {"speaker_zh": "玛丽", "ar": "وَسَطٌ، اللَّهُ يْخَلِّيكِ. وَمَعَ نَعْنَعٍ.", "zh": "中等甜度，麻烦您；还要加薄荷。", "roman": "wasaT, allaah yxaliik. w ma3 na3na3."},
+        {"speaker_zh": "服务员", "ar": "حَاضِرْ. وَكَيْفَ قَهْوَتَكْ يَا أُسْتَاذُ؟", "zh": "好的。先生，您的咖啡怎么调？", "roman": "HaaDir. w keyf gahwtak ya ustaadh?"},
+        {"speaker_zh": "托马斯", "ar": "صَادَةً.", "zh": "不加糖（原味）。", "roman": "saada."},
+        {"speaker_zh": "服务员", "ar": "وَالْأَرْجِيلَةُ؟", "zh": "那水烟呢？", "roman": "wa ilʔargiilih?"},
+        {"speaker_zh": "托马斯", "ar": "شُو عِنْدُكُمْ أَرَاجِيلُ؟ شُو النَّكَهَاتُ؟", "zh": "你们有什么水烟？有哪些口味？", "roman": "shuu 3indkum ʔaragiil? shu innakhaat?"},
+        {"speaker_zh": "服务员", "ar": "فِيهِ تُفَّاحَتَيْنِ، فَرَاوِلَةٍ، نَعْنَعٍ، لَيْمُونٍ، شُمَّامٍ، وَفِيهِ نَعْنَعٌ عَلَى لَيْمُونٍ.", "zh": "有双苹果、草莓、薄荷、柠檬、甜瓜，还有薄荷配柠檬。", "roman": "fiih tuffaaHteyn, faraawlih, na3na3, leymuun, shummaam, w fiih na3na3 3ala leymuun."},
+        {"speaker_zh": "托马斯", "ar": "مُمْكِن تُفَّاحَتَيْنِ. بَسّ زَبِّطْهَا اللَّهُ يْخَلِّيكَ.", "zh": "来双苹果吧。不过请务必调好，愿主护佑你。", "roman": "mumkin tuffaaHteyn. bass zabbiTT-ha allaah yxaliik."},
+        {"speaker_zh": "服务员", "ar": "عَلَى رَاسِي. وَإِنْتِي يَا آَنِسَةُ، شُو أَرْجِيلَتِكْ؟", "zh": "包在我身上。小姐，您要哪种水烟？", "roman": "3ala raasi. w inti ya aaniseh, shuu ʔargiiltik?"},
+        {"speaker_zh": "玛丽", "ar": "أَنَا مَا بِدَخِّنْ، شُكْرًا.", "zh": "我不抽烟，谢谢。", "roman": "ana maa badaxxiin, shukran."},
+        {"speaker_zh": "服务员", "ar": "أَحْسَنْلِكْ.", "zh": "那对您更好（不抽为好）。", "roman": "aHsanlik."}
+      ]
+    },
+    {
+      "title_zh": "乘出租车回家",
+      "title_ar": "التَّاكْسِي",
+      "context_zh": "玛丽打车回公寓，一路给司机指路。",
+      "lines": [
+        {"speaker_zh": "玛丽", "ar": "تُوصِلْنِي الْبَيْتَ لَوْ سَمَحْتَ.", "zh": "麻烦你送我回家。", "roman": "twaSilni ilbeyt law samaHt."},
+        {"speaker_zh": "出租车司机", "ar": "اِطْلَعِي. وَيْنَ الْعُنْوَانُ؟", "zh": "上车吧。地址在哪儿？", "roman": "iTla3i. weyn il3inwaan?"},
+        {"speaker_zh": "玛丽", "ar": "قَرِيبٌ مِنْ جَرِيدَةِ الدُّسْتُورِ.", "zh": "靠近《杜斯图尔报》报社。", "roman": "gariib min jariidit iddustuur."},
+        {"speaker_zh": "出租车司机", "ar": "مَاشِي، عَلَى الشَّارِعِ الرَّئِيسِيِّ؟", "zh": "行，是在主街上吗？", "roman": "mashi, 3ala ishshaari3 irra?iisi?"},
+        {"speaker_zh": "玛丽", "ar": "لَا، غَرْبَ الشَّارِعِ الرَّئِيسِيِّ.", "zh": "不，在主街的西边。", "roman": "la, gharb ishshaari3 irra?iisi."},
+        {"speaker_zh": "出租车司机", "ar": "أَنَا سَوَّاقٌ جَدِيدٌ، مَا بَعْرِفُ الشَّوَارِعَ مْنِيحَ.", "zh": "我是新司机，不太认得这些路。", "roman": "ana sawwaag jdiid, ma ba3rif ishshawaari3 mniiH."},
+        {"speaker_zh": "玛丽", "ar": "مِش مُشْكِلَةً.", "zh": "没关系（没问题）。", "roman": "mish mushkilih."},
+        {"speaker_zh": "出租车司机", "ar": "طَيِّبْ، هَاي بِنَايَةُ الدُّسْتُورِ، وَيْنَ أَرُوحْ؟", "zh": "好，这是杜斯图尔大楼，我该往哪儿开？", "roman": "Tayyib, haay binaayit iddustuur, weyn ?aruuH?"},
+        {"speaker_zh": "玛丽", "ar": "يَمِينٌ حَوَالِي مِايْتِ مِتْرٍ، بَعْدَيْنِ شِمَالٌ.", "zh": "向右大约一百米，然后向左。", "roman": "yamiin Hawaali miit mitir, ba3deyn shmaal."},
+        {"speaker_zh": "出租车司机", "ar": "مَاشِي، وَبَعْدَيْنِ؟", "zh": "好的，然后呢？", "roman": "maashi, W ba3deyn?"},
+        {"speaker_zh": "玛丽", "ar": "ثَانِي شَارِعٍ عَلَى يَمِينٍ، بَعْدَيْنِ دُغْرِي لَعِنْدَ سُوبَرْ مَارْكِتِ الْوَكِيلِ.", "zh": "第二条街向右，然后一直直走到瓦基尔超市。", "roman": "thaani shaari3 3alyamiin, ba3deyn dughri la3ind suber maarkit alwakiil."},
+        {"speaker_zh": "出租车司机", "ar": "آهْ، عْرِفْتَهَا.", "zh": "啊，我知道那个地方了。", "roman": "aah, 3riftha."},
+        {"speaker_zh": "玛丽", "ar": "كَامَانِ حَوَالِي خَمْسِينَ مِتْرٍ، فِيهِ دَخْلَةٌ عَالشِّمَالِ.", "zh": "还有大约五十米，有一条约向左的小巷。", "roman": "kamaan Hawaali xamsiin mitir, fiih daxlih 3ashshmaal."},
+        {"speaker_zh": "出租车司机", "ar": "مَاشِي.", "zh": "好的。", "roman": "maashi."},
+        {"speaker_zh": "玛丽", "ar": "أَيْوَهْ، هُونَ.", "zh": "对，就这儿。", "roman": "aywah, hoon."},
+        {"speaker_zh": "出租车司机", "ar": "تَفَضَّلِي.", "zh": "请下车（到了）。", "roman": "tfaDDali."},
+        {"speaker_zh": "玛丽", "ar": "كَمِ الْأُجْرَةُ؟", "zh": "车费多少？", "roman": "kam il?ujrah?"},
+        {"speaker_zh": "出租车司机", "ar": "دِينَارٌ وَنُصٌّ.", "zh": "一个半第纳尔。", "roman": "diinaar w nuSS."},
+        {"speaker_zh": "玛丽", "ar": "تَفَضَّلِ.", "zh": "给你（车费）。", "roman": "tfaDDal."},
+        {"speaker_zh": "出租车司机", "ar": "شُكْرًا، مَعَ السَّلَامَةِ.", "zh": "谢谢，再见（祝平安）。", "roman": "shukran, ma3 issalaamih."}
+      ]
+    },
+    {
+      "title_zh": "课间闲聊衣着与颜色",
+      "title_ar": "الْقَمِيصُ",
+      "context_zh": "课间休息时，阿美拉（Ameerah）和龙达（Ronda）边喝咖啡边聊衣服。",
+      "lines": [
+        {"speaker_zh": "龙达", "ar": "كِيفِكْ يَا أَمِيرَةُ؟", "zh": "阿美拉，你好吗？", "roman": "kiifik amiirah?"},
+        {"speaker_zh": "阿美拉", "ar": "أَهْلًا يَا رُنْدَا، أَنَا مْنِيحَةٌ. شُو رَأْيِكْ نِشْرَبْ أَهْوِيَةً؟", "zh": "你好龙达，我挺好的。你想不想喝杯咖啡？", "roman": "ahlan runda, ana mniiHah. shuu raʔyik nishrab ʔahwih?"},
+        {"speaker_zh": "龙达", "ar": "يَا رَيْتْ. يَلَّا.", "zh": "好啊，走吧。", "roman": "ya reyt. yallah."},
+        {"speaker_zh": "阿美拉", "ar": "يَا رُنْدَا، قَمِيصُكِ هَادَا حِلْوٌ كْتِيرٌ. وَلَوْنُهُ كْتِيرٌ شِيكٌ.", "zh": "龙达，你这件衬衫真漂亮，颜色也特别雅致。", "roman": "runda, ʔamiiSik haada Hilu ktiir. w loonuh ktiir shiik."},
+        {"speaker_zh": "龙达", "ar": "شُكْرًا. أَنَا بَحِبُّ اللَّوْنَ الْأَخْضَرَ. بَحِبُّ كَامَانَ الْأَحْمَرَ وَالْأَصْفَرَ.", "zh": "谢谢。我喜欢绿色，也喜欢红色和黄色。", "roman": "shukran. ana baHibb illoon ilaxDar. baHibb kamaan ilaHmar w ilaSafar."},
+        {"speaker_zh": "阿美拉", "ar": "كْتِيرٌ حِلْوٌ عَلَيْكِ. أَنَا شُفْتُ مِتْلُهُ بَسّ مَا فِيهِ نَفْسُ اللَّوْنِ.", "zh": "你穿真好看。我见过一件类似的，但颜色不一样。", "roman": "ktiir Hilu 3aleyki. ana shuft mitluh bass maa fiih nafs illoon."},
+        {"speaker_zh": "龙达", "ar": "هَادَا مِنْ أَمْرِيكَا. مُمْكِن يْكُونُ مِتْلُهُ بِمَكَّةَ مُولْ.", "zh": "这是从美国来的。麦加商场里说不定有同款。", "roman": "haada min amriika. mumkin ykuun mitluh bimakkah mool."},
+        {"speaker_zh": "阿美拉", "ar": "بِكَامِ اشْتَرَيْتِيهِ؟", "zh": "你多少钱买的？", "roman": "bikam ishtareytiih?"},
+        {"speaker_zh": "龙达", "ar": "مَا بَعْرِفْ. مَامَا جَابَتُهُ هَدِيَّةً.", "zh": "我不知道，是妈妈送我的礼物。", "roman": "maa ba3rif. maama jaabatuh hadiyyih."},
+        {"speaker_zh": "阿美拉", "ar": "آهْ! يَعْنِي مَا بِتْعْرَفِي أَدَيْشَ تَمَنُهُ؟", "zh": "啊！也就是说你不知道它值多少钱？", "roman": "aah! ya3ni maa bit3rafi ʔadeish tamanuh?"},
+        {"speaker_zh": "龙达", "ar": "لَا مَا بَعْرِفْ.", "zh": "对，我不知道。", "roman": "laa maa ba3rif."},
+        {"speaker_zh": "阿美拉", "ar": "طَيِّبْ، أَنَا هَلَّقَ مَشْغُولَةٌ. بَشُوفِكِ بَعْدَيْنِ.", "zh": "好吧，我现在正忙，回头见。", "roman": "Tayyib, ana halla mashghuulih. bashuufik ba3deyn."},
+        {"speaker_zh": "龙达", "ar": "بَاي.", "zh": "拜拜。", "roman": "bay."},
+        {"speaker_zh": "阿美拉", "ar": "بَاي.", "zh": "拜拜。", "roman": "bay."}
+      ]
+    },
+    {
+      "title_zh": "电话咨询药房",
+      "title_ar": "الصَّيْدَلِيَّةُ",
+      "context_zh": "穆娜（Muna）打电话到曼纳尔药房，询问给孩子退烧的药。",
+      "lines": [
+        {"speaker_zh": "穆娜", "ar": "آلُو، صَيْدَلِيَّةُ الْمَنَارِ؟", "zh": "喂，是曼纳尔药房吗？", "roman": "aluu, Sayydalliiyit ilmanaar?"},
+        {"speaker_zh": "药剂师", "ar": "تَفَضَّلِي مَدَامْ.", "zh": "是的，夫人，请讲。", "roman": "itfaDDali madaam."},
+        {"speaker_zh": "穆娜", "ar": "فِيهِ عِنْدَكْ دَوَاءٌ لِلْحَرَارَةِ؟", "zh": "你这儿有退烧药吗？", "roman": "fiih 3indak dawa lil Haraarah?"},
+        {"speaker_zh": "药剂师", "ar": "مَوْجُودٌ. لْمِينَ الدَّوَاءُ؟", "zh": "有的。这药是给谁的？", "roman": "mawjuud. lamiin iddawa?"},
+        {"speaker_zh": "穆娜", "ar": "لِابْنِي، عِنْدُهُ حَرَارَةٌ، عُمْرُهُ سَنَتَيْنِ.", "zh": "给我儿子，他发烧了，两岁。", "roman": "laʔibni, 3induh Haraarah, 3umruh santeyn."},
+        {"speaker_zh": "药剂师", "ar": "سَلَامَتُهُ. فِيهِ دَوَاءٌ أُرْدُنِيٌّ بِدِينَارٍ وَرُبْعٍ. الْأَجْنَبِيُّ بِثَلَاثَةِ دَنَانِيرَ.", "zh": "祝他平安。有一种约旦本国药，一又四分之一第纳尔；进口药三第纳尔。", "roman": "salaamtuh. fiih dawa urduni bdiinaar w rubu3. ilʔajnabi bthalaath dananiir."},
+        {"speaker_zh": "穆娜", "ar": "الْأَجْنَبِيَّ، لَوْ سَمَحْتَ.", "zh": "要进口的，麻烦你。", "roman": "ilʔajanbi, law samaHt."},
+        {"speaker_zh": "药剂师", "ar": "بَسّ سِعْرُهُ غَالٍ.", "zh": "不过它挺贵的。", "roman": "bass si3ruh ghaali."},
+        {"speaker_zh": "穆娜", "ar": "مَا فِيهِ مُشْكِلَةً. سِعْرُهُ فِيهِ.", "zh": "没关系，它值这个价。", "roman": "maa fiih mushkilih. si3ruh fiih."},
+        {"speaker_zh": "药剂师", "ar": "مَاشِي. تَفَضَّلِي وَبْيْكُونُ الدَّوَاءُ جَاهِزًا.", "zh": "好的。您进来吧，药马上备好。", "roman": "maashi. itfaDDali w bikuun iddawa jaahiz."},
+        {"speaker_zh": "穆娜", "ar": "شُكْرًا، مَعَ السَّلَامَةِ.", "zh": "谢谢，再见。", "roman": "shukran, ma3 issalaamih."}
+      ]
+    }
+  ],
+  "vocab": [
+    {"ar": "كَاسَةٌ", "zh": "玻璃杯", "roman": "kaasih", "note_zh": "复数 kaasaat；点单时也作 kaasit（属格，接在数词后）"},
+    {"ar": "فُنْجَانٌ", "zh": "杯（咖啡杯）", "roman": "funjaan", "note_zh": "复数 fanajiin"},
+    {"ar": "أَرْجِيلَةٌ", "zh": "水烟", "roman": "ʔargiilih", "note_zh": "复数 ʔaraagiil"},
+    {"ar": "يْخَلِّيكَ", "zh": "愿主护佑你（惯用语）", "roman": "yxaliik", "note_zh": "字面「愿主留下你」，用于致谢或鼓励对方把事办好"},
+    {"ar": "نَعْنَعٌ", "zh": "薄荷", "roman": "na3na3"},
+    {"ar": "صَادَةٌ", "zh": "不加糖的、原味的", "roman": "saada", "note_zh": "点热饮时回答甜度用"},
+    {"ar": "نَكْهَةٌ", "zh": "口味、风味", "roman": "nakha", "note_zh": "复数 nakhaat"},
+    {"ar": "تُفَّاحَةٌ", "zh": "苹果", "roman": "tuffaaHah", "note_zh": "复数 tuffaaH"},
+    {"ar": "فَرَاوِلَةٌ", "zh": "草莓", "roman": "faraawlih"},
+    {"ar": "لَيْمُونٌ", "zh": "柠檬", "roman": "leymuun"},
+    {"ar": "شُمَّامٌ", "zh": "甜瓜、蜜瓜", "roman": "shummaam"},
+    {"ar": "زَبِّطْهَا", "zh": "把它做好、弄妥当", "roman": "zabbiTT-ha", "note_zh": "字面「修好它」，在咖啡馆、餐馆或机关办事时请人认真对待"},
+    {"ar": "بِدَخِّنْ", "zh": "抽烟", "roman": "badaxxin", "note_zh": "现在时动词，词根 d+x+x+n"},
+    {"ar": "أَحْسَنْلِكْ", "zh": "对你更好", "roman": "aHsanlik", "note_zh": "字面「对你更好」，语境不同可表真心或反讽"},
+    {"ar": "تُوصِلْنِي", "zh": "送我、载我（到某地）", "roman": "twaSilni", "note_zh": "词根 w+S+S+l"},
+    {"ar": "اِطْلَعِي", "zh": "上车、进来（对女性）", "roman": "iTla3i", "note_zh": "词根 T+l+3；对男性说 iTla3"},
+    {"ar": "عُنْوَانٌ", "zh": "地址", "roman": "3inwaan", "note_zh": "复数 3anawiin"},
+    {"ar": "جَرِيدَةٌ", "zh": "报纸", "roman": "jariidih", "note_zh": "复数 jaraayid"},
+    {"ar": "شَارِعٌ", "zh": "街道", "roman": "shaari3", "note_zh": "复数 shawaari3"},
+    {"ar": "رَئِيسِيٌّ", "zh": "主要的", "roman": "raʔiisi"},
+    {"ar": "سَوَّاقٌ", "zh": "司机", "roman": "sawwaag", "note_zh": "复数 sawwaagiin"},
+    {"ar": "جَدِيدٌ", "zh": "新的", "roman": "jdiid", "note_zh": "也说 jadiid"},
+    {"ar": "بِنَايَةٌ", "zh": "楼房、建筑", "roman": "binaayih", "note_zh": "复数 binaayaat"},
+    {"ar": "حَوَالِي", "zh": "大约、将近", "roman": "Hawaali"},
+    {"ar": "مِتْرٌ", "zh": "米（公尺）", "roman": "mitir", "note_zh": "复数 mtaar"},
+    {"ar": "دُغْرِي", "zh": "直走、笔直", "roman": "dughri", "note_zh": "也说 duuz dughri"},
+    {"ar": "عْرِفْتَ", "zh": "知道（过去时，我／你男性）", "roman": "3rift", "note_zh": "词根 3+r+f"},
+    {"ar": "دَخْلَةٌ", "zh": "小巷、岔路", "roman": "daxlih", "note_zh": "复数 daxlaat"},
+    {"ar": "أُجْرَةٌ", "zh": "（出租车）车费", "roman": "ʔujrah"},
+    {"ar": "نِشْرَبْ", "zh": "我们喝", "roman": "nishrab", "note_zh": "词根 sh+r+b"},
+    {"ar": "قَمِيصٌ", "zh": "衬衫", "roman": "ʔamiiS", "note_zh": "也说 gamiiS"},
+    {"ar": "شِيكٌ", "zh": "雅致的、好看的", "roman": "shiik"},
+    {"ar": "مِتْلُ", "zh": "像、与……相似", "roman": "mitil", "note_zh": "也说 mitl"},
+    {"ar": "نَفْسُ", "zh": "同样的", "roman": "nafs", "note_zh": "nafs illoon 即「同样的颜色」"},
+    {"ar": "اشْتَرَيْتِيهِ", "zh": "你买了它（过去时，对女性）", "roman": "ishtareytiih", "note_zh": "词根 ʔ+sh+t+r+y"},
+    {"ar": "جَابَتُهُ", "zh": "她带来了它", "roman": "jaabatuh", "note_zh": "词根 j+y+b"},
+    {"ar": "هَدِيَّةٌ", "zh": "礼物", "roman": "hadiyyih", "note_zh": "复数 hadaaya"},
+    {"ar": "تَمَنٌ", "zh": "价格", "roman": "taman", "note_zh": "也说 thaman"},
+    {"ar": "يَعْنِي", "zh": "意思是、也就是说", "roman": "ya3ni", "note_zh": "词根 3+n+y"},
+    {"ar": "مَشْغُولٌ", "zh": "忙的", "roman": "mashghuul"},
+    {"ar": "صَيْدَلِيَّةٌ", "zh": "药房", "roman": "Sayydalliiyih", "note_zh": "复数 Sayydalliiyaat"},
+    {"ar": "حَرَارَةٌ", "zh": "发烧、体温", "roman": "Haraarah", "note_zh": "3induh Haraarah 即「他发烧了」"},
+    {"ar": "مَوْجُودٌ", "zh": "有的、可买到的", "roman": "mawjuud", "note_zh": "字面「存在」，回答「有没有」"},
+    {"ar": "مِينَ", "zh": "谁（lamiin：给谁）", "roman": "miin"},
+    {"ar": "دَوَاءٌ", "zh": "药、药物", "roman": "dawa", "note_zh": "复数 ʔadwiyih"},
+    {"ar": "ابْنٌ", "zh": "儿子", "roman": "ʔibn", "note_zh": "复数 ʔabnaa"},
+    {"ar": "عُمْرٌ", "zh": "年龄", "roman": "3umr", "note_zh": "复数 a3maar"},
+    {"ar": "سَنَةٌ", "zh": "年", "roman": "sanih", "note_zh": "复数 sniin"},
+    {"ar": "سَلَامَةُ", "zh": "平安、健康", "roman": "salaamih", "note_zh": "salaamtuh 即「祝他平安」"},
+    {"ar": "رُبْعٌ", "zh": "四分之一", "roman": "rubu3", "note_zh": "复数 rbaa3"},
+    {"ar": "أَجْنَبِيٌّ", "zh": "外国的、外国人", "roman": "ʔajnabi", "note_zh": "复数 ajaanib"},
+    {"ar": "سِعْرٌ", "zh": "价格", "roman": "si3r", "note_zh": "复数 as3aar"},
+    {"ar": "جَاهِزٌ", "zh": "准备好的", "roman": "jaahiz"},
+    {"ar": "عِنْدَ", "zh": "在……处、有（表拥有／存在）", "roman": "3ind", "note_zh": "3indi 即「我有」；也可表时间地点"},
+    {"ar": "مَعَ", "zh": "和……一起、带着", "roman": "ma3", "note_zh": "ma3i 即「我有／我带着」"},
+    {"ar": "فِيهِ", "zh": "有、存在（某处有某物）", "roman": "fii", "note_zh": "黎凡特口语里表「存在」，不同于标准语表方位的 fi"},
+    {"ar": "اللي", "zh": "（关系代词）……的", "roman": "illi", "note_zh": "所有关系从句通用，不分人与物"},
+    {"ar": "لَوْنٌ", "zh": "颜色", "roman": "loon", "note_zh": "复数 alwaan"},
+    {"ar": "أَبْيَضُ", "zh": "白色的（阳性）", "roman": "abyaD", "note_zh": "阴性 bayDaa"},
+    {"ar": "أَسْوَدُ", "zh": "黑色的（阳性）", "roman": "aswad", "note_zh": "阴性 soda"},
+    {"ar": "أَخْضَرُ", "zh": "绿色的（阳性）", "roman": "axDar", "note_zh": "阴性 xaDra"},
+    {"ar": "أَحْمَرُ", "zh": "红色的（阳性）", "roman": "aHmar", "note_zh": "阴性 Hamra"},
+    {"ar": "أَصْفَرُ", "zh": "黄色的（阳性）", "roman": "aSfar", "note_zh": "阴性 Safra"},
+    {"ar": "أَزْرَقُ", "zh": "蓝色的（阳性）", "roman": "azrag", "note_zh": "阴性 zarga"},
+    {"ar": "كَمْ", "zh": "多少（问数量／年龄）", "roman": "kam"},
+    {"ar": "قَدِّيشَ", "zh": "多少钱（问价格）", "roman": "gaddeish", "note_zh": "也说 ʔaddeish"},
+    {"ar": "بِكَامْ", "zh": "多少钱（问价格）", "roman": "bikamm"}
+  ],
+  "grammar": [
+    {
+      "title_zh": "关系代词 illi（اللي）",
+      "body_zh": "阿拉伯语的关系代词用来连接两个句子，让一个名词同时充当两个动词的主语。英语会随所指对象换用 who、which、that，而黎凡特口语里一律用 illi（اللي）。唯一要记住的规则是：被修饰的名词必须是确指的（带冠词）；若是不定指，两句直接连写即可，不必加关系代词。",
+      "examples": [
+        {"ar": "شُفْتُ الْوَلَدَ اللي كَانَ يِلْعَبُ فُطْبُولَ.", "zh": "我看见了那个正在踢足球的男孩。", "roman": "shuft ilwalad illi kaan yil3ab faTbool."},
+        {"ar": "أَنَا مَا زُرْتُ الْمَدِينَةَ اللي إِنْتَهْ كُنْتَ تِحْكِي عَنْهَا.", "zh": "我没去过你提到的那座城市。", "roman": "ana maa zurt ilmadiinih illi intah kunt tiHki 3anha."},
+        {"ar": "الْبِنْتُ اللي ضَاعَ تَلِيفُونُهَا كَانَتْ حَزِينَةً كْتِيرًا.", "zh": "那个丢了手机的女孩非常伤心。", "roman": "ilbint illi Daa3 talifoonha kaanat Haziinih kthiir."},
+        {"ar": "شُفْتُ بِنْتٌ كَانَتْ تِلْعَبُ فُطْبُولَ.", "zh": "我看见一个正在踢足球的女孩。（不定指，不用关系代词）", "roman": "shuft binit kaanat til3ab faTbool."}
+      ]
+    },
+    {
+      "title_zh": "3ind、ma3、fii 表「有」与存在",
+      "body_zh": "这三个词都用来表达「拥有」或「某处有某物」。3ind 本是表地点或时间的副词性介词，指明事情发生在谁那里或何时；ma3 通常表伴随、关联（和……一起），也可表「我拥有」；fii 在黎凡特口语里意为「存在／有」，不等同于标准语表方位的 fi。它们有时可以互换。注意否定式：maa 3indak（你没有）、maa fiih（没有）。",
+      "examples": [
+        {"ar": "عِنْدِي مُحَاضَرَةٌ.", "zh": "我有一节课（讲座）。", "roman": "3indi muHaaDHarah."},
+        {"ar": "عِنْدِي حَرَارَةٌ.", "zh": "我发烧了。", "roman": "3indi Haraarah."},
+        {"ar": "مَعِي خَمْسِينَ دِينَارًا.", "zh": "我带着五十第纳尔。", "roman": "ma3i xamsiin diinaar."},
+        {"ar": "فِيهِ مَشَاكِلُ بِالسَّيَّارَةِ.", "zh": "这辆车有些毛病。", "roman": "fiih mashaakil bissayyaarah."},
+        {"ar": "مَا عِنْدِي مَانِعٌ تْرُوحْ مَعْنَا.", "zh": "我不反对你跟我们一起去。", "roman": "maa 3ndi maani3 truuH ma3na."}
+      ]
+    },
+    {
+      "title_zh": "过去时",
+      "body_zh": "阿拉伯语的过去时由词根直接构成，默认以第三人称单数阳性「他」为形式（即过去时的基本形）。动词词根本身不带元音，多数动词的过去时元音模式是 a-a，但也有例外。下面以「知道」3+r+f（3araf）为例，展示按人称的过去时变位；注意阿拉伯语没有「它」这个词，无生命主语按阴阳属性分别用「他／她」指代，而无生命的复数名词在性数一致上按阴性单数处理。",
+      "examples": [
+        {"ar": "أَنَا عْرِفِتْ.", "zh": "我知道了（过去）。", "roman": "ana 3rifit."},
+        {"ar": "هُوَّه عْرِفَ.", "zh": "他知道（过去）。", "roman": "huu 3irif."},
+        {"ar": "هِيَّ عْرِفَتْ.", "zh": "她知道（过去）。", "roman": "hii 3irfat."},
+        {"ar": "إِحْنَا عْرِفْنَا.", "zh": "我们知道（过去）。", "roman": "iHna 3rifna."},
+        {"ar": "سَلْمَى عْرِفَتْ تْرُوحْ عَلَالْجَامِعَةِ.", "zh": "萨尔玛知道怎么去大学。", "roman": "salma 3irfat trooH 3aljaam3ah."}
+      ]
+    },
+    {
+      "title_zh": "颜色形容词的阴阳性一致",
+      "body_zh": "阿拉伯语的颜色词是形容词，因此每个颜色都有阳性和阴性两种形式，修饰名词时必须与名词的性一致。不过一致规则并不整齐：少数颜色因与「归属形容词」（nisba）形式相近而特殊——例如「棕色」源自烤咖啡豆的颜色、「灰色」源自「灰烬」，它们的阴性形式更像归属形容词的阴性。下表常见颜色可直接套用。",
+      "examples": [
+        {"ar": "قَمِيصٌ أَبْيَضُ.", "zh": "一件白色的衬衫（阳性）。", "roman": "gamiiS abyaD."},
+        {"ar": "قَمِيصَةٌ بَيْضَاءُ.", "zh": "一件白色的衬衫（阴性）。", "roman": "gamiiSah bayDaa."},
+        {"ar": "لَوْنٌ أَخْضَرُ.", "zh": "绿色（阳性）。", "roman": "loon axDar."},
+        {"ar": "قَمِيصُكِ الْأَخْضَرُ حِلْوٌ عَلَيْكِ.", "zh": "你的绿衬衫穿在你身上真好看。", "roman": "ʔamiiSik ilaxDar Hilu 3aleyki."}
+      ]
+    },
+    {
+      "title_zh": "询问数量与价格",
+      "body_zh": "黎凡特口语里询问数量的说法变化不多：疑问词（相当于「多少」）后面直接跟名词短语，不必加动词。问价格常用 gaddeish／ʔaddeish 和 bikamm；kam 与 ʔachammin（kam-min）则更多用来问数量而非价格。",
+      "examples": [
+        {"ar": "كَمْ سَنَةٌ عُمْرُكْ؟", "zh": "你几岁？（字面：你的年龄是多少年？）", "roman": "kam sanah 3umrak?"},
+        {"ar": "قَدِّيشَ تَمَنُ سَيَّارَتَكْ؟", "zh": "你的车多少钱？", "roman": "gaddeish thaman sayyaartak?"},
+        {"ar": "بِكَامِ اشْتَرَيْتِي كِتَابَ الْعَرَبِيَّ؟", "zh": "你多少钱买的这本阿拉伯语书？", "roman": "bikam ishtareyti ktaab il3arabi?"},
+        {"ar": "كَمْ مَرَّةٌ زُرْتَ الْأُرْدُنَّ؟", "zh": "你去过约旦几次？", "roman": "kam marrah zurt ilurdun?"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "title_zh": "练习一 · 按相关意义给单词分组",
+      "prompt_zh": "把下列单词分成若干组，每组词义相近；先猜生词意思，需要时查书末词汇表。参考答案为分组示例。",
+      "items": [
+        {"q_zh": "把下列词归到「饮品」类：kaasih, funjaan, shay, gahwah, mayyih, saada, sukkar, na3na3", "answer_ar": "كَاسَةٌ، فُنْجَانٌ، شَايٌ، قَهْوَةٌ، مِيَّةٌ، صَادَةٌ، سُكَّرٌ، نَعْنَعٌ", "answer_zh": "杯子、杯、茶、咖啡、水、无糖、糖、薄荷——均属饮品相关"},
+        {"q_zh": "把下列词归到「水果」类：tuffaaHah, faraawlih, leymuun, shummaam", "answer_ar": "تُفَّاحَةٌ، فَرَاوِلَةٌ، لَيْمُونٌ، شُمَّامٌ", "answer_zh": "苹果、草莓、柠檬、甜瓜"},
+        {"q_zh": "把下列词归到「吸烟相关」类：ʔargiilih, nakhah, duxxaan, bidaxxin", "answer_ar": "أَرْجِيلَةٌ، نَكْهَةٌ، دُخَّانٌ، بِدَخِّنْ", "answer_zh": "水烟、口味、烟、抽烟"},
+        {"q_zh": "把下列词归到「餐饮场所与服务」类：maT3am, garsoon, Hsaab, danaaniir", "answer_ar": "مَطْعَمٌ، قَرْصُونٌ، حِسَابٌ، دَنَانِيرُ", "answer_zh": "餐馆、服务员、账单、第纳尔（钱）"}
+      ]
+    },
+    {
+      "title_zh": "练习三 · 国旗颜色问答",
+      "prompt_zh": "借助网络查下列国家的国旗，然后回答颜色问题（参考答案依据书末答案）。",
+      "items": [
+        {"q_zh": "شُو أَلْوَانُ الْعَلَمِ الْفَرَنْسِيِّ？（法国国旗是什么颜色？）", "answer_ar": "أَحْمَرُ، أَبْيَضُ، أَزْرَقُ.", "answer_zh": "红、白、蓝"},
+        {"q_zh": "شُو أَلْوَانُ الْعَلَمِ الْيَابَانِيِّ？（日本国旗是什么颜色？）", "answer_ar": "أَحْمَرُ، أَبْيَضُ.", "answer_zh": "红、白"},
+        {"q_zh": "شُو أَلْوَانُ الْعَلَمِ الْأُرْدُنِّيِّ？（约旦国旗是什么颜色？）", "answer_ar": "أَسْوَدُ، أَبْيَضُ، أَخْضَرُ، أَحْمَرُ.", "answer_zh": "黑、白、绿、红"},
+        {"q_zh": "كَمْ لَوْنٍ فِي الْعَلَمِ الْأَمْرِيكِيِّ？（美国国旗有几种颜色？）", "answer_ar": "أَبْيَضُ، أَزْرَقُ، أَحْمَرُ.", "answer_zh": "白、蓝、红（三种）"},
+        {"q_zh": "كَمْ لَوْنٍ فِي الْعَلَمِ السُّوَيْدِيِّ？（瑞典国旗有几种颜色？）", "answer_ar": "أَزْرَقُ، أَصْفَرُ.", "answer_zh": "蓝、黄（两种）"}
+      ]
+    },
+    {
+      "title_zh": "练习四 · 用词或短语造句",
+      "prompt_zh": "用下列每个词或短语造一个短句（也可变换词形）。",
+      "items": [
+        {"q_zh": "用 mashghuul（忙）造句", "answer_ar": "بُكْرَهْ رَحْ أَكُونُ مَشْغُولٌ كْتِيرًا.", "answer_zh": "明天我会很忙。"},
+        {"q_zh": "用 thaman（价格）造句", "answer_ar": "كَمْ تَمَنُ هَادَا الْقَمِيصِ؟", "answer_zh": "这件衬衫多少钱？"},
+        {"q_zh": "用 hadiyyih（礼物）造句", "answer_ar": "هَادَا الْخَاتَمُ هَدِيَّةٌ مِنْ خَالِي.", "answer_zh": "这枚戒指是舅舅送的礼物。"},
+        {"q_zh": "用 nafs（同样的）造句", "answer_ar": "رَحْ أَشْتَرِي نَفْسَ سَاعَتِكْ.", "answer_zh": "我要买一块和你一样的表。"},
+        {"q_zh": "用 ya reyt（但愿）造句", "answer_ar": "يَا رَيْتْ أُسَافِرَ عَلَالْأُرْدُنِّ.", "answer_zh": "但愿我能去约旦旅行。"}
+      ]
+    },
+    {
+      "title_zh": "练习六 · 找出不同类的词",
+      "prompt_zh": "每组四个词中有一个与其余不同类，请找出来（依据书末答案）。",
+      "items": [
+        {"q_zh": "kaasih, funjaan, ʔargiilih, SaHin（杯子、杯、水烟、盘子）", "answer_ar": "أَرْجِيلَةٌ", "answer_zh": "水烟（其余都是饮具）"},
+        {"q_zh": "saadah, wasaT, Hilu, na3na3（无糖、中等、甜、薄荷）", "answer_ar": "نَعْنَعٌ", "answer_zh": "薄荷（其余都描述甜度／味道程度）"},
+        {"q_zh": "tuffaaHah, faraawlih, shummaam, leymuun（苹果、草莓、甜瓜、柠檬）", "answer_ar": "لَيْمُونٌ", "answer_zh": "柠檬（其余为苹果、草莓、甜瓜）"},
+        {"q_zh": "3inwaan, shaari3, daxlih, Hawaali（地址、街道、小巷、大约）", "answer_ar": "حَوَالِي", "answer_zh": "大约（其余都是地点名词）"},
+        {"q_zh": "Sayydalliiyih, Haraarah, dawa, mithil（药房、发烧、药、像）", "answer_ar": "مِثْلُ", "answer_zh": "像（其余都是药店／药品相关）"}
+      ]
+    },
+    {
+      "title_zh": "练习七 · 回答数量问句",
+      "prompt_zh": "回答下列每个问题（参考答案依据书末答案）。",
+      "items": [
+        {"q_zh": "كَمْ سَنَةٌ عُمْرُكْ？（你多大年纪？）", "answer_ar": "اِثْنَيْنِ وَعِشْرِينَ سَنَةً.", "answer_zh": "二十二岁。"},
+        {"q_zh": "قَدِّيشَ تَمَنُ سَيَّارَتَكْ？（你的车多少钱？）", "answer_ar": "سَبْعَةُ آلَافٍ وَأَرْبَعُ مِئَةِ دُولَارٍ.", "answer_zh": "七千四百美元。"},
+        {"q_zh": "قَدِّيشَ تَمَنُ فُسْطَانِكْ？（你的连衣裙多少钱？）", "answer_ar": "خَمْسٌ وَعِشْرُونَ دِينَارًا.", "answer_zh": "二十五第纳尔。"},
+        {"q_zh": "بِكَامِ اشْتَرَيْتِ كِتَابَ الْعَرَبِيَّ？（你多少钱买的阿拉伯语书？）", "answer_ar": "بِثَلَاثَةَ عَشَرَ دِينَارًا.", "answer_zh": "十三第纳尔。"},
+        {"q_zh": "كَمْ مَرَّةٌ زُرْتَ الْأُرْدُنَّ？（你去过约旦几次？）", "answer_ar": "سِتُّ مَرَّاتٍ.", "answer_zh": "六次。"}
+      ]
+    },
+    {
+      "title_zh": "练习九 · 汉译阿",
+      "prompt_zh": "把下列句子译成阿拉伯语（参考答案依据书末答案）。",
+      "items": [
+        {"q_zh": "我没有车。", "answer_ar": "مَا عِنْدِي سَيَّارَةٌ.", "answer_zh": "مَا عِنْدِي سَيَّارَةٌ（我没有车）"},
+        {"q_zh": "我明天有假期。", "answer_ar": "عِنْدِي عُطْلَةٌ بُكْرَهْ.", "answer_zh": "عِنْدِي عُطْلَةٌ بُكْرَهْ（我明天有休息）"},
+        {"q_zh": "我家里有间书房。", "answer_ar": "فِيهِ مَكْتَبَةٌ بِبَيْتِي.", "answer_zh": "فِيهِ مَكْتَبَةٌ بِبَيْتِي（我家里有间书房）"},
+        {"q_zh": "这条街上有餐馆吗？", "answer_ar": "فِيهِ مَطْعَمٌ بِهَادَا الشَّارِعِ؟", "answer_zh": "فِيهِ مَطْعَمٌ بِهَادَا الشَّارِعِ（这条街上有餐馆吗）"},
+        {"q_zh": "请问，你有茶吗？", "answer_ar": "عِنْدَكْ شَايٌ، لَوْ سَمَحْتَ؟", "answer_zh": "عِنْدَكْ شَايٌ، لَوْ سَمَحْتَ（请问你有茶吗）"}
+      ]
+    }
+  ],
+  "letters": [],
+  "summary_zh": "本单元你学会了在咖啡馆点单（玻璃杯、杯、水烟、薄荷、甜度），用阿拉伯语问路指路（左右、直行、远近、地标），以及描述颜色并掌握其阴阳性一致。语法上你掌握了关系代词 illi 连接句子、用 3ind／ma3／fii 表达「有」与存在、过去时的人称变位，并学会用 kam、gaddeish、bikamm 询问数量与价格。文化上请记住：阿拉伯人喜欢夜晚结伴去咖啡馆社交，点热饮时常被问及甜度偏好。"
+}

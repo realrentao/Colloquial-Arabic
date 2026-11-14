@@ -1,0 +1,235 @@
+{
+  "id": 9,
+  "slug": "unit-09",
+  "title_ar": "فِي السُّوقِ",
+  "title_zh": "在集市",
+  "title_roman": "fi issuug",
+  "subtitle_zh": "集市、讨价还价与购物用语",
+  "level_zh": "初级",
+  "goals": [
+    "在集市用阿拉伯语选购围巾、戒指、裤子、衬衫等商品",
+    "熟练运用颜色与款式词汇描述衣物",
+    "掌握命令句（祈使句）的构成与用法",
+    "掌握动词在过去、现在、将来三种时态下的否定",
+    "用 عَلَشَان 等表达原因与目的",
+    "了解黎凡特集市与讨价还价的文化"
+  ],
+  "is_review": false,
+  "cultural_point": {
+    "title_zh": "黎凡特集市与讨价还价的门道",
+    "body_zh": "在黎凡特买衣服常常别有一番体验，花多少钱往往取决于你在哪儿买、跟谁买。最好结伴而行，而不是单枪匹马——同伴一旦有人也动了购买的念头，店主往往更愿意给你一个好价钱。名牌固然好卖，但许多所谓名牌其实是假货，别轻易迷信；那些世界名牌如果便宜得离谱，多半是仿品。当然，正规大店卖的也有真名牌，只是那里明码标价，没有还价的余地。还价本身是需要练手的：传统、民族或手工艺品的价钱可能相差悬殊，所以先货比三家、摸清大致行情是上策。各国习惯也不同——叙利亚店主常把开价抬到实价的两倍以上，再随你还价往下让；你若只出半价，往往正好成了谈判的起点。而多数约旦店主通常不会低于开价的七到八折，你要是砍掉一半，他们多半直接走人。无论怎样，还价归还价，对店主保持尊重、即便没成交也道声谢，才是得体的做法。小本生意和家庭店铺最常讨价还价，这是中东很常见的景象；大商场和连锁店则没有议价空间，但常会打折促销，也能淘到好东西。",
+    "tip_zh": "给中国学习者的提示：黎凡特集市里「不砍价」反而显得生分，适度还价是被期待的社交行为；但切勿当真接受店主「不要钱、算我请客」的客套，礼貌坚持付钱才是正确回应。"
+  },
+  "dialogues": [
+    {
+      "title_zh": "在礼品店：约翰想给妈妈买围巾和银戒指",
+      "title_ar": "فِي مَحَلّ الهَدَايَا",
+      "context_zh": "约翰走进一家礼品店，想给妈妈买一条围巾和一枚银戒指。店主奥马尔热情招呼，两人就颜色、款式和价格讨价还价。",
+      "lines": [
+        {"speaker_zh": "约翰", "ar": "مَرْحَبًا.", "zh": "你好。", "roman": "marHaba."},
+        {"speaker_zh": "奥马尔", "ar": "أَهْلًا وَسَهْلًا، تَفَضَّلْ؟", "zh": "欢迎，请问需要点什么？", "roman": "ahlan wa sahlan, itfaDDal?"},
+        {"speaker_zh": "约翰", "ar": "إِذَا سَمَحْتَ، بِدِّي أَشْتَرِي شَالًا وَخَاتَمًا فِضَّةً لِأُمِّي.", "zh": "劳驾，我想给我妈妈买一条围巾和一枚银戒指。", "roman": "idha samaHt, biddi ?ashtari shaal w xaatim fiDDah la ummi."},
+        {"speaker_zh": "奥马尔", "ar": "عَلَى طُولِ. شُو لَوْنِ الشَّالِ؟", "zh": "没问题。围巾要什么颜色？", "roman": "3ala Tuul. shuu loon ishshaal?"},
+        {"speaker_zh": "约翰", "ar": "مِش عَارِفٍ، شُو عِنْدَكَ أَلْوَانٌ؟", "zh": "我不知道，你都有些什么颜色？", "roman": "mish 3aarif, shuu 3indak alwaan?"},
+        {"speaker_zh": "奥马尔", "ar": "فِيهِ أَحْمَرُ، أَبْيَضُ، أَسْوَدُ، أَزْرَقُ، بُنِّيُّ، رَمَادِيُّ، بِيجُ، زَهْرِيُّ، أَصْفَرُ، كُحْلِيُّ.", "zh": "有红、白、黑、蓝、棕、灰、米、粉、黄、藏青。", "roman": "fiih aHmar, abyaD, aswad, azrag, bunni, ramaadi, beij, zahri, aSfar, kuHIi."},
+        {"speaker_zh": "约翰", "ar": "لَا لَا، مَا بِدِّيِش سَادَةً. بِدِّي مُزَرْكَشًا: أَحْمَرَ مَعَ أَبْيَضَ، أَسْوَدَ عَلَى أَصْفَرَ.", "zh": "不不，我不要纯色的。我要绣花的：红配白、黑配黄。", "roman": "la la, ma biddiish saada. biddi mzarkash: aHmar ma3 abyaD, aswad 3ala aSfar."},
+        {"speaker_zh": "奥马尔", "ar": "آهْ، مَاشِي. هَذِي أَحْمَرَ مَعَ أَبْيَضَ، أَسْوَدَ مَعَ أَصْفَرَ، أَزْرَقَ مَعَ زَهْرِيٍّ.", "zh": "好，行。这款是红配白、黑配黄、蓝配粉。", "roman": "aah, maashi. haay aHmar ma3 abyaD, aswad ma3 aSfar, azrag ma3 zahri."},
+        {"speaker_zh": "约翰", "ar": "الْأَزْرَقُ مَعَ الزَّهْرِيِّ حِلُوُ.", "zh": "蓝配粉真好看。", "roman": "ilazrag ma3 izzahri Hilu."},
+        {"speaker_zh": "奥马尔", "ar": "صَحِيحٌ، هَذَا حِلُوُ كْتِيرٌ.", "zh": "没错，这个非常好看。", "roman": "SaHiiH, haadha Hilu ktiir."},
+        {"speaker_zh": "约翰", "ar": "طَيِّبْ، مُمْكِن أَشُوفَ الْخَوَاتِمَ؟", "zh": "好，我能看看戒指吗？", "roman": "Tayyib, mumkin ashuuf ilxawaatim?"},
+        {"speaker_zh": "奥马尔", "ar": "عَلَى رَاسِي. هَذَا خَاتَمُ فِضَّةٍ أَصْلِيٌّ. بَسْ غَالِي شُوَيٌّ.", "zh": "当然。这枚是真正的银戒指，只是有点贵。", "roman": "3ala raasi. haadha xaatim fiDDah ?aSli. bass ghaali shwai."},
+        {"speaker_zh": "约翰", "ar": "مُمْكِن أَشُوفَ وَاحِدًا ثَانِيًا؟", "zh": "我能看另一枚吗？", "roman": "mumkin ashuuf waaHad thaani?"},
+        {"speaker_zh": "奥马尔", "ar": "عَلَى طُولِ. هَذَا وَاحِدٌ ثَانٍ.", "zh": "没问题。这是另一枚。", "roman": "3ala Tuul. haadha waaHad thaani."},
+        {"speaker_zh": "约翰", "ar": "الثَّانِي أَحْسَنُ. بِكَمِّ الشَّالُ وَالْخَاتَمُ؟", "zh": "这一枚更好。围巾和戒指一共多少钱？", "roman": "iththaani aHsan. bikamm ishshaal wil xaatim?"},
+        {"speaker_zh": "奥马尔", "ar": "الِاثْنَيْنِ بِخَمْسِةٍ وَسِتِّينَ دِينَارًا، عَلَشَانَكَ بَسُّ.", "zh": "两样一共六十五第纳尔，就只为给你这个价。", "roman": "iliththneyn bi xamsih w sittiin diinaar, 3alashaanak bass."},
+        {"speaker_zh": "约翰", "ar": "خَمْسِةٌ وَسِتُّونَ؟ لَا كْتِيرٌ هَيْكَ. شُو رَأْيَكَ بِخَمْسِينَ؟", "zh": "六十五？这也太贵了。五十怎么样？", "roman": "xamsih w sittiin? la kthiir heyk. shuu ra?yak bi xamsiin?"},
+        {"speaker_zh": "奥马尔", "ar": "لَا مِش مُمْكِنٌ، رَاسُ مَالُهُ خَمْسِينَ. مُمْكِنٌ بِسِتِّينَ.", "zh": "不行，它的本钱就是五十。六十或许可以。", "roman": "la mish mumkin, raas maaluh xamsiin. mumkin bi sittiin."},
+        {"speaker_zh": "约翰", "ar": "لِسَّا كْتِيرٌ غَالِي. أَنَا أَكْثَرُ مِنْ خَمْسِةٍ وَخَمْسِينَ مَا مَعِي.", "zh": "还是太贵了。我身上最多只有五十五。", "roman": "lissa kthiir ghaali. ana akthar min xamsih w xamsiin maa ma3i."},
+        {"speaker_zh": "奥马尔", "ar": "مَاشِي يَا سِيدِي، تَفَضَّلْ.", "zh": "行吧，先生，拿去吧。", "roman": "maashi ya sidi, itfaDDal."},
+        {"speaker_zh": "约翰", "ar": "شُكْرًا يَا سِيدِي.", "zh": "谢谢你，先生。", "roman": "shukran ya sidi."},
+        {"speaker_zh": "奥马尔", "ar": "أَهْلًا وَسَهْلًا، مَبْرُوكُ، مَعَ السَّلَامَةِ.", "zh": "不客气，恭喜，走好。", "roman": "ahlan wa sahlan, mabrook, ma3 issalaamih."}
+      ]
+    },
+    {
+      "title_zh": "在服装店：马克买裤子和衬衫",
+      "title_ar": "فِي مَحَلّ المَلَابِس",
+      "context_zh": "马克想买一条裤子和一件衬衫，走进一家服装店。店主先客气地表示可以免单，马克坚持问价并讨价还价，最终以三十第纳尔成交。",
+      "lines": [
+        {"speaker_zh": "马克", "ar": "مَسَاءُ الْخَيْرِ حَجِّي.", "zh": "晚上好，老先生。", "roman": "masaa? ilxeyr Hajji."},
+        {"speaker_zh": "店主", "ar": "مَسَاءُ النُّورِ. أَهْلًا وَسَهْلًا. تَفَضَّلْ يَا عَمِّي.", "zh": "晚上好。欢迎欢迎。请进，我的兄弟。", "roman": "masaa? innuur. ahlan wa sahlan. tfaDDal 3ammi."},
+        {"speaker_zh": "马克", "ar": "بَدَوِّرْ عَلَى قَمِيصٍ وَبَنْطَلُونٍ.", "zh": "我正在找一件衬衫和一条裤子。", "roman": "badawwir 3ala gamiiS W banTaloon."},
+        {"speaker_zh": "店主", "ar": "مَوْجُودٌ. شُو الْمُودَيْلِ الَّذِي بِتْحِبُّهُ؟", "zh": "有货。你喜欢什么款式？", "roman": "mawjuud. shuu ilmudeyl illi bitHibuh?"},
+        {"speaker_zh": "马克", "ar": "بِدِّي بَنْطَلُونَ جِينْزٍ وَقَمِيصٍ كُوَيِّسٍ.", "zh": "我要一条牛仔裤和一件不错的衬衫。", "roman": "biddi banTaloon jiinz w gamiiS kwayyis."},
+        {"speaker_zh": "店主", "ar": "هَذِي جِينْزٌ أَسْوَدُ، وَهَذِي أَزْرَقُ. وَهَذِي قَمِيصٌ سَادَةٌ وَفِيهِ مُقَلَّمٌ.", "zh": "这条是黑色牛仔裤，这条是蓝色。这件是纯色衬衫，上面有条纹。", "roman": "haay jiinz aswad, w haay azrag. w haay gamiiS saada w fiih mgallam."},
+        {"speaker_zh": "马克", "ar": "الْبَنْطَلُونُ الْأَزْرَقُ إِذَا مُمْكِنٌ. وَالْقَمِيصُ مُقَلَّمٌ.", "zh": "如果可以的话，要蓝色那条裤子。衬衫要带条纹的。", "roman": "ilbanTaloon azrag idha mumkin. w ilgamiiS mgallam."},
+        {"speaker_zh": "店主", "ar": "تَفَضَّلْ، هَيْكَ كُوَيِّسٌ؟", "zh": "请，这样行吗？", "roman": "tfaDDal, heyk kwayyis?"},
+        {"speaker_zh": "马克", "ar": "مُمْتَازٌ. بَسْ هَذَا صَغِيرٌ. أَنَا بَلْبِسْ سِتَّةً وَثَلَاثِينَ وَالْقَمِيصُ لَارِجُ.", "zh": "太棒了。不过这件小了。我穿三十六码，衬衫要宽松的。", "roman": "mumtaaz. bass haadha Sghiir. ana balbis sittih w thalaathiin w ilgamiiS laarj."},
+        {"speaker_zh": "店主", "ar": "مَاشِي يَا سِيدِي. تَفَضَّلْ، هَذَا قِيَاسُكَ.", "zh": "行，先生。请，这是你的尺码。", "roman": "maashi ya sidi. tfaDDal, haay gyaasak."},
+        {"speaker_zh": "马克", "ar": "تَمَامٌ. بِكَمِّ هَدُولُ حَجِّي؟", "zh": "好。老先生，这些多少钱？", "roman": "tamaam. bkam haDDool Hajji?"},
+        {"speaker_zh": "店主", "ar": "عَلَى حِسَابَكَ. بَلَا مَصَارِي.", "zh": "算在你的账上。不要钱。", "roman": "3ala Hsaabak. bala maSaari."},
+        {"speaker_zh": "马克", "ar": "اللَّهُ يُبَارِكْ فِيكَ. بِكَمِّ؟ بَسْ رَاعِينَا.", "zh": "愿主赐你吉祥。多少钱？不过你给我们优惠点。", "roman": "allaah ybaarik fiik. bkam? bass raa3iina."},
+        {"speaker_zh": "店主", "ar": "عَلَشَانَكَ بِخَمْسِةٍ وَثَلَاثِينَ دِينَارًا.", "zh": "看在你的份上，三十五第纳尔。", "roman": "3alashaanak bxamsih w thalaathiin diinaar."},
+        {"speaker_zh": "马克", "ar": "خَمْسِةٌ وَثَلَاثُونَ؟ كْتِيرٌ هَيْكَ. وَأَنَا طَالِبٌ.", "zh": "三十五？这也太多了。而且我是学生。", "roman": "xamsih w thalaathiin? kthiir heyk. w ana Taalib."},
+        {"speaker_zh": "店主", "ar": "بَسْ هَذَا قُطْنٌ أَصْلِيٌّ، مِش صِينِيٌّ وَلَا سُورِيٌّ.", "zh": "可这料子是纯棉的，不是中国货也不是叙利亚货。", "roman": "bass haaDHa guTin ?aSli, mish Siini wala suuri."},
+        {"speaker_zh": "马克", "ar": "بَسْ وَاللَّهِ كْتِيرٌ. شُو رَأْيَكَ بِخَمْسِةٍ وَعِشْرِينَ؟", "zh": "真的还是太贵了。二十五怎么样？", "roman": "bass wallah kthiir. shuu ra?yak bixamsih w 3shriin?"},
+        {"speaker_zh": "店主", "ar": "لَا مِش مُمْكِنٌ. ثَلَاثُونَ آخِرُ سِعْرٍ.", "zh": "不行。三十是最低价了。", "roman": "laa mish mumkin. thalaathiin ?aaxir si3ir."},
+        {"speaker_zh": "马克", "ar": "ثَلَاثُونَ مَاشِي. تَفَضَّلْ.", "zh": "三十就三十。给。", "roman": "thalaathiin maashi. tfaDDal."},
+        {"speaker_zh": "店主", "ar": "شُكْرًا. مَبْرُوكُ.", "zh": "谢谢。恭喜。", "roman": "shukran. mabruuk."},
+        {"speaker_zh": "马克", "ar": "شُكْرًا حَجِّي.", "zh": "谢谢，老先生。", "roman": "shukran Hajji."},
+        {"speaker_zh": "店主", "ar": "مَعَ السَّلَامَةِ.", "zh": "走好。", "roman": "ma3 issalaamih."}
+      ]
+    }
+  ],
+  "vocab": [
+    {"ar": "أَشْتَرِي", "zh": "买", "roman": "?ashtari", "note_zh": "词根 sh+t+r；买"},
+    {"ar": "شَال (شَالَات)", "zh": "围巾", "roman": "shaal", "note_zh": "单数 شَال，复数 شَالَات"},
+    {"ar": "خَاتَم (خَوَاتِم)", "zh": "戒指", "roman": "xaatim", "note_zh": "单数 خَاتَم，复数 خَوَاتِم"},
+    {"ar": "فِضَّة", "zh": "银", "roman": "fiDDah", "note_zh": "银；خَاتَمُ فِضَّةٍ = 银戒指"},
+    {"ar": "لَوْن (أَلْوَان)", "zh": "颜色", "roman": "loon", "note_zh": "单数 لَوْن，复数 أَلْوَان"},
+    {"ar": "سَادَة", "zh": "纯色的、单色的", "roman": "saada", "note_zh": "指单色、无花纹混色；反义词是 مُزَرْكَش"},
+    {"ar": "مُزَرْكَش", "zh": "绣花的、带花纹的", "roman": "mzarkash", "note_zh": "指衣物上混色或绣花"},
+    {"ar": "أَصْلِيّ", "zh": "正宗的、原装的", "roman": "?aSli", "note_zh": "أَصْلِيّ = 正品、原产"},
+    {"ar": "غَالِي", "zh": "贵的", "roman": "ghaali", "note_zh": "贵的；反义词 رَخِيص"},
+    {"ar": "أَحْسَن", "zh": "更好的", "roman": "aHsan", "note_zh": "حَسَن 的比较级"},
+    {"ar": "عَلَشَان", "zh": "因为、为了", "roman": "3alashaan", "note_zh": "也作 عَلَشَانak（看你份上）"},
+    {"ar": "رَأْيَك", "zh": "你的看法", "roman": "ray+ak", "note_zh": "شُو رَأْيَك = 你觉得呢／你怎么看"},
+    {"ar": "رَاس مَال", "zh": "本钱、成本", "roman": "raas maal", "note_zh": "字面「它的资本」，店主用来表白没赚多少"},
+    {"ar": "لِسَّا", "zh": "还、仍然", "roman": "lissa", "note_zh": "还、依旧"},
+    {"ar": "مَبْرُوك", "zh": "恭喜", "roman": "mabrook", "note_zh": "恭喜、贺喜；也说 مُبَارَك"},
+    {"ar": "بَدَوِّر عَلَى", "zh": "寻找", "roman": "badawwir 3ala", "note_zh": "词根 d+w+w+r；找、搜寻"},
+    {"ar": "مُودَيْل (مُودَيْلَات)", "zh": "款式、样式", "roman": "mudeyl", "note_zh": "单数 مُودَيْل，复数 مُودَيْلَات"},
+    {"ar": "بَنْطَلُون (بَنَاطِيل)", "zh": "裤子", "roman": "banTaloon", "note_zh": "单数 بَنْطَلُون，复数 بَنَاطِيل"},
+    {"ar": "جِينْز", "zh": "牛仔裤", "roman": "jiinz", "note_zh": "牛仔裤（jeans）"},
+    {"ar": "مُقَلَّم", "zh": "带条纹的", "roman": "mgallam", "note_zh": "有条纹的"},
+    {"ar": "بَلْبِس", "zh": "穿（衣服）", "roman": "balbis", "note_zh": "词根 l+b+s；穿"},
+    {"ar": "لَارِج", "zh": "大的、宽松的", "roman": "laarj", "note_zh": "（尺码）大的、宽松的"},
+    {"ar": "قِيَاس (قِيَاسَات)", "zh": "尺码", "roman": "gyaas", "note_zh": "单数 قِيَاس，复数 قِيَاسَات"},
+    {"ar": "مَصَارِي", "zh": "钱", "roman": "maSaari", "note_zh": "钱"},
+    {"ar": "رَاعِي", "zh": "照顾、关照（某人）", "roman": "raa3ii", "note_zh": "砍价时 رَاعِينَا = 照顾我们／给优惠"},
+    {"ar": "قُطْن", "zh": "棉", "roman": "guTin", "note_zh": "棉花、棉布"},
+    {"ar": "صِينِيّ", "zh": "中国的、中国货", "roman": "Siini", "note_zh": "中国的"},
+    {"ar": "سُورِيّ", "zh": "叙利亚的、叙利亚货", "roman": "suuri", "note_zh": "叙利亚的"},
+    {"ar": "سِعْر (أَسْعَار)", "zh": "价格", "roman": "si3ir", "note_zh": "价格；同义词 ثَمَن"},
+    {"ar": "إِذَا سَمَحْتَ", "zh": "劳驾、请", "roman": "idha samaHt", "note_zh": "字面「如果你允许」，常用客套语"},
+    {"ar": "أُمّ (أُمَّهَات)", "zh": "妈妈", "roman": "umm(i)", "note_zh": "لِأُمِّي = 给我妈妈"},
+    {"ar": "عَلَى طُول", "zh": "当然、没问题", "roman": "3ala Tuul", "note_zh": "字面「一直」，表爽快答应"},
+    {"ar": "حِلُو (حِلْوَة)", "zh": "好看、漂亮、棒", "roman": "Hilu", "note_zh": "好看的、漂亮的"},
+    {"ar": "طَالِب (طُلَّاب)", "zh": "学生", "roman": "Taalib", "note_zh": "单数 طَالِب，复数 طُلَّاب"},
+    {"ar": "أَحْمَر", "zh": "红色", "roman": "aHmar", "note_zh": "红色"},
+    {"ar": "أَبْيَض", "zh": "白色", "roman": "abyaD", "note_zh": "白色"},
+    {"ar": "أَسْوَد", "zh": "黑色", "roman": "aswad", "note_zh": "黑色"},
+    {"ar": "أَزْرَق", "zh": "蓝色", "roman": "azrag", "note_zh": "蓝色"},
+    {"ar": "أَصْفَر", "zh": "黄色", "roman": "aSfar", "note_zh": "黄色"},
+    {"ar": "خَمْسِة", "zh": "五", "roman": "xamsih", "note_zh": "数字五"},
+    {"ar": "سِتِّين", "zh": "六十", "roman": "sittiin", "note_zh": "数字六十"},
+    {"ar": "دِينَار (دَنَانِير)", "zh": "第纳尔", "roman": "diinaar", "note_zh": "货币单位，复数 دَنَانِير"}
+  ],
+  "grammar": [
+    {
+      "title_zh": "命令句（Imperatives）",
+      "body_zh": "黎凡特口语的命令句由现在时派生而来，永远用于第二人称（你）。基本形式是去掉现在时的人称前缀得到阳性单数命令；阴性单数加 ـِي，阳性复数加 ـُوا，阴性复数加 ـِن。教材表 9.1 以词根 k+t+b 为例给出各人称形式。注意命令句的词首 هَمْزَة 写作 أ。",
+      "examples": [
+        {"ar": "اُكْتُبْ يَا أَحْمَدُ.", "zh": "艾哈迈德，你（男）写。", "roman": "uktub ya aHmad."},
+        {"ar": "اُكْتُبِي.", "zh": "你（女）写。", "roman": "uktubi."},
+        {"ar": "اُشْتَرِ كِتَابًا يَا عُمَرُ.", "zh": "奥马尔，买一本书。", "roman": "ishtari ktaab, ya 3umar."},
+        {"ar": "اُشُوفِي فِيلْمًا جَدِيدًا يَا لَيْلَى.", "zh": "莱拉，看一部新电影。", "roman": "shuufi film jdiid, ya leyla."},
+        {"ar": "اِلْعَبْ رِيَاضَةً يَا تُومُ.", "zh": "图姆，做运动。", "roman": "il3ab riyaaDah ya toom."}
+      ],
+      "tip_zh": "否定命令句在动词前加 لَا，例如 لَا تَعْطِي خَالِدَ خَمْسَ دَنَانِيرَ（别给哈立德五个第纳尔）。"
+    },
+    {
+      "title_zh": "动词的否定（Negation of verbs）",
+      "body_zh": "黎凡特口语按时态选用不同的否定小品词。过去时：maa + 动词（+ 可选的 ـش）；现在时：maa + 动词（黎凡特口语中 ـش 常省略）；将来时：maa/mish + raH + 动词。mish 也可以直接放在动词或 raH 之前表示否定。教材表 9.2–9.4 以词根 k+t+b 配合所有人称详细列出。",
+      "examples": [
+        {"ar": "مَا كَتَبْتُ.", "zh": "我没写。", "roman": "maa katabt(ish)"},
+        {"ar": "مَا بَكْتُبْ.", "zh": "我不写。", "roman": "maa baktub(ish)"},
+        {"ar": "مَا رَحْ أَكْتُبْ.", "zh": "我不会写。", "roman": "maa raH aktub"},
+        {"ar": "هَذَا خَاتَمُ فِضَّةٍ مِش أَصْلِيٍّ.", "zh": "这是银戒指，但不是正品。", "roman": "haada xaatim fiDDah mish ?aSli"},
+        {"ar": "بُكْرَةَ مَا رَحْ أَدْرُسُ عَشْرَ سَاعَاتٍ.", "zh": "明天我不会学十个小时。", "roman": "bukrah maa raH ?adrus 3ashr saa3aat"},
+        {"ar": "مَا بَحِبُّ اللَّوْنَ الْأَخْضَرَ.", "zh": "我不喜欢绿色。", "roman": "maa baHib illoon ilaxDar"}
+      ],
+      "tip_zh": "同一句可以否定不同成分而得到不同意思，例如 مَا عِنْدِي مُحَاضَرَةٌ（我没有课）与 عِنْدِي مُحَاضَرَةٌ مَعَ دُكْتُورٍ مِش جَدِيدٍ（我有一节课，但老师不是新来的）。"
+    },
+    {
+      "title_zh": "原因与结果（Cause and effect）",
+      "body_zh": "表达目的或原因时，黎凡特口语用 عَلَشَان（或较短的 عَلَشَان / 3ashaan）表示「为了／因为」，可引出从句。另一种连接方式是 لِـ + ـَلَأَنَّ + 代词（即「因为……」）。部分叙利亚方言用 كِرْمَال，但 عَلَشَان 及其短形更常用。",
+      "examples": [
+        {"ar": "عَلَشَانَ أُنْجَحَ لَازِمُ أَدْرُسُ.", "zh": "为了及格，我必须学习。", "roman": "3alashaan anjaH laazmi adrus."},
+        {"ar": "بِدِّي أَرُوحَ بِسُرْعَةٍ عَلَشَانَ أُلْحِقَ الْمُحَاضَرَةَ.", "zh": "我想快点走，好赶上讲座。", "roman": "biddi arooH bsur3ah 3ashaan alHag ilmuHaaDHarah."},
+        {"ar": "اشْتَرَيْتُ هَذِهِ السَّيَّارَةَ عَلَشَانَهَا جَدِيدَةٌ.", "zh": "我买了这辆车，因为它是新的。", "roman": "ishtraeyt haay issayyaarah 3ashnha jdiidih."},
+        {"ar": "لَأَنَّهَا صَغِيرَةٌ، بَعْدَهَا تَعْمَلُ مَشَاكِلَ.", "zh": "因为她年纪小，她还在不断惹麻烦。", "roman": "la?inha Sghiirih, ba3dha bti3mal mashaakil."},
+        {"ar": "مَا أَكَلْنَا لَأَنَّ الْأَكْلَ كَانَ مِش حِلُوُ.", "zh": "我们没吃，因为饭菜不好吃。", "roman": "maa ?akalna la?innuh il?akil kaan mish Hilu."}
+      ],
+      "tip_zh": "عَلَشَان 引出的是从句，后面跟动词；若只是解释「因为这个」，也可说 عَلَشَانَكَ بَسُّ（就只为了你）。"
+    },
+    {
+      "title_zh": "描述衣物与颜色（Describing clothing and colors）",
+      "body_zh": "描述衣物时，形容词放在名词之后，并与名词在性、数上一致。颜色形容词（أَحْمَر、أَبْيَض、أَسْوَد、أَزْرَق、أَصْفَر 等）以及描述性形容词（سَادَة「纯色」、مُزَرْكَش「绣花」、مُقَلَّم「条纹」、غَالِي「贵」、أَحْسَن「更好」）在集市里最常用。",
+      "examples": [
+        {"ar": "هَذَا قَمِيصٌ سَادَةٌ.", "zh": "这是一件纯色衬衫。", "roman": "haadha gamiiS saada"},
+        {"ar": "بَنْطَلُونُ جِينْزٍ أَزْرَقُ.", "zh": "一条蓝色牛仔裤。", "roman": "banTaloon jiinz azrag"},
+        {"ar": "الْخَاتَمُ الْأَحْسَنُ.", "zh": "那枚更好的戒指。", "roman": "ilxaatim ilaHsan"},
+        {"ar": "قَمِيصٌ أَحْمَرُ مَعَ أَبْيَضَ.", "zh": "红配白的衬衫。", "roman": "gamiiS aHmar ma3 abyaD"}
+      ],
+      "tip_zh": "颜色词作定语时一般放在名词后并保持性、数一致；说「X 配 Y」用 X مَعَ Y（X 与 Y）。"
+    }
+  ],
+  "exercises": [
+    {
+      "title_zh": "练习一 · 对话翻译",
+      "prompt_zh": "把下列中文句子译成黎凡特口语（可用阿拉伯文或罗马音），参考本单元对话。",
+      "items": [
+        {"q_zh": "劳驾，我想给我妈妈买一条围巾和一枚银戒指。", "answer_ar": "إِذَا سَمَحْتَ، بِدِّي أَشْتَرِي شَالًا وَخَاتَمًا فِضَّةً لِأُمِّي.", "answer_zh": "idha samaHt, biddi ?ashtari shaal w xaatim fiDDah la ummi"},
+        {"q_zh": "两样一共六十五第纳尔，就只为给你这个价。", "answer_ar": "الِاثْنَيْنِ بِخَمْسِةٍ وَسِتِّينَ دِينَارًا، عَلَشَانَكَ بَسُّ.", "answer_zh": "iliththneyn bi xamsih w sittiin diinaar, 3alashaanak bass"},
+        {"q_zh": "还是太贵了，我身上最多只有五十五。", "answer_ar": "لِسَّا كْتِيرٌ غَالِي، أَنَا أَكْثَرُ مِنْ خَمْسِةٍ وَخَمْسِينَ مَا مَعِي.", "answer_zh": "lissa kthiir ghaali, ana akthar min xamsih w xamsiin maa ma3i"}
+      ]
+    },
+    {
+      "title_zh": "练习二 · 词语搭配造句",
+      "prompt_zh": "用本单元词汇把下列中文句子写成黎凡特口语。",
+      "items": [
+        {"q_zh": "我想明天买一条裤子。", "answer_ar": "بِدِّي أَشْتَرِي بَنْطَلُونًا بُكْرَةَ.", "answer_zh": "biddi ?ashtari banTaloon bukrah"},
+        {"q_zh": "这个绣花的围巾很好看。", "answer_ar": "هَذَا الشَّالُ الْمُزَرْكَشُ حِلُوُ.", "answer_zh": "haada ishshaal ilmzarkash Hilu"},
+        {"q_zh": "我有一件百分之百纯棉的衬衫。", "answer_ar": "عِنْدِي قَمِيصُ قُطْنٍ مِائَةُ بِالْمِائَةِ.", "answer_zh": "3indi gamiiS guTun miiyih bilmiiyih"}
+      ]
+    },
+    {
+      "title_zh": "练习三 · 改为命令句",
+      "prompt_zh": "仿照示例，把下列句子改成第二人称命令句。",
+      "items": [
+        {"q_zh": "عُمَرُ اشْتَرَى كِتَابًا.（奥马尔买了一本书。）", "answer_ar": "اِشْتَرِ كِتَابًا يَا عُمَرُ.", "answer_zh": "ishtari ktaab, ya 3umar"},
+        {"q_zh": "لَيْلَى رَأَتْ فِيلْمًا جَدِيدًا.（莱拉看了一部新电影。）", "answer_ar": "اُشُوفِي فِيلْمًا جَدِيدًا يَا لَيْلَى.", "answer_zh": "shuufi film jdiid, ya leyla"},
+        {"q_zh": "تُومُ لَعِبَ رِيَاضَةً.（图姆做了运动。）", "answer_ar": "اِلْعَبْ رِيَاضَةً يَا تُومُ.", "answer_zh": "il3ab riyaaDah ya toom"}
+      ]
+    },
+    {
+      "title_zh": "练习四 · 动词否定",
+      "prompt_zh": "用恰当的否定形式改写下列句子。",
+      "items": [
+        {"q_zh": "هَذَا خَاتَمُ فِضَّةٍ أَصْلِيٍّ.（这是正品银戒指。）", "answer_ar": "هَذَا خَاتَمُ فِضَّةٍ مِش أَصْلِيٍّ.", "answer_zh": "haada xaatim fiDDah mish ?aSli"},
+        {"q_zh": "أَنَا بَحِبُّ اللَّوْنَ الْأَخْضَرَ.（我喜欢绿色。）", "answer_ar": "مَا بَحِبُّ اللَّوْنَ الْأَخْضَرَ.", "answer_zh": "maa baHib illoon ilaxDar"},
+        {"q_zh": "بُكْرَةَ رَحْ أَدْرُسُ عَشْرَ سَاعَاتٍ.（明天我要学十小时。）", "answer_ar": "بُكْرَةَ مَا رَحْ أَدْرُسُ عَشْرَ سَاعَاتٍ.", "answer_zh": "bukrah maa raH ?adrus 3ashr saa3aat"}
+      ]
+    },
+    {
+      "title_zh": "练习五 · 用否定作答",
+      "prompt_zh": "针对下列每句话，写出一个完整的否定回答。",
+      "items": [
+        {"q_zh": "هَذَا الْبَنْطَلُونُ بِأَرْبَعِينَ دِينَارًا.（这条裤子四十第纳尔。）", "answer_ar": "لَا، هَذَا الْبَنْطَلُونُ مِش بِأَرْبَعِينَ دِينَارًا.", "answer_zh": "laa, haada ilbanTaloon mish bi arb3iin diinaar"},
+        {"q_zh": "الْجَوُّ كُوَيِّسٌ الْيَوْمَ？（今天天气好吗？）", "answer_ar": "لَا، مُوّ كُوَيِّسٌ الْجَوُّ الْيَوْمَ.", "answer_zh": "laa, muu kwayyis iljaw ilyoom"},
+        {"q_zh": "اِشْرَبْ شَايًا أَيْضًا.（再喝杯茶。）", "answer_ar": "مَا تَشْرَبْ شَايًا أَيْضًا.", "answer_zh": "maa tishrab shay kamaan"}
+      ]
+    },
+    {
+      "title_zh": "练习六 · 因果翻译",
+      "prompt_zh": "用 عَلَشَان（因为／为了）等因果表达，把下列句子译成黎凡特口语。",
+      "items": [
+        {"q_zh": "我得去安曼听一场讲座。", "answer_ar": "لَازِمُ أَرُوحَ عَلَى عَمَّانَ عَلَشَانَ الْمُحَاضَرَةِ.", "answer_zh": "laazim ?aruuH 3ala 3ammaan 3ashan ilmuHaaDarah"},
+        {"q_zh": "因为茶不好，我没喝。", "answer_ar": "مَا شَرِبْتُ شَايًا لَأَنَّهُ مَا كَانَ كُوَيِّسًا.", "answer_zh": "maa shribit shay la?innuh maa kaan kwayyis"},
+        {"q_zh": "我必须回英国看我妈妈。", "answer_ar": "لَازِمُ أَرْجَعَ عَلَى إِنْكِلْتَرَا عَلَشَانَ أَشُوفَ أُمِّي.", "answer_zh": "laazim ?arja3 3ala ingiltra 3ashan ashuuf ummi"}
+      ]
+    }
+  ],
+  "letters": [],
+  "summary_zh": "本单元你走进了黎凡特集市：学会了用 أَشْتَرِي（买）、بَدَوِّر عَلَى（寻找）、بَلْبِس（穿）等动词购物，并能用颜色与款式词（سَادَة、مُزَرْكَش、مُقَلَّم、أَحْمَر、أَزْرَق 等）描述围巾、戒指、裤子和衬衫。语法上你掌握了命令句的构成、动词在过去／现在／将来三种时态下的否定（maa / mish + raH），以及用 عَلَشَان 表达原因与目的。讨价还价时，بِكَمّ（多少钱）、عَلَشَانَكَ بَسُّ（就为你这价）、رَاعِينَا（给优惠）等表达都很实用。文化上请记住：集市里适度还价是被期待的社交行为，对店主保持尊重、即便没成交也道声谢才是得体之举。"
+}
