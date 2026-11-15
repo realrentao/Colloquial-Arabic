@@ -48,7 +48,7 @@ window.LIBRARY = {
       stats: [
         { label: "正课单元", value: "13" },
         { label: "情景对话", value: "420" },
-        { label: "词条", value: "731" },
+        { label: "词条", value: "763" },
         { label: "练习题", value: "370" }
       ],
       level: "第 02 册 · 已接入"
