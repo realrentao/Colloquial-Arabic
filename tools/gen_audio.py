@@ -73,7 +73,9 @@ async def main():
     print("汇总 | 新生成 %d | 跳过 %d | 失败 %d | 耗时 %.0fs" %
           (ok, skip, fail, time.time() - t0), flush=True)
 
-    mp = {}
+    # 本脚本只重建埃及册的音频键；共享清单里黎凡特册的键（含 |lev: 前缀）必须保留，
+    # 否则重跑第 01 册配音会把第 02 册的 2574 条映射整份抹掉。
+    mp = {k: v for k, v in (A.read_map() or {}).items() if "|lev:" in k}
     for status, rel, key, text in results:
         if status in ("ok", "skip"):
             mp[A.map_key(text, key)] = rel

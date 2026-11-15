@@ -29,7 +29,7 @@ window.LIBRARY = {
       stats: [
         { label: "正课单元", value: "15" },
         { label: "情景对话", value: "32" },
-        { label: "词条", value: "783" },
+        { label: "词条", value: "852" },
         { label: "练习题", value: "661" }
       ],
       level: "第 01 册 · 已接入"
