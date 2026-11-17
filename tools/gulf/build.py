@@ -357,14 +357,12 @@ def build_book_index():
         for k, t, d, h in resources)
 
     hero = """<section class="hero">
-  <p class="eyebrow">教材 03 / 已接入 · 海湾方言</p>
   <h1>《海湾口语》</h1>
   <div class="hero-ar playable" dir="rtl" lang="ar"{pa}>{ar}</div>
   <div class="hero-meta"><span class="hero-chip">21 个单元</span><span class="hero-chip">零起点 → B1</span><span class="hero-chip">带元音阿拉伯文</span><span class="hero-chip">中文精讲</span><span class="hero-chip">海湾六国男女声配音</span></div>
 </section>""".format(ar=esc(BOOK_INFO["title_ar"]), pa=pa(BOOK_INFO["title_ar"]))
 
     body = back_strip("教材首页") + hero
-    body += """<div class="note-band" style="margin-top:22px"><strong>本册在学习站中的位置：</strong>《海湾口语》是总导航页中的<strong>第 03 册</strong>，与第 01 册《埃及口语》、第 02 册《黎凡特口语》并列，同属本学习站已接入教材；总导航页还预留了若干同层级的空白教材位。<strong>任一单册都不等于学习站的全部内容</strong>。任何时候点击页顶「返回总导航」即可回到教材选择层，切换到另一册。</div>"""
 
     body += """<section class="section"><div class="section-head"><h2>教材信息</h2><span class="hint">依据原书版权页与前言</span></div>
 <div class="info-grid">
