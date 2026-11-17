@@ -26,7 +26,7 @@
     {"ar": "حَلّ", "zh": "解决办法（动词名词）", "roman": "Hall"},
     {"ar": "ذِكْر", "zh": "记念、记起（动词名词）", "roman": "dhikr"},
     {"ar": "طَيْح", "zh": "坠落（动词名词）", "roman": "TayH"},
-    {"ar": "حَچِي", "zh": "谈话（动词名词）", "roman": "Háchi"},
+    {"ar": "حَشِي", "zh": "谈话（动词名词）", "roman": "Háchi"},
     {"ar": "حُبّ", "zh": "爱（动词名词）", "roman": "Hubb"},
     {"ar": "طَبْخَة", "zh": "一道菜（一次烹饪的实例）", "roman": "Tábxa"},
     {"ar": "ضَرْبَة", "zh": "一击（一次击打的实例）", "roman": "Dárba"},
@@ -89,8 +89,8 @@
     {"ar": "دَرِيشَة", "zh": "窗户", "roman": "daríisha"},
     {"ar": "مِسْمَار", "zh": "钉子（单数）", "roman": "mismáar"},
     {"ar": "مَسَامِير", "zh": "钉子（复数）", "roman": "masaamíir"},
-    {"ar": "چِلَّاب", "zh": "钩子（单数）", "roman": "chilláab"},
-    {"ar": "چِلَالِيب", "zh": "钩子（复数）", "roman": "chilaalíib"},
+    {"ar": "شِلَّاب", "zh": "钩子（单数）", "roman": "chilláab"},
+    {"ar": "شِلَالِيب", "zh": "钩子（复数）", "roman": "chilaalíib"},
     {"ar": "سِبَاحَة", "zh": "游泳（动词名词）", "roman": "sibáaHa"},
     {"ar": "سَائِق", "zh": "司机（单数）", "roman": "sáayig"},
     {"ar": "سُوَّاق", "zh": "司机（复数）", "roman": "suwwáag"}
@@ -114,7 +114,7 @@
       "body_zh": "阿拉伯语表达「只、仅仅」用 maa … ílla（直译「不是……除非」，近似法语 ne … que）：maa 9aTáani ílla diinaaráyn「他只给了我两个第纳尔」。表达「既不……也不……」有两种常用结构。其一是 maa … wa la …，多用于否定同一主语的两个动词，相当于英语 neither … nor；它也能同半动词 fii、mish、9ind- 连用，还能用 maa 否定动词、用 la 否定名词。其二是 la … la …，多用于否定名词、代词和形容词（一般不否定动词），但在强烈反驳时也可否定动词，例如「他们哪儿也没去，什么也没学到」。注意 maa mish ílla háadha 意为「仅此而已」。",
       "examples": [
         {"ar": "مَا أَعْطَانِي إِلَّا دِينَارَيْنِ.", "zh": "他只给了我两个第纳尔。", "roman": "maa 9aTáani ílla diinaaráyn."},
-        {"ar": "مَا قُلْتُ إِلَّا چَمًّا مِنَ الْكَلِمَاتِ.", "zh": "我只说了几句话。", "roman": "maa gilt ílla cham min kalimáat."},
+        {"ar": "مَا قُلْتُ إِلَّا شَمًّا مِنَ الْكَلِمَاتِ.", "zh": "我只说了几句话。", "roman": "maa gilt ílla cham min kalimáat."},
         {"ar": "مَا شِفْتُهُ وَلَا حَاجَّيْتُهُ.", "zh": "我既没看见他，也没同他说话。", "roman": "maa shíftah wa la Haacháytah."},
         {"ar": "مَا فِيهِ أَكْلٌ وَلَا مَاءٌ.", "zh": "既没有吃的，也没有喝的。", "roman": "maa fii ákil wa la maay."},
         {"ar": "لَا عَيْبَ وَلَا حَرَامَ!", "zh": "既不丢人，也不犯禁！", "roman": "la 9ayb wa la Haráam!"},
@@ -172,7 +172,7 @@
       "title_zh": "练习二 · 用聚合否定翻译（15.2）",
       "prompt_zh": "用 maa…illa、maa…wa la、la…la 等聚合否定结构把句子译成阿拉伯语。",
       "items": [
-        {"q_zh": "他只听到所说内容的一小部分。", "answer_ar": "مَا سَمِعَ إِلَّا قَلِيلًا مِنَ الْحَچِي.", "answer_zh": "maa…illa 表「只」。", "roman": "maa síma9 illa galíil min il-Háchi."},
+        {"q_zh": "他只听到所说内容的一小部分。", "answer_ar": "مَا سَمِعَ إِلَّا قَلِيلًا مِنَ الْحَشِي.", "answer_zh": "maa…illa 表「只」。", "roman": "maa síma9 illa galíil min il-Háchi."},
         {"q_zh": "车灯和电池都没修好。", "answer_ar": "لَا لَيْتَاتُ السَّيَّارَةِ وَلَا الْبِطْرِيَّةُ مَصَلَّحَةٌ.", "answer_zh": "la…la 否定两个名词性主语。", "roman": "la laytáat is-sayyáara wa la l-bítri máalha mSállaHa."},
         {"q_zh": "他既没鼓励我们，也没帮助我们。", "answer_ar": "مَا أَعْطَانَا تَشْجِيعًا وَلَا مُسَاعَدَةً.", "answer_zh": "maa…wa la 否定两个动词名词宾语。", "roman": "maa 9aTáana tashjíi9 wa la musáa9ada."},
         {"q_zh": "你不会做饭，又不想学——我要炒你鱿鱼！", "answer_ar": "مَا تَعْرِفُ تَطْبَخُ وَلَا تَبِّي تَتَعَلَّمُ: بَفَنِّشِك!", "answer_zh": "maa…wa la 并列否定两个动词。", "roman": "maa t9arf tíTbax wa la tábbi tit9állam: bafánnishik!"},
@@ -195,7 +195,7 @@
         {"q_zh": "他不会帮你的，你自己帮自己吧！（对女性）", "answer_ar": "مَا بَيُسَاعِدُكِ هَذَا؛ سَاعِدْ رُوحَكِ!", "answer_zh": "ruuHak＋动词作反身宾语。", "roman": "maa biysáa9dik háadha; sáa9id rúuHik!"},
         {"q_zh": "她问了我同样的问题——我给了她同样的答案。", "answer_ar": "سَأَلَتْنِي نَفْسَ السُّؤَالِ – أَعْطَيْتُهَا نَفْسَ الْجَوَابِ.", "answer_zh": "nafs 表「同样的」。", "roman": "siʼlátni nafs is-suʼáal – 9aTáytha nafs il-jawáab."},
         {"q_zh": "你的事和我的事一样。（对女性）", "answer_ar": "شُغْلُكِ نَفْسُ شُغْلِي.", "answer_zh": "nafs 连接两个名词表「相同」。", "roman": "shúghlik nafs shúghli (or shúghlatik nafs shúghlati)."},
-        {"q_zh": "我没把东西全放在同一处：钉子单独放盒里，钩子单独放袋里。", "answer_ar": "مَا وَدَّيْتُ السَّامَانَ كُلَّهُ فِي نَفْسِ الْمُكَانِ؛ وَدَّيْتُ الْمَسَامِيرَ فِي صَنْدُوقٍ بِرُوحِهَا وَالْچِلَالِيبَ فِي چِيسٍ بِرُوحِهَا.", "answer_zh": "bruuHha 在此表「分别地」。", "roman": "maa waddáyt is-saamáan kíllah fi nafs il-mukáan; waddáyt il-masaamíir fi Sandúug brúuHhum wil-chilaalíib fi chiis brúuHhum."},
+        {"q_zh": "我没把东西全放在同一处：钉子单独放盒里，钩子单独放袋里。", "answer_ar": "مَا وَدَّيْتُ السَّامَانَ كُلَّهُ فِي نَفْسِ الْمُكَانِ؛ وَدَّيْتُ الْمَسَامِيرَ فِي صَنْدُوقٍ بِرُوحِهَا وَالْشِلَالِيبَ فِي شِيسٍ بِرُوحِهَا.", "answer_zh": "bruuHha 在此表「分别地」。", "roman": "maa waddáyt is-saamáan kíllah fi nafs il-mukáan; waddáyt il-masaamíir fi Sandúug brúuHhum wil-chilaalíib fi chiis brúuHhum."},
         {"q_zh": "我没开窗——它自己开了。", "answer_ar": "مَا بَطَّلْتُ الدَّرِيشَةَ – تَبَطَّلَتْ بِرُوحِهَا.", "answer_zh": "bruuHha 表「自行」。", "roman": "maa baTTált id-daríisha – tibáTTalat brúuHha."},
         {"q_zh": "这正是那位老妇人进去过的房子。", "answer_ar": "هَذَا نَفْسُ الْبَيْتِ الَّذِي دَشَّتَهُ الْعَجُوزُ.", "answer_zh": "nafs 表「正是同一个」。", "roman": "háadha nafs il-bayt illi dáshshatah l-9ajúuz."},
         {"q_zh": "被偷的钱包和这个一样。", "answer_ar": "الْمِحْفَظَةُ الْمَبْيُوعَةُ نَفْسُ هَاذِي.", "answer_zh": "nafs 后接指示代词表「与……相同」。", "roman": "il-míHfaDHa l-mabyúuga nafs háadhi."},
@@ -207,7 +207,7 @@
       "prompt_zh": "阅读海湾人谈斋戒益处的短文，把句子译成中文，并找出其中的动词名词。",
       "items": [
         {"q_zh": "短文把身体比作什么？", "answer_ar": "الْجِسْمُ مِثْلُ مُحَرِّكِ السَّيَّارَةِ.", "answer_zh": "把身体比作汽车发动机，需要定期保养、检查、清洁和调校，否则两三年内就会损坏。", "roman": "il-jísim míthil il-áala maal sayyáara."},
-        {"q_zh": "找出短文里的动词名词并说明出处。", "answer_ar": "صَوْمٌ، فَائِدَةٌ، خِدْمَةٌ، تَشْيِيكٌ، تَنْظِيفٌ، تَعْدِيلٌ، أَمْرَاضٌ، أَكْلٌ.", "answer_zh": "分别来自 صَامَ、فَادَ、خَدَمَ、چَيَّك、نَظَّفَ、عَدَّلَ、مَرِضَ、أَكَلَ。", "roman": "Soom, fáyda, xídma, tachyíik, tanDHíif, ta9díil, amráaD, ákil."},
+        {"q_zh": "找出短文里的动词名词并说明出处。", "answer_ar": "صَوْمٌ، فَائِدَةٌ، خِدْمَةٌ، تَشْيِيكٌ، تَنْظِيفٌ، تَعْدِيلٌ، أَمْرَاضٌ، أَكْلٌ.", "answer_zh": "分别来自 صَامَ、فَادَ、خَدَمَ、شَيَّك、نَظَّفَ、عَدَّلَ、مَرِضَ、أَكَلَ。", "roman": "Soom, fáyda, xídma, tachyíik, tanDHíif, ta9díil, amráaD, ákil."},
         {"q_zh": "短文末尾说疾病增多的主要原因是什么？", "answer_ar": "مِنَ الْأَكْلِ الزَّائِدِ.", "answer_zh": "因为吃得过多（过量饮食）。", "roman": "min il-ákil iz-záayid …"}
       ]
     },

@@ -49,7 +49,7 @@
       "lines": [
         {"speaker_zh": "哈桑", "ar": "يَا هَلًا يَا هَلًا أَبُو خَلِيلٍ! الْحَمْدُ لِلَّهِ عَلَى سَلَامَتِكَ!", "zh": "你好，你好，阿布哈利勒！欢迎你平安归来！", "roman": "yaa hála yaa hála ábu xalíil! il-Hámdu lilláah 9ala saláamtik!"},
         {"speaker_zh": "阿布哈利勒", "ar": "اللهُ يُسَلِّمُكَ يَا حَسَّانُ.", "zh": "愿真主保佑你，哈桑。", "roman": "állah yisálmik yaa Hássan."},
-        {"speaker_zh": "哈桑", "ar": "چَيْفَ كَانَتِ الرِّحْلَةُ؟ رِحْتَ بِالطَّيَّارَةِ، لَا؟", "zh": "旅途怎么样？你是坐飞机去的，是吗？", "roman": "chayf káanat ir-ríHla? riHt biT-Tayyáara, la?"},
+        {"speaker_zh": "哈桑", "ar": "شَيْفَ كَانَتِ الرِّحْلَةُ؟ رِحْتَ بِالطَّيَّارَةِ، لَا؟", "zh": "旅途怎么样？你是坐飞机去的，是吗？", "roman": "chayf káanat ir-ríHla? riHt biT-Tayyáara, la?"},
         {"speaker_zh": "阿布哈利勒", "ar": "أَيْ نَعَمْ. كَانَتْ جَمِيلَةً جِدًّا. وَصَلْتُ الْكُوَيْتَ فِي السَّاعَةِ الثَّالِثَةِ بَعْدَ الْعَصْرِ وَرِحْتُ مُبَاشَرَةً مِنَ الْمَطَارِ إِلَى السَّالِمِيَّةِ.", "zh": "是的，好极了。我下午三点到达科威特，然后直接从机场去了萨勒米耶。", "roman": "ay ná9am. kíllish záyna káanat. wuSált il-kuwáyt fis-sáa9a thaláatha il-9áSir u riHt síida min il-maTáar ila s-saalmíyya."},
         {"speaker_zh": "哈桑", "ar": "هَلْ أَهْلُكَ سَاكِنُونَ هُنَاكَ؟", "zh": "你的家人住在那儿吗？", "roman": "hálik saakníin hunáak?"},
         {"speaker_zh": "阿布哈利勒", "ar": "نَعَمْ. فِي الْأَيَّامِ الْغَابِرَةِ كَانَ عِنْدَهُمْ بَيْتٌ عَتِيجٌ فِي السُّوقِ وَلَكِنَّهُمْ بَاعُوهُ وَأَخَذُوا بَيْتًا جَدِيدًا بِالْإِيجَارِ السَّنَةَ الْمَاضِيَةَ. إِنَّهُ بَيْتٌ حَلُوٌّ وَاللَّهِ، فِيهِ حَوْشٌ دَاخِلِيٌّ بِهِ شَجَرٌ، وَفِيهِ حَوْشٌ بَرَّانِيٌّ كُلُّهُ زُهُورٌ.", "zh": "是的。早年间他们在市场有一所老房子，后来卖了，去年租了一所新房子。那房子可真漂亮，里面有个种着树的内院，还有个满是鲜花的外院。", "roman": "ay. ayyáam zamáan kaan 9índahum bayt 9atíij fis-suug bas baa9óoh u ʼáxadhaw bayt jadíid bil-ʼajáar issána l-máaDya. bayt Hálu wállah lih Hoosh dáaxili fiih shájar u fiih Hoosh barráani kíllah zuhúur."},
@@ -108,7 +108,7 @@
     {"ar": "بِصُعُوبَةٍ", "zh": "困难地", "roman": "bi-Su9úuba", "note_zh": "方式状语"},
     {"ar": "مَاشِيًا", "zh": "步行地", "roman": "máshi", "note_zh": "raaH máshi 步行去"},
     {"ar": "زِتَاتًا", "zh": "迅速地", "roman": "zitáat", "note_zh": "单词式方式状语"},
-    {"ar": "چِذِي", "zh": "像这样", "roman": "chidhíi", "note_zh": "单词式方式状语"},
+    {"ar": "شِذِي", "zh": "像这样", "roman": "chidhíi", "note_zh": "单词式方式状语"},
     {"ar": "شَاطِرٌ", "zh": "聪明的；能干的", "roman": "sháaTir", "note_zh": "阳性；阴性 sháaTira"},
     {"ar": "مَحْظُوظٌ", "zh": "幸运的", "roman": "maHDHúuDH", "note_zh": "阳性；阴性 maHDHúuDHa"},
     {"ar": "مَرِيضٌ", "zh": "生病的（阳性）", "roman": "maríiD", "note_zh": "阳性形式，单独成条"},
@@ -198,7 +198,7 @@
         {"ar": "كَتَبَ بِصُعُوبَةٍ", "zh": "他写得很费劲。", "roman": "bi-Su9úuba"},
         {"ar": "رَاحَ مَاشِيًا", "zh": "他步行去了。", "roman": "raaH máshi."},
         {"ar": "شَالَهَا زِتَاتًا", "zh": "他迅速把它拿开了。", "roman": "sháalha zitáat."},
-        {"ar": "ضَرَبَنِي چِذِي", "zh": "他像这样打了我。", "roman": "Darábni chidhíi."}
+        {"ar": "ضَرَبَنِي شِذِي", "zh": "他像这样打了我。", "roman": "Darábni chidhíi."}
       ],
       "tip_zh": "交通方式短语里 fi 可以代替 bi（如 fis-sayyáara）；但 súr9a、suhúula 一类抽象名词短语前面用 bi，且不带冠词。"
     },

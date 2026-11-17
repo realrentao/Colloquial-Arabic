@@ -383,7 +383,7 @@ def build_book_index():
 <span class="path-node">④ 单元内：对话 → 词汇 → 语法 → 练习</span><span class="path-arrow">→</span>
 <span class="path-node">⑤ 返回教材首页 / 总导航</span></div>
 <p style="font-size:13.5px;color:var(--ink-2);margin:14px 0 0">建议顺序：先读「发音与转写规则」与「阿拉伯字母表」，再按单元编号循序渐进；本书 21 个单元含 19 个正课与 2 个复习单元（第 11、17 单元）。每单元页顶部有模块导航，底部有上一单元／下一单元与返回入口。特别注意本书转写体系与前两册不同：{note}</p></div></section>""".format(
-        r=REL, note="9=ع、x=خ、j=ج、g=ق（口语读 g）、ch=چ、DH=ظ；重音写在元音上标，海湾特有短元音 o。")
+        r=REL, note="9=ع、x=خ、j=ج、g=ق（口语读 g）、ch=ش、DH=ظ；重音写在元音上标，海湾特有短元音 o。")
 
     body += """<section class="section" id="toc"><div class="section-head"><h2>单元目录</h2><span class="hint">已学 <strong id="progress-count">0</strong> / 21 单元 · 进度仅保存在本机浏览器</span></div>
 <div style="height:6px;background:var(--line-2);border-radius:4px;overflow:hidden;margin-bottom:18px"><div id="progress-bar" style="height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--gold));transition:width .3s"></div></div>
