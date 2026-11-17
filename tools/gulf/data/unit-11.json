@@ -1,0 +1,326 @@
+{
+  "id": 11,
+  "slug": "unit-11",
+  "title_ar": "مُرَاجَعَةٌ ٢",
+  "title_zh": "复习二",
+  "title_roman": "murája9at II",
+  "subtitle_zh": "数字辨析、比较句、点餐与送礼表达综合复习",
+  "level_zh": "初级 · 复习",
+  "goals": [
+    "复习数量提问与数字表达，重点辨析个位数和十位数（如 sítta 六 / sittíin 六十）",
+    "掌握比较句 hast áf9al min ...（比……更……）与 9úmri maa ...（生平从未）",
+    "巩固 limán ...?「给谁」句型，以及餐厅点餐、送礼的常用词汇"
+  ],
+  "is_review": true,
+  "cultural_point": {
+    "title_zh": "复习提示：餐桌上的海湾味道",
+    "body_zh": "本单元的餐厅对话把海湾本土菜与黎巴嫩风味摆在一张桌上：烤鸡、羊肉配酸奶、沙威玛是海湾待客的常见菜，而鹰嘴豆泥、酿茄子、炒扁豆则属于更清爽的黎巴嫩菜。借着服务员上错菜的小误会，对话把数字、比较句和委婉纠错的说法自然地串了起来。",
+    "tip_zh": "复习时按「点餐—上菜—发现出错—道歉澄清」这条线索串起来记忆，比孤立背单词更扎实。"
+  },
+  "dialogues": [
+    {
+      "title_zh": "在餐厅",
+      "title_ar": "فِي الْمَطْعَم",
+      "context_zh": "穆巴拉克和贾西姆在餐厅点餐，想来点清淡的黎巴嫩菜，服务员却端来了别桌的海湾菜。两人核对桌号和点菜单，才发现服务员把数字「六」看成了「十六」。",
+      "lines": [
+        {
+          "speaker_zh": "穆巴拉克",
+          "ar": "زَيْن، شِينْهُو عِنْدَكُمْ زَيْن، يَعْنِي؟ مُب وَايِد يُوَاعِعُ إِيَّانَا.",
+          "zh": "好，那你们这儿有什么好吃的？我们不太饿。",
+          "roman": "zayn, shínhu 9índakum zayn, yá9ni? mub wáayid yuwáa9a íHna."
+        },
+        {
+          "speaker_zh": "服务员",
+          "ar": "كُلُّ شَيْءٍ عِنْدَنَا. فِيهِ مَثَلًا دِيَايٌ مَشْوِيٌّ، وَفِيهِ عَيْشٌ وَسِمِيچٌ ... فِيهِ عِنْدَنَا لَحْمُ خَرُوفٍ بِرُوبَةٍ، وَفِيهِ بَعْضُ شُوَرْمَةٍ.",
+          "zh": "我们什么都有……比如烤鸡，还有米饭和鱼……我们有酸奶羊肉，还有一些沙威玛。",
+          "roman": "kill shay 9índana. fii máthalan diyáay máshwi, u fii 9aysh u símich … fii 9índana láHam xarúuf bi róoba, u fii bá9ad shuwárma."
+        },
+        {
+          "speaker_zh": "穆巴拉克",
+          "ar": "لَا لَا يَا سَيِّدِي، الطَّبْخَاتُ ذِي كُلُّهَا مَالُ الْخَلِيجِ. شُوَيَّةٌ ثَقِيلَةٌ يَعْنِي. مَا فِيهِ عِنْدَكُمْ حُمُّصٌ بِطَحِينَةٍ وَبَيْلِنْجَانٌ مَحْشِيٌّ وَمُجَدَّرَةٌ ... أَكْلَاتٌ خَفِيفَةٌ لُبْنَانِيَّةٌ يَعْنِي؟ مُب يُوَاعِعُ لِهَلْ قَدٍّ، يَعْنِي.",
+          "zh": "不不，先生，这些菜全是海湾风味，有点重。你们没有鹰嘴豆泥、酿茄子、炒扁豆吗……我是说清爽的黎巴嫩菜？不太合我们的口味，真的。",
+          "roman": "la la yaa sáyyidi, iT-Tabxáat dhi kíllaha maal il-xalíij. shway thagíila ya9ni. maa fii 9índakum HúmmuS bi TaHíina u baylinjáan máHshi u mujáddara … akláat xafíifa lubnaaníyya yá9ni? mub yuwáa9a li hal-gadd, yá9ni."
+        },
+        {
+          "speaker_zh": "服务员",
+          "ar": "بَلَى فِيهِ أَكْلٌ لُبْنَانِيٌّ عَلَى كَيْفِكَ!",
+          "zh": "有的！黎巴嫩菜随您点，想吃什么都有！",
+          "roman": "balá fii ákil lubnáani 9ala káyfik!"
+        },
+        {
+          "speaker_zh": "穆巴拉克",
+          "ar": "نْزَيْن، جِيبْ لِينَا صَحْنَ مُجَدَّرَةٍ كَبِيرَةٍ وَحُمُّصًا وَ... مَزَّةٌ كَامِلَةٌ، يَعْنِي.",
+          "zh": "那好，给我们来一大盘炒扁豆、鹰嘴豆泥，还有……一整套开胃菜吧。",
+          "roman": "nzayn, jiib lína SáHnat mujáddara kabíira u HúmmuS u … mázza káamla, yá9ni."
+        },
+        {
+          "speaker_zh": "服务员",
+          "ar": "إِنْ شَاءَ اللهُ.",
+          "zh": "好的，遵命。",
+          "roman": "insháallah."
+        },
+        {
+          "speaker_zh": "贾西姆",
+          "ar": "وَيْنَ الْقَارْسُونُ؟",
+          "zh": "服务员在哪儿？",
+          "roman": "wayn il-gaarsóon?"
+        },
+        {
+          "speaker_zh": "穆巴拉克",
+          "ar": "كَاهُو يَايٍّ!",
+          "zh": "他来了！",
+          "roman": "káhu yaay!"
+        },
+        {
+          "speaker_zh": "服务员",
+          "ar": "زَيْن، هَاذِي صَحْنَاتَانِ دِيَايٍّ وَهَاذَا هُوَ الْعَيْشُ وَالسِّمِيچُ الِّلِي طَلَبْتُوهُ.",
+          "zh": "好，这是两份鸡肉，这是你们点的米饭和鱼……",
+          "roman": "zayn, háadhi SaHnatáyn diyáay u háadha hu l-9aysh u s-símich illi Talabtóoh."
+        },
+        {
+          "speaker_zh": "贾西姆",
+          "ar": "لَا لَا هَاذَا خَطَأٌ يَا خُويِّي. الْأَكْلُ مُب حَقُّنَا إِحْنَا! حَقُّ نَاسٍ غَيْرٍ، لَازِمٌ. إِحْنَا طَلَبْنَا مَزَّةً كَامِلَةً، مُب هَالْأَشْيَاءَ الِّلِي جِبْتَهَا!",
+          "zh": "不不，这搞错了，兄弟！这菜不是我们的，一定是别人的。我们点的是整套开胃菜，不是你端来的这些东西！",
+          "roman": "la la háadha xáTaʼ yaa xúuyi. hal-ákil mub Hággna Hna! Hagg naas ghayr, láazim. iHna Talábna mázza káamla, mub hal-áshya íIli jíbtha!"
+        },
+        {
+          "speaker_zh": "服务员",
+          "ar": "لَا لَا هَاذَا الِّلِي جِبْتُهُ عَادِلٌ! طَلَبَاتُكُمْ مَكْتُوبَةٌ عَلَى هَالْوَرَقَةِ! شُوفُوا! «صَحْنَاتَانِ دِيَايٍّ ...».",
+          "zh": "不不，我端来的没错！你们点的都写在这张纸条上了，你们看：「两份鸡肉……」。",
+          "roman": "la la háadha íIli jíbtah 9ádil! Talabáatkum maktúuba 9ala hal-wáraga! shúufu! ʻSaHnatáyn diyáay …ʼ."
+        },
+        {
+          "speaker_zh": "穆巴拉克",
+          "ar": "الطَّاوِلَةُ هَاذِي شُو الرَّقَمُ مَالُهَا؟",
+          "zh": "这张桌子是几号？",
+          "roman": "iT-Táwla háadhi shu r-ráqam máalah?"
+        },
+        {
+          "speaker_zh": "服务员",
+          "ar": "سِتَّةَ عَشَرَ.",
+          "zh": "十六号。",
+          "roman": "sittá9shar."
+        },
+        {
+          "speaker_zh": "穆巴拉克",
+          "ar": "نْزَيْن، شُو الرَّقَمُ الِّلِي كَتَبْتُهُ عَلَى هَالْوَرَقَةِ؟",
+          "zh": "那好，你在这张纸上写的是几号？",
+          "roman": "nzayn, shu r-ráqam illi kitábtah 9ala hal-wáraga?"
+        },
+        {
+          "speaker_zh": "服务员",
+          "ar": "مَكْتُوبٌ «سِتَّةٌ». أُوهُو، عَفْوًا يَا جَمَاعَةُ، أَنَا غَلْطَانٌ، الْأَكْلُ مُو مَالُكُمْ، صَحِيحٌ، مَالُ ذَيْلَاكُمُ السَّعُودِيِّينَ الْقَاعِدِينَ مِنَّاكَ! وَالْمَزَّةُ مَالُكُمْ أَعْطَيْتُهُمْ إِيَّا هَا!",
+          "zh": "写的是「六」。哦！对不起各位，是我弄错了，这菜确实不是你们的，是那边坐着的沙特客人的！而你们的开胃菜，我给他们了！",
+          "roman": "maktúub ʻsíttaʼ. Ohóo, 9áfwan yaa jimáa9a, ána ghalTáan, hal-ákil muu máalkum, SaHíiH, maal dhayláak is-sa9uudiyyíin il-gaa9idíin minnáak! wil-mázza máalkum 9aTáythum iyyáaha!"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {"ar": "آلَةٌ حَاسِبَةٌ", "zh": "计算器", "roman": "áala Háasiba"},
+    {"ar": "آلَةُ تَصْوِيرٍ", "zh": "照相机", "roman": "áalat taSwíir"},
+    {"ar": "بَنْطَلُونٌ", "zh": "长裤（一条裤子）", "roman": "bantalóon"},
+    {"ar": "الْبَرِيدُ الْجَوِّيُّ", "zh": "航空邮件", "roman": "il-baríid il-jáwwi"},
+    {"ar": "بَيْلِنْجَانٌ", "zh": "茄子", "roman": "baylinjáan"},
+    {"ar": "بْلُوزٌ", "zh": "女式衬衫", "roman": "bluus"},
+    {"ar": "بَقَى", "zh": "留下、停留", "roman": "búga"},
+    {"ar": "بُغْشَةٌ", "zh": "信封", "roman": "búghsha"},
+    {"ar": "دَعْوَةٌ", "zh": "邀请", "roman": "dá9wa"},
+    {"ar": "فَرِيقٌ", "zh": "队；乐队（单数）", "roman": "faríiq"},
+    {"ar": "فُرُقٌ", "zh": "队；乐队（复数）", "roman": "fúruq"},
+    {"ar": "قَارْسُونٌ", "zh": "服务员", "roman": "gaarsóon"},
+    {"ar": "قَاعِدٌ", "zh": "坐着的", "roman": "gáa9id"},
+    {"ar": "قَدٌّ", "zh": "程度、分量", "roman": "gadd"},
+    {"ar": "قَفْشَةٌ", "zh": "勺子", "roman": "gáfsha"},
+    {"ar": "غَلَبَ", "zh": "战胜、克服", "roman": "ghálab"},
+    {"ar": "غَلْطَانٌ", "zh": "弄错了的人（阳性）", "roman": "ghalTáan"},
+    {"ar": "غَلْطَانَةٌ", "zh": "弄错了的人（阴性）", "roman": "ghalTáana"},
+    {"ar": "حَدِيثٌ", "zh": "现代的", "roman": "Hadíith"},
+    {"ar": "حُمُّصٌ بِطَحِينَةٍ", "zh": "鹰嘴豆泥配芝麻酱（黎巴嫩风味）", "roman": "HúmmuS bi TaHíina"},
+    {"ar": "جَاكَيْتٌ", "zh": "夹克", "roman": "jakáyt"},
+    {"ar": "جَوَّالٌ", "zh": "手机", "roman": "jawwáal"},
+    {"ar": "جِلْدٌ", "zh": "皮革；皮肤", "roman": "jild"},
+    {"ar": "جِمَاعَةٌ", "zh": "群体、社群", "roman": "jimáa9a"},
+    {"ar": "جِسْرٌ", "zh": "桥；堤道（单数）", "roman": "jísir"},
+    {"ar": "جُسُورٌ", "zh": "桥；堤道（复数）", "roman": "jusúur"},
+    {"ar": "كَهْرَبٌ", "zh": "电", "roman": "káhrab"},
+    {"ar": "كَمْبْيُوتَرٌ", "zh": "电脑", "roman": "kambyúutar"},
+    {"ar": "كِلَّهُ وَاحِدٌ", "zh": "都一样；无所谓", "roman": "kíllah wáaHid"},
+    {"ar": "كْرَافَاتٌ", "zh": "领带", "roman": "kraafáat"},
+    {"ar": "مَأْذَنَةٌ", "zh": "宣礼塔（单数）", "roman": "máʼdhana"},
+    {"ar": "مَآذِنُ", "zh": "宣礼塔（复数）", "roman": "maʼáadhin"},
+    {"ar": "مَحْشِيٌّ", "zh": "酿了馅的", "roman": "máHshi"},
+    {"ar": "مَكْتَبُ الْبَرِيدِ", "zh": "邮局", "roman": "máktab il-baríid"},
+    {"ar": "مَنْ", "zh": "谁", "roman": "man"},
+    {"ar": "مَنْدُوبٌ", "zh": "代表、代理人", "roman": "mandúub"},
+    {"ar": "مَشْوِيٌّ", "zh": "烤的", "roman": "máshwi"},
+    {"ar": "مَزَّةٌ", "zh": "开胃小菜（黎巴嫩式）", "roman": "mázza"},
+    {"ar": "مُجَدَّرَةٌ", "zh": "炒扁豆（扁豆饭）", "roman": "mujáddara"},
+    {"ar": "نَفْنُوفٌ", "zh": "连衣裙（单数）", "roman": "nafnúuf"},
+    {"ar": "نَفَانِيفُ", "zh": "连衣裙（复数）", "roman": "nafaaníif"},
+    {"ar": "رَقَمٌ", "zh": "号码、数字（单数）", "roman": "ráqam"},
+    {"ar": "أَرْقَامٌ", "zh": "号码、数字（复数）", "roman": "arqáam"},
+    {"ar": "رَصِيدٌ", "zh": "收据", "roman": "raSíid"},
+    {"ar": "رَايْدُوٌ", "zh": "收音机", "roman": "ráydo"},
+    {"ar": "رُوبَةٌ", "zh": "酸奶", "roman": "róoba"},
+    {"ar": "سَاحِلٌ", "zh": "海岸、海滩（单数）", "roman": "sáaHil"},
+    {"ar": "سَوَاحِلُ", "zh": "海岸、海滩（复数）", "roman": "sawáaHil"},
+    {"ar": "سِيدِيٌ", "zh": "光盘（CD）", "roman": "siidii"},
+    {"ar": "صَاحٍ", "zh": "清醒的", "roman": "SáaHi"},
+    {"ar": "صَدْرٌ", "zh": "胸", "roman": "Sádir"},
+    {"ar": "صَحْنٌ", "zh": "盘子（单数）", "roman": "SáHan"},
+    {"ar": "صُحُونٌ", "zh": "盘子（复数）", "roman": "SuHúun"},
+    {"ar": "شِكْلُ مَا", "zh": "像……一样（连词）", "roman": "shíkil maa"},
+    {"ar": "شِرَاءٌ", "zh": "买", "roman": "shíra"},
+    {"ar": "شُوفْ!", "zh": "看！（对男性）", "roman": "shuuf!"},
+    {"ar": "شُوفِي!", "zh": "看！（对女性）", "roman": "shúufi!"},
+    {"ar": "شُوفُوا!", "zh": "看！（对大家／复数）", "roman": "shúufu!"},
+    {"ar": "شُوَرْمَةٌ", "zh": "沙威玛（土耳其烤肉）", "roman": "shuwárma"},
+    {"ar": "تَنُّورَةٌ", "zh": "裙子", "roman": "tannúura"},
+    {"ar": "تَعِبَ", "zh": "累了", "roman": "tí9ab"},
+    {"ar": "طَابِعٌ", "zh": "邮票（单数）", "roman": "Táabi9"},
+    {"ar": "طَوَابِعُ", "zh": "邮票（复数）", "roman": "Tawáabi9"},
+    {"ar": "طَبْخَةٌ", "zh": "一道菜、熟菜", "roman": "Tábxa"},
+    {"ar": "طَاوِلَةٌ", "zh": "桌子", "roman": "Táwla"},
+    {"ar": "طُولٌ", "zh": "长度；沿着（介词）", "roman": "Tuul"},
+    {"ar": "أَطْوَالٌ", "zh": "长度（复数）", "roman": "aTwáal"},
+    {"ar": "وَكَالَةٌ", "zh": "代理公司、办事处", "roman": "wakáala"},
+    {"ar": "وَكَالَةُ السَّفَرِيّاتِ", "zh": "旅行社", "roman": "wakáalat is-safariyyáat"},
+    {"ar": "وَرَقَةٌ", "zh": "一张纸（单数）", "roman": "wáraga"},
+    {"ar": "أَوْرَاقٌ", "zh": "纸张（复数）", "roman": "awráag"},
+    {"ar": "وَسْطٌ", "zh": "中心、中间", "roman": "wasT"},
+    {"ar": "أَوْسَاطٌ", "zh": "中心（复数）", "roman": "awsáaT"},
+    {"ar": "وُجَعٌ", "zh": "疼痛（单数）", "roman": "wúja9"},
+    {"ar": "أَوْجَاعٌ", "zh": "疼痛（复数）", "roman": "awjáa9"},
+    {"ar": "خَاتَمٌ", "zh": "戒指（单数）", "roman": "xáatam"},
+    {"ar": "خَوَاتِمُ", "zh": "戒指（复数）", "roman": "xawáatim"},
+    {"ar": "خَرُوفٌ", "zh": "羊羔；羊肉（单数）", "roman": "xarúuf"},
+    {"ar": "خِرْفَانٌ", "zh": "羊羔；羊肉（复数）", "roman": "xirfáan"},
+    {"ar": "خَطَأٌ", "zh": "错误（单数）", "roman": "xáTaʼ"},
+    {"ar": "أَخْطَاءٌ", "zh": "错误（复数）", "roman": "axTáaʼ"},
+    {"ar": "عَادِيٌّ", "zh": "普通的", "roman": "9áadi"},
+    {"ar": "عَادِلٌ", "zh": "正确的、公正的", "roman": "9ádil"},
+    {"ar": "عَفْوًا", "zh": "对不起、请原谅", "roman": "9áfwan"},
+    {"ar": "عُمْرِي مَا ...", "zh": "我一生从未……（后接过去式动词）", "roman": "9úmri + maa + past-tense verb"},
+    {"ar": "كَ...", "zh": "给……的！/ 这是……（递东西时，后接独立代词）", "roman": "ka + indep. pron."},
+    {"ar": "عَلَى كَيْفِ...", "zh": "随……的意；按……想要的（后接后缀代词）", "roman": "9ála kayf + suffix pron."},
+    {"ar": "دِينَارٌ", "zh": "第纳尔（货币单位）", "roman": "diináar"},
+    {"ar": "فُلُوسٌ", "zh": "钱", "roman": "fluus"},
+    {"ar": "دِيَايٌ", "zh": "鸡", "roman": "diyáay"},
+    {"ar": "سِمِيچٌ", "zh": "鱼", "roman": "símich"},
+    {"ar": "عَيْشٌ", "zh": "米饭", "roman": "9aysh"},
+    {"ar": "لَحْمٌ", "zh": "肉", "roman": "láHam"},
+    {"ar": "خَفِيفٌ", "zh": "轻的、清淡的", "roman": "xafíif"},
+    {"ar": "ثَقِيلٌ", "zh": "重的、油腻的", "roman": "thagíil"},
+    {"ar": "لُبْنَانِيَّةٌ", "zh": "黎巴嫩的；黎巴嫩女人", "roman": "lubnaaníyya"},
+    {"ar": "مِصْرِيَّةٌ", "zh": "埃及的；埃及女人", "roman": "miSríyya"},
+    {"ar": "سَعُودِيِّينَ", "zh": "沙特人（复数）", "roman": "sa9uudiyyíin"},
+    {"ar": "فَرَّابٌ", "zh": "勤务员、清洁工", "roman": "farráash"},
+    {"ar": "كَاتِبٌ", "zh": "职员、文书", "roman": "káatib"},
+    {"ar": "ثَلَّاجَةٌ", "zh": "冰箱", "roman": "thalláaja"},
+    {"ar": "نَائِبُ الْمُدِيرِ", "zh": "副主任、副经理", "roman": "náaʼib il-mudíir"},
+    {"ar": "بَرْقِيَّةٌ", "zh": "电报", "roman": "barqíyya"},
+    {"ar": "كَرْتُونٌ", "zh": "纸盒、纸箱", "roman": "kartúun"},
+    {"ar": "جِيجَارَةٌ", "zh": "香烟", "roman": "jigáara"},
+    {"ar": "دَوَاءٌ", "zh": "药", "roman": "dáwa"},
+    {"ar": "قَمِيصٌ", "zh": "衬衫（男式）", "roman": "qamíiS"},
+    {"ar": "سَاعَةٌ", "zh": "手表；小时", "roman": "sáa9a"},
+    {"ar": "بَدْلَةٌ", "zh": "西装", "roman": "bádla"},
+    {"ar": "كِتَابٌ", "zh": "书", "roman": "kitáab"},
+    {"ar": "سَايْكَلٌ", "zh": "自行车", "roman": "sáykal"},
+    {"ar": "قَلَمٌ", "zh": "笔", "roman": "gálam"},
+    {"ar": "جُوتِي", "zh": "鞋（一双鞋）", "roman": "júuti"},
+    {"ar": "أَخُوكَ", "zh": "你的哥哥（对男性说）", "roman": "axúuk"},
+    {"ar": "أَخُوكِ", "zh": "你的哥哥（对女性说）", "roman": "axúuki"}
+  ],
+  "grammar": [
+    {
+      "title_zh": "数字辨析与听错后的纠正",
+      "body_zh": "复习数量提问「cham ... axádht / shiráyt?」（你拿了／买了多少……？），并重点区分个位数与十位数：sítta 是「六」，sittíin 是「六十」，sittá9shar 是「十六」。发现自己被听错时，用 gilt lik ... mub ...（我跟你说的是……不是……）来纠正对方。",
+      "examples": [
+        {"ar": "cham Táabi9 shiráyt? — sítta. — gilt lik sittíin, mub sítta!", "zh": "你买了几张邮票？——六张。——我说的是六十张，不是六张！", "roman": "cham Táabi9 shiráyt? – sítta. – gilt lik sittíin, mub sítta!"},
+        {"ar": "– cham fluus axádht? – arba9íin diináar. – gilt lik árba9a mub arba9íin!", "zh": "——你拿了多少钱？——四十第纳尔。——我说的是四，不是四十！", "roman": "cham fluus axádht? – arba9íin diináar. – gilt lik árba9a mub arba9íin!"}
+      ],
+      "tip_zh": "十位数多以 -íin 结尾；把「cham + 名词 + axádht/shiráyt」当成提问模板，回答时数字与名词要保持单复数一致。"
+    },
+    {
+      "title_zh": "比较句 áf9al min 与感叹 9úmri maa",
+      "body_zh": "复习比较级句型：形容词比较级 + min + 比较对象，常用 hast（有）引出，如 hast ájmal min háadhi（有比这更漂亮的）。常见比较级：jamíil→ájmal、kabíir→ákbar、qadíim→áqdam、Hadíith→áHdath、Tawíil→áTwal、wásix→áwsax。听到夸赞时可用 9úmri maa + 过去式表示「我这辈子从没……」。",
+      "examples": [
+        {"ar": "ay, láakin hast ájmal min háadhi fil-baHrayn.", "zh": "有啊，不过在巴林有比这更漂亮的。", "roman": "ay, láakin hast ájmal min háadhi fil-baHrayn"},
+        {"ar": "wállah? 9úmri maa shíftha!", "zh": "真的吗？我这辈子可从没见过！", "roman": "wállah? 9úmri maa shíftha!"}
+      ],
+      "tip_zh": "比较级后接 min 引出被比较的对象，阴性名词要用对应的阴性形式（如 ájmal / áTwal 修饰阴性主语时动词相配）。"
+    }
+  ],
+  "exercises": [
+    {
+      "title_zh": "练习 RII.1 · 仿写数字纠错对话",
+      "prompt_zh": "根据例句，用下面的提示词仿写小对话，注意区分个位数与十位数，并用 gilt lik ... mub ... 纠正。",
+      "items": [
+        {"q_zh": "例句：邮票 · 买了几张 · 六 / 六十", "answer_ar": "– cham Táabi9 shiráyt? – sítta. – gilt lik sittíin, mub sítta!", "answer_zh": "——你买了几张邮票？——六张。——我说的是六十张，不是六张！", "roman": "cham Táabi9 shiráyt? – sítta. – gilt lik sittíin, mub sítta!"},
+        {"q_zh": "钱 · 拿了 · 四十第纳尔 · 是四不是四十", "answer_ar": "– cham fluus axádht? – arba9íin diináar. – gilt lik árba9a mub arba9íin!", "answer_zh": "——你拿了多少钱？——四十第纳尔。——我说的是四，不是四十！", "roman": "cham fluus axádht? – arba9íin diináar. – gilt lik árba9a mub arba9íin!"},
+        {"q_zh": "盒香烟 · 买了 · 十二盒 · 是两盒不是十二盒", "answer_ar": "– cham kartúun jigáara shiráyt? – ithná9shar kartúun. – gilt lik ithnáyn, mub ithná9shar!", "answer_zh": "——你买了几盒香烟？——十二盒。——我说的是两盒，不是十二盒！", "roman": "cham kartúun jigáara shiráyt? – ithná9shar kartúun. – gilt lik ithnáyn, mub ithná9shar!"},
+        {"q_zh": "天假期 · 休了 · 十五天 · 是五天不是十五天", "answer_ar": "– cham yoom 9úTla axádht? – xamstá9shar yoom. – gilt lik xámsa mub xamstá9shar!", "answer_zh": "——你休了几天假？——十五天。——我说的是五天，不是十五天！", "roman": "cham yoom 9úTla axádht? – xamstá9shar yoom. – gilt lik xámsa mub xamstá9shar!"},
+        {"q_zh": "袋大米 · 买了 · 十六袋 · 是六袋不是十六袋", "answer_ar": "– cham xáyshat 9aysh shiráyt? – sittá9shar xáysha. – gilt lik sitt mub sittá9shar!", "answer_zh": "——你买了几袋大米？——十六袋。——我说的是六袋，不是十六袋！", "roman": "cham xáyshat 9aysh shiráyt? – sittá9shar xáysha. – gilt lik sitt mub sittá9shar!"},
+        {"q_zh": "勺药 · 吃了 · 两勺 · 是四勺不是两勺", "answer_ar": "– cham gáfshat dáwa axádht? – gafshatáyn. – gilt lik árba9 mub thintáyn!", "answer_zh": "——你吃了几勺药？——两勺。——我说的是四勺，不是两勺！", "roman": "cham gáfshat dáwa axádht? – gafshatáyn. – gilt lik árba9 mub thintáyn!"}
+      ]
+    },
+    {
+      "title_zh": "练习 RII.2 · 仿写「给谁」对话",
+      "prompt_zh": "仿照例句，用提示词改写对话；当东西给错了人时，用 limán ...? 提问并纠正。",
+      "items": [
+        {"q_zh": "例句：报告 · 给了总会计师 · 应该是总工程师", "answer_ar": "– limán Tarrásht it-taqríir? – lil-muHáasib ir-raʼíisi. – gilt lik il-muhándis ir-raʼíisi, mub il-muHáasib!", "answer_zh": "——你把报告发给谁了？——发给总会计师了。——我说的是总工程师，不是总会计师！", "roman": "limán Tarrásht it-taqríir? – lil-muHáasib ir-raʼíisi. – gilt lik il-muhándis ir-raʼíisi, mub il-muHáasib!"},
+        {"q_zh": "钱 · 给了勤务员 · 应该是文书", "answer_ar": "– limán 9aTáyt il-fluus? – lil-farráash. – gilt lik il-káatib, mub il-farráash!", "answer_zh": "——你把钱给谁了？——给勤务员了。——我说的是给文书，不是勤务员！", "roman": "limán 9aTáyt il-fluus? – lil-farráash. – gilt lik il-káatib, mub il-farráash!"},
+        {"q_zh": "冰箱 · 卖给了埃及女人 · 应该是黎巴嫩女人", "answer_ar": "– limán bi9t ith-thalláaja? – lil-miSríyya. – gilt lik il-lubnaaníyya, mub il-miSríyya!", "answer_zh": "——你把冰箱卖给谁了？——卖给一个埃及女人了。——我说的是黎巴嫩女人，不是埃及女人！", "roman": "limán bi9t ith-thalláaja? – lil-miSríyya. – gilt lik il-lubnaaníyya, mub il-miSríyya!"},
+        {"q_zh": "消息 · 给了副主任 · 应该是主任本人", "answer_ar": "– limán 9aTáyt il-xábar? – li náaʼib il-mudíir. – gilt lik il-mudíir, mub náaʼibah!", "answer_zh": "——你把消息告诉谁了？——告诉副主任了。——我说的是主任本人，不是他的副手！", "roman": "limán 9aTáyt il-xábar? – li náaʼib il-mudíir. – gilt lik il-mudíir, mub náaʼibah!"},
+        {"q_zh": "电报 · 发给了你在美国的哥哥 · 应该是在英国的哥哥", "answer_ar": "– limán Tarrásht il-barqíyya? – li axúuk ílli fi amríika. – gilt lik li axúuyi ílli fi ingíltara, mub ílli fi amríika!", "answer_zh": "——你把电报发给谁了？——发给你在美国的哥哥了。——我说的是我在英国的哥哥，不是在美国的那个！", "roman": "limán Tarrásht il-barqíyya? – li axúuk ílli fi amríika. – gilt lik li axúuyi~lli fi ingíltara, mub ílli fi amríika!"},
+        {"q_zh": "邀请 · 发给了贸易公司经理 · 应该是旅行社经理", "answer_ar": "– limán Tarrásht id-da9wa? – li raʼíis shárikat it-tijáara. – gilt lik raʼíis wakáalat is-safariyyáat, mub shárikat it-tijáara!", "answer_zh": "——你把邀请发给谁了？——发给贸易公司经理了。——我说的是旅行社经理，不是贸易公司！", "roman": "limán Tarrásht id-da9wa? – li raʼíis shárikat it-tijáara. – gilt lik raʼíis wakáalat is-safariyyáat, mub shárikat it-tijáara!"}
+      ]
+    },
+    {
+      "title_zh": "练习 RII.3 · 重构送礼对话",
+      "prompt_zh": "根据「送给他／送给她」的礼物提示，把对话中的礼物换成相应的词。",
+      "items": [
+        {"q_zh": "例句：送给他皮包 · 他想要新钱包", "answer_ar": "– shiráyt lih jánTa min jild. – háadhi mub il-hádiya ílli bagháaha, Tálab míHfaDHa jadíida. – bas húwwa maa gaal líyyi chidhíi!", "answer_zh": "——我给他买了个皮包。——这不是他想要的礼物，他要的是个新钱包。——可他没这么跟我说啊！", "roman": "shiráyt lih jánTa min jild. – háadhi mub il-hádiya ílli bagháaha, Tálab míHfaDHa jadíida. – bas húwwa maa gaal líyyi chidhíi!"},
+        {"q_zh": "送给他（1）：衬衫 · 领带", "answer_ar": "qamíiS / kraafáat", "answer_zh": "衬衫／领带", "roman": "qamíiS / kraafáat"},
+        {"q_zh": "送给他（2）：手表 · 西装", "answer_ar": "sáa9a / bádla", "answer_zh": "手表／西装", "roman": "sáa9a / bádla"},
+        {"q_zh": "送给他（3）：书 · 光盘", "answer_ar": "kitáab / siidíi", "answer_zh": "书／光盘", "roman": "kitáab / siidíi"},
+        {"q_zh": "送给他（4）：手机 · 收音机", "answer_ar": "jawwáal / ráydo", "answer_zh": "手机／收音机", "roman": "jawwáal / ráydo"},
+        {"q_zh": "送给他（5）：夹克 · 长裤", "answer_ar": "jaakáyt / bantalóon", "answer_zh": "夹克／长裤", "roman": "jaakáyt / bantalóon"},
+        {"q_zh": "送给她（1）：连衣裙 · 鞋", "answer_ar": "nafnúuf / júuti", "answer_zh": "连衣裙／鞋", "roman": "nafnúuf / júuti"},
+        {"q_zh": "送给她（2）：裙子 · 女衬衫", "answer_ar": "tannúura / bluus", "answer_zh": "裙子／女衬衫", "roman": "tannúura / bluus"},
+        {"q_zh": "送给她（3）：相机 · 戒指", "answer_ar": "áalat taSwíir / xáatam", "answer_zh": "相机／戒指", "roman": "áalat taSwíir / xáatam"},
+        {"q_zh": "送给她（4）：电脑 · 自行车", "answer_ar": "kambyúutar / sáykal", "answer_zh": "电脑／自行车", "roman": "kambyúutar / sáykal"},
+        {"q_zh": "送给她（5）：计算器 · 笔", "answer_ar": "áala Háasiba / gálam", "answer_zh": "计算器／笔", "roman": "áala Háasiba / gálam"}
+      ]
+    },
+    {
+      "title_zh": "练习 RII.4 · 仿写比较与感叹对话",
+      "prompt_zh": "用提示的短语仿照例句造句，注意比较级 áf9al min 与 9úmri maa 的呼应。",
+      "items": [
+        {"q_zh": "例句：美丽的花园 · 在巴林", "answer_ar": "– háadhi Hadíiqa jamíila. – ay, láakin hast ájmal min háadhi fil-baHrayn. – wállah? 9úmri maa shíftha!", "answer_zh": "——这座花园真漂亮。——是啊，不过巴林有更漂亮的。——真的吗？我这辈子还没见过呢！", "roman": "háadhi Hadíiqa jamíila – ay, láakin hast ájmal min háadhi fil-baHrayn – wállah? 9úmri maa shíftha!"},
+        {"q_zh": "大学校 · 在市中心", "answer_ar": "– háadhi mádrasa kabíira. – ay, láakin hast ákbar min háadhi fi wasT il-madíina. – wállah? 9úmri maa shíftha!", "answer_zh": "——这所学校很大。——是啊，不过市中心有更大的。——真的吗？我从没见过！", "roman": "háadhi mádrasa kabíira – ay, láakin hast ákbar min háadhi fi wasT il-madíina – wállah? 9úmri maa shíftha!"},
+        {"q_zh": "贫穷的街区 · 在桥附近", "answer_ar": "– háadha firíij faqíir. – ay, láakin hast áfqar min háadha garíib min il-jísir. – wállah? 9úmri maa shíftah!", "answer_zh": "——这个街区很穷。——是啊，不过桥附近有更穷的。——真的吗？我从没见过！", "roman": "háadha firíij faqíir – ay, láakin hast áfqar min háadha garíib min il-jísir – wállah? 9úmri maa shíftah!"},
+        {"q_zh": "美丽的清真寺 · 在旧王宫对面", "answer_ar": "– háadha másyid jamíil. – ay, láakin hast ájmal min háadha mgáabil il-gáSir il-9atíij. – wállah? 9úmri maa shíftah!", "answer_zh": "——这座清真寺真漂亮。——是啊，不过旧王宫对面有更漂亮的。——真的吗？我从没见过！", "roman": "háadha másyid jamíil – ay, láakin hast ájmal min háadha mgáabil il-gáSir il-9atíij – wállah? 9úmri maa shíftah!"},
+        {"q_zh": "老建筑 · 在邮局附近", "answer_ar": "– háadha mábna qadíim. – ay, láakin hast áqdam min háadha garíib min maktab il-baríid. – wállah? 9úmri maa shíftah!", "answer_zh": "——这栋楼很老。——是啊，不过邮局附近有更老的。——真的吗？我从没见过！", "roman": "háadha mábna qadíim – ay, láakin hast áqdam min háadha garíib min maktab il-baríid – wállah? 9úmri maa shíftah!"},
+        {"q_zh": "脏餐厅 · 在安塔尔电影院旁边", "answer_ar": "– háadha máT9am wásix. – ay, láakin hast áwsax min háadha yamm síinama 9ántar. – wállah? 9úmri maa shíftah!", "answer_zh": "——这家餐厅真脏。——是啊，不过安塔尔电影院旁边有更脏的。——真的吗？我从没见过！", "roman": "háadha máT9am wásix – ay, láakin hast áwsax min háadha yamm síinama 9ántar – wállah? 9úmri maa shíftah!"},
+        {"q_zh": "美丽的海滩 · 离这儿五英里", "answer_ar": "– háadha sáaHil jamíil. – ay, láakin hast ájmal min háadha 9ala bu9d xamst amyáal min íhni. – wállah? 9úmri maa shíftah!", "answer_zh": "——这片海滩真美。——是啊，不过离这儿五英里的地方有更美的。——真的吗？我从没见过！", "roman": "háadha sáaHil jamíil – ay, láakin hast ájmal min háadha 9ala bu9d xamst amyáal min íhni – wállah? 9úmri maa shíftah!"},
+        {"q_zh": "高宣礼塔 · 在阿拉伯银行附近", "answer_ar": "– háadhi máʼdhana Tawíila. – ay, láakin hast áTwal min háadhi garíiba min il-bank il-9árabi. – wállah? 9úmri maa shíftha!", "answer_zh": "——这座宣礼塔真高。——是啊，不过阿拉伯银行附近有更高的。——真的吗？我从没见过！", "roman": "háadhi máʼdhana Tawíila – ay, láakin hast áTwal min háadhi garíiba min il-bank il-9árabi – wállah? 9úmri maa shíftha!"},
+        {"q_zh": "现代化机场 · 在沙迦", "answer_ar": "– háadha maTáar Hadíith. – ay, láakin hast áHdath min háadha fish-shárja. – wállah? 9úmri maa shíftah!", "answer_zh": "——这座机场很现代。——是啊，不过沙迦有更现代的。——真的吗？我从没见过！", "roman": "háadha maTáar Hadíith – ay, láakin hast áHdath min háadha fish-shárja – wállah? 9úmri maa shíftah!"}
+      ]
+    },
+    {
+      "title_zh": "课文理解 · 餐厅对话问答",
+      "prompt_zh": "根据 Dialogue RII.1 的内容，用阿拉伯语回答下列问题。",
+      "items": [
+        {"q_zh": "贾西姆和穆巴拉克在餐厅点了什么菜？", "answer_ar": "Tílbaw mázza lubnaaníyya káamla (mujáddara, HúmmuS bi TaHíina, baylinjáan máHshi, etc.).", "answer_zh": "他们点了一整套黎巴嫩开胃菜（炒扁豆、鹰嘴豆泥、酿茄子等）。", "roman": "Tílbaw mázza lubnaaníyya káamla (mujáddara, HúmmuS bi TaHíina, baylinjáan máHshi, etc.)"},
+        {"q_zh": "他们为什么要清淡的菜？", "answer_ar": "liʼánnahum mub yuwáa9a wáayid.", "answer_zh": "因为他们不太饿（海湾菜太重，不合口味）。", "roman": "liʼánnahum mub yuwáa9a wáayid"},
+        {"q_zh": "服务员给他们端来了什么？", "answer_ar": "jaab líhum iT-Talabáat maal naas ghayr.", "answer_zh": "他端来了别人的菜。", "roman": "jaab líhum iT-Talabáat maal naas ghayr"},
+        {"q_zh": "服务员把他们自己的开胃菜给了谁？", "answer_ar": "li jimáa9a min is-sa9uudiyyíin.", "answer_zh": "给了那边的一群沙特人。", "roman": "li jimáa9a min is-sa9uudiyyíin"}
+      ]
+    }
+  ],
+  "letters": [],
+  "summary_zh": "本复习单元把前几课的核心表达放在一起综合操练。数字部分重点辨析了 sítta 与 sittíin、árba9a 与 arba9íin，并学会用 gilt lik ... mub ... 纠正听错的信息。比较句 hast áf9al min ... 与感叹 9úmri maa ... 用来夸赞和表达「生平从未」。「给谁」句型 limán 9aTáyt / Tarrásht ...? 以及送礼、餐厅点餐的常用词汇也得到巩固。通过学习餐厅对话，我们进一步熟悉了海湾本土菜与黎巴嫩风味的差异。"
+}

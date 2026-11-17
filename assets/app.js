@@ -15,11 +15,10 @@
     }).join('');
     var tags = (b.tags || []).map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('');
     return '<article class="book-card is-active" data-entry="' + esc(b.entry) + '" tabindex="0" role="link" aria-label="进入《' + esc(b.title_zh) + '》">' +
-      '<div class="book-no">教材 ' + esc(b.level || ('第 ' + String(i + 1).padStart(2, '0') + ' 册')) + '</div>' +
       '<h2 class="book-title">' + esc(b.title_zh) + '</h2>' +
       '<div class="book-ar" dir="rtl" lang="ar">' + esc(b.title_ar) + '</div>' +
       '<div class="book-original">' + esc(b.title_original) + '</div>' +
-      '<p class="book-desc">' + esc(b.summary) + '</p>' +
+      '<p class="book-desc">' + esc(b.brief || b.summary) + '</p>' +
       '<div class="book-tags">' + tags + '</div>' +
       '<div class="book-stats">' + stats + '</div>' +
       '<div class="book-cta"><span>进入教材 · 展开学习流程</span><span class="go">开始学习 &rarr;</span></div>' +

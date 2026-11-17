@@ -1,0 +1,240 @@
+{
+  "id": 16,
+  "slug": "unit-16",
+  "title_ar": "الْمَصْدَرُ وَالنَّفْيُ الْمُقْتَرِنُ",
+  "title_zh": "动词名词与聚合否定",
+  "title_roman": "il-máSdar wan-nafy il-muqtáarin",
+  "subtitle_zh": "动词名词、聚合否定、复合形容词与「自身」表达",
+  "level_zh": "进阶",
+  "goals": [
+    "掌握海湾阿拉伯语动词名词的常见词型及各派生式的对应规律",
+    "学会用 maa…illa 表示「只」，用 maa…wa la 与 la…la 表示「既不……也不」",
+    "能用「形容词＋定名词」构成复合形容词并正确配合性与数",
+    "会用 bruuH＋代词与 nafs 表达「亲自／独自／同样」"
+  ],
+  "is_review": false,
+  "cultural_point": {
+    "title_zh": "历史（三）：印度人与海湾",
+    "body_zh": "海湾与印度的渊源极为久远。早在公元前二千纪，印度河流域的摩亨佐-达罗文明（今巴基斯坦境内）就已与海湾地区往来。海湾人称印度人为 baanyáan，这个词来自古吉拉特语 vaaniya（经商种姓的人），其源头是梵语 vanij（商人）——词语本身就是贸易往来的最好见证。第三任哈里发奥斯曼·本·阿凡（卒于公元 656 年）主持把《古兰经》整理成定本时，据说曾以「阿拉伯语不纯正、不可靠」为由，不采纳居住在海湾东岸的阿拉伯部族诵读者的证言；这很可能是因为这些人长期与波斯人、印度人及其他外来商人混杂。印度历来是地毯、黄金首饰等奢侈品的来源地；英国东印度公司以及后来的英属印度时期，使这种联系更加紧密。十九世纪末以后英国势力渐入海湾，建立文官机构、邮局、医疗体系都需要大量有文化、懂技术的人才，而印度恰好廉价而充足地提供了这些人手。即便二十世纪六七十年代海湾各国相继独立，公私机构里仍雇有不少印度职员和技术人员——海湾阿拉伯语里「职员」叫 kráani，「便条、备忘录」叫 chitti（英语 chitty 一词也由此而来），都是印度语词。随着本地教育发展，印度人逐渐被本国培养的人才取代；七十年代油价上涨后，八十年代起大规模土建工程又引来一波南亚劳工，不过这一批多是体力劳动者。如今阿联酋、阿曼、卡塔尔等国的经济相当依赖南亚劳动力，城市里印度餐馆与集市林立，店铺老板和顾客之间能听到五六种印度语言；在阿联酋，板球恐怕比足球还受欢迎。",
+    "tip_zh": "留意 kráani、chitti、baanyáan 这些借词：语言的借用背后，往往是数百年的贸易与人口流动。学海湾阿拉伯语时，把词汇连同它的历史语境一起记，印象会更深刻。"
+  },
+  "dialogues": [],
+  "vocab": [
+    {"ar": "طَبْخ", "zh": "烹饪（动词名词）", "roman": "Tabx"},
+    {"ar": "قَوْل", "zh": "说、说话（动词名词）", "roman": "gool"},
+    {"ar": "مَشْي", "zh": "行走（动词名词）", "roman": "máshi"},
+    {"ar": "حَلّ", "zh": "解决办法（动词名词）", "roman": "Hall"},
+    {"ar": "ذِكْر", "zh": "记念、记起（动词名词）", "roman": "dhikr"},
+    {"ar": "طَيْح", "zh": "坠落（动词名词）", "roman": "TayH"},
+    {"ar": "حَچِي", "zh": "谈话（动词名词）", "roman": "Háchi"},
+    {"ar": "حُبّ", "zh": "爱（动词名词）", "roman": "Hubb"},
+    {"ar": "طَبْخَة", "zh": "一道菜（一次烹饪的实例）", "roman": "Tábxa"},
+    {"ar": "ضَرْبَة", "zh": "一击（一次击打的实例）", "roman": "Dárba"},
+    {"ar": "طَيْحَة", "zh": "一摔、一次跌倒", "roman": "Táyha"},
+    {"ar": "مَشْيَة", "zh": "步态、走路的样子", "roman": "máshya"},
+    {"ar": "حَدَاق", "zh": "钓鱼（动词名词）", "roman": "Hadáag"},
+    {"ar": "طَوَاف", "zh": "绕行、巡游（动词名词）", "roman": "Tawáaf"},
+    {"ar": "سَقَاي", "zh": "灌溉（动词名词）", "roman": "sagáay"},
+    {"ar": "كِتَابَة", "zh": "写作（动词名词）", "roman": "kitáaba"},
+    {"ar": "زِيَارَة", "zh": "拜访（动词名词）", "roman": "ziyáara"},
+    {"ar": "قِرَاءَة", "zh": "阅读（动词名词）", "roman": "giráaya"},
+    {"ar": "قَطَاع", "zh": "丢弃、扔掉（动词名词）", "roman": "gaTáaT"},
+    {"ar": "فَرَارَة", "zh": "逃跑（动词名词）", "roman": "faráara"},
+    {"ar": "رُجُوع", "zh": "返回（动词名词）", "roman": "rujúu9"},
+    {"ar": "مُرُور", "zh": "交通；交警（＝ shúrTat il-murúur 的简称）", "roman": "murúur"},
+    {"ar": "فَرَح", "zh": "快乐（动词名词）", "roman": "fáraH"},
+    {"ar": "مَلَل", "zh": "无聊、厌倦（动词名词）", "roman": "málal"},
+    {"ar": "نِسْيَان", "zh": "遗忘（动词名词）", "roman": "nisyáan"},
+    {"ar": "شَيَلَان", "zh": "移除（动词名词）", "roman": "shayaláan"},
+    {"ar": "خَوَرَان", "zh": "搅拌（动词名词）", "roman": "xawaráan"},
+    {"ar": "تَصْلِيح", "zh": "修理（派生式动词名词）", "roman": "taSlíiH"},
+    {"ar": "تَخْطِيط", "zh": "规划（派生式动词名词，如 wizáarat it-taxTíiT 计划部）", "roman": "taxTíiT"},
+    {"ar": "تَعْيِين", "zh": "任命（派生式动词名词）", "roman": "ta9yíin"},
+    {"ar": "تَرْبِيَة", "zh": "教养、培养（派生式动词名词）", "roman": "tárbiya"},
+    {"ar": "تِسْوَا", "zh": "做、行为（派生式动词名词）", "roman": "tiswáa"},
+    {"ar": "تِبْدَا", "zh": "开始（派生式动词名词）", "roman": "tibdáa"},
+    {"ar": "تِحْلَا", "zh": "装饰（派生式动词名词）", "roman": "tiHláa"},
+    {"ar": "مُسَاعَدَة", "zh": "帮助（派生式动词名词）", "roman": "musáa9ada"},
+    {"ar": "مُحَاجَّة", "zh": "争论（派生式动词名词）", "roman": "muHáajaja"},
+    {"ar": "مُحَاوَلَة", "zh": "尝试（派生式动词名词）", "roman": "muHáawala"},
+    {"ar": "مُلَاقَاة", "zh": "偶遇、邂逅（派生式动词名词）", "roman": "muláaga"},
+    {"ar": "تَعَجُّب", "zh": "惊讶（派生式动词名词）", "roman": "ta9ajjub"},
+    {"ar": "تَخَصُّص", "zh": "专业、专长（派生式动词名词）", "roman": "taxáSSuS"},
+    {"ar": "تَعَاوُن", "zh": "合作（派生式动词名词）", "roman": "ta9áawun"},
+    {"ar": "تَحَاجِّي", "zh": "交谈（派生式动词名词）", "roman": "taHáachi"},
+    {"ar": "حَمَالَة", "zh": "照顾、照看（动词名词，＝ taHámmal bi 的名词形式）", "roman": "Hamáala"},
+    {"ar": "كَثِيرُ الْمَالِ", "zh": "富有（直译「钱多」，阳性）", "roman": "kathíir il-maal"},
+    {"ar": "قَلِيلُ الْأَدَبِ", "zh": "无礼、粗鲁（直译「礼貌少」，阳性）", "roman": "qalíil il-ádab"},
+    {"ar": "طَوِيلُ اللِّسَانِ", "zh": "放肆、出言不逊（直译「舌头长」，阳性）", "roman": "Tawíil il-lisáan"},
+    {"ar": "خَفِيفُ الدَّمِّ", "zh": "迷人、讨喜（直译「血轻」，阳性）", "roman": "xafíif id-damm"},
+    {"ar": "خَفِيفَةُ الدَّمِّ", "zh": "迷人、讨喜（直译「血轻」，阴性）", "roman": "xafíifat id-damm"},
+    {"ar": "ثَقِيلُ الدَّمِّ", "zh": "乏味、无趣（直译「血重」，阳性）", "roman": "thagíil id-damm"},
+    {"ar": "نَفْس", "zh": "自身；同样的", "roman": "nafs"},
+    {"ar": "بِرُوحِي", "zh": "靠我自己、我亲自", "roman": "brúuHi"},
+    {"ar": "بِرُوحِهِ", "zh": "靠他自己、他亲自", "roman": "brúuHah"},
+    {"ar": "بِرُوحِهَا", "zh": "靠她／它自己、自行", "roman": "brúuHha"},
+    {"ar": "بِرُوحِكِ", "zh": "靠你自己、你亲自（对女性）", "roman": "brúuHik"},
+    {"ar": "بِرُوحِكُمْ", "zh": "靠你们自己（对复数）", "roman": "brúuHkum"},
+    {"ar": "مَا مِشْ إِلَّا هَذَا", "zh": "仅此而已（直译「没有别的，除这个以外」）", "roman": "maa mish ílla háadha"},
+    {"ar": "صَوْم", "zh": "斋戒（动词名词）", "roman": "Soom"},
+    {"ar": "خِدْمَة", "zh": "服务（动词名词）", "roman": "xídma"},
+    {"ar": "تَشْيِيك", "zh": "检查、检修（动词名词）", "roman": "tachyíik"},
+    {"ar": "تَنْظِيف", "zh": "清洁、打扫（动词名词）", "roman": "tanDHíif"},
+    {"ar": "تَعْدِيل", "zh": "调整、调校（动词名词）", "roman": "ta9díil"},
+    {"ar": "بُرْتُغَال", "zh": "橙子", "roman": "burtugáal"},
+    {"ar": "تُفَّاح", "zh": "苹果", "roman": "tuffáaH"},
+    {"ar": "مُسَاوَمَة", "zh": "讨价还价", "roman": "musáawama"},
+    {"ar": "خَشَم", "zh": "鼻子", "roman": "xáshim"},
+    {"ar": "عَجُوز", "zh": "老妇人", "roman": "9ajúuz"},
+    {"ar": "دَرِيشَة", "zh": "窗户", "roman": "daríisha"},
+    {"ar": "مِسْمَار", "zh": "钉子（单数）", "roman": "mismáar"},
+    {"ar": "مَسَامِير", "zh": "钉子（复数）", "roman": "masaamíir"},
+    {"ar": "چِلَّاب", "zh": "钩子（单数）", "roman": "chilláab"},
+    {"ar": "چِلَالِيب", "zh": "钩子（复数）", "roman": "chilaalíib"},
+    {"ar": "سِبَاحَة", "zh": "游泳（动词名词）", "roman": "sibáaHa"},
+    {"ar": "سَائِق", "zh": "司机（单数）", "roman": "sáayig"},
+    {"ar": "سُوَّاق", "zh": "司机（复数）", "roman": "suwwáag"}
+  ],
+  "grammar": [
+    {
+      "title_zh": "动词名词（المصدر）",
+      "body_zh": "阿拉伯语的动词名词相当于英语的 -ing 形式或由词形变化构成的名词（如 doing、deed）。简单动词常见的词型有：强式动词多为 فَعْل（CvCC，如 Tabx 烹饪），空心动词变为 فُوع／فَيْل（CooC／CayC，如 gool 说、TayH 坠落），弱动词多为 فَمْي（CaCi，如 máshi 行走），叠辅动词则带叠音（如 Hall 解决、Hubb 爱）。其次是 فَعَالَ／فَعَالَة（CvCaaC(a)，如 Hadáag 钓鱼、kitáaba 写作、giráaya 阅读）。此外还有 فُعُول（CuCuuC，如 rujúu9 返回、murúur 交通）、فَعَل（CaCaC，如 fáraH 快乐、málal 无聊）以及 فَعَلَان／فَعَلَان（CiCCaan／CaCaCaan，如 nisyáan 遗忘、xawaráan 搅拌），各自与特定动词词根大致固定搭配，最好见到一个就记一个。派生式的动词名词则很有规律：فَعَّلَ（CaCCaC）对应 تَفْعِيل（taCCiiC，如 taSlíiH 修理）；فاعَلَ（CaaCaC）对应 مُفاعَلَة（muCaaCaCa，如 musáa9ada 帮助）；تَفَعَّلَ 对应 تَفَعُّل（如 ta9ajjub 惊讶）；تَفاعَلَ 对应 تَفاعُل（如 ta9áawun 合作）。动词名词在句中可泛指一种活动（此时像英语一样需要定冠词 ال），可替代从句，可作「回声」强调动词，还可表示「需要被做」的事。",
+      "examples": [
+        {"ar": "اَلْحَدَاقُ مَمْنُوعٌ إِهْنِي.", "zh": "此处禁止钓鱼。", "roman": "il-Hadáag mamnüu9 íhni."},
+        {"ar": "اَلتِّلْمِيذُ ذَاكَ وَايِدٌ ضَعِيفٌ فِي الْقِرَاءَةِ.", "zh": "那个学生阅读能力很差。", "roman": "it-tilmíidh dhaak wáayid Da9íif fil-giráaya."},
+        {"ar": "تَصْلِيحُ سَيَّارَاتٍ، هَذَا شُغْلِي.", "zh": "修车，这就是我的工作。", "roman": "taSlíiH sayyaaráat, háadha shúghli."},
+        {"ar": "مُجَرَّدُ شُوفَتِهِ تُخَوِّفُنِي.", "zh": "只要一看见他，我就害怕。", "roman": "mujárrad shóofatah tixáwwifni."},
+        {"ar": "هَالْجَامَاتُ تَبِّي لِهَا تَنْظِيفٌ.", "zh": "这些窗玻璃需要清洗。", "roman": "hal-jaamáat tábbi liha tanDHíif."},
+        {"ar": "فِرِحُوا إِلَى آخِرِ فَرَحٍ.", "zh": "他们高兴极了（直译「喜到了最后的喜」）。", "roman": "fírHaw li áaxir fáraH."}
+      ],
+      "tip_zh": "动词名词泛指活动时，海湾阿拉伯语像英语一样要加定冠词 ال，例如「阅读」作泛指要说 il-giráaya。它还能替代 that-从句：tiswáatik muu záyna（你的行为不好）就等于「你所做的事不好」。"
+    },
+    {
+      "title_zh": "聚合否定（maa…illa、maa…wa la、la…la）",
+      "body_zh": "阿拉伯语表达「只、仅仅」用 maa … ílla（直译「不是……除非」，近似法语 ne … que）：maa 9aTáani ílla diinaaráyn「他只给了我两个第纳尔」。表达「既不……也不……」有两种常用结构。其一是 maa … wa la …，多用于否定同一主语的两个动词，相当于英语 neither … nor；它也能同半动词 fii、mish、9ind- 连用，还能用 maa 否定动词、用 la 否定名词。其二是 la … la …，多用于否定名词、代词和形容词（一般不否定动词），但在强烈反驳时也可否定动词，例如「他们哪儿也没去，什么也没学到」。注意 maa mish ílla háadha 意为「仅此而已」。",
+      "examples": [
+        {"ar": "مَا أَعْطَانِي إِلَّا دِينَارَيْنِ.", "zh": "他只给了我两个第纳尔。", "roman": "maa 9aTáani ílla diinaaráyn."},
+        {"ar": "مَا قُلْتُ إِلَّا چَمًّا مِنَ الْكَلِمَاتِ.", "zh": "我只说了几句话。", "roman": "maa gilt ílla cham min kalimáat."},
+        {"ar": "مَا شِفْتُهُ وَلَا حَاجَّيْتُهُ.", "zh": "我既没看见他，也没同他说话。", "roman": "maa shíftah wa la Haacháytah."},
+        {"ar": "مَا فِيهِ أَكْلٌ وَلَا مَاءٌ.", "zh": "既没有吃的，也没有喝的。", "roman": "maa fii ákil wa la maay."},
+        {"ar": "لَا عَيْبَ وَلَا حَرَامَ!", "zh": "既不丢人，也不犯禁！", "roman": "la 9ayb wa la Haráam!"},
+        {"ar": "مَا يَعْرِفُ الْقِرَاءَةَ وَلَا الْكِتَابَةَ.", "zh": "他既不会读，也不会写。", "roman": "maa y9árf il-giráaya wa la l-kitáaba."},
+        {"ar": "مَا مِشْ إِلَّا هَذَا.", "zh": "仅此而已。", "roman": "maa mish ílla háadha."}
+      ],
+      "tip_zh": "记忆口诀：maa…illa 是「只有」，maa…wa la 多配动词，la…la 多配名词／形容词。海湾口语里否定词常用 mish（مِش）与 muu（مُو），不要误当成埃及方言的 maa…sh 结构。"
+    },
+    {
+      "title_zh": "复合形容词（形容词＋定名词）",
+      "body_zh": "阿拉伯语有一种很有表现力的构词法：把一个形容词同一个定名词组成的偏正结构当作形容词用，如 kathíir il-maal「富有的」（直译「钱多」）、qalíil il-ádab「无礼的」（直译「礼貌少」）。有些整体意义不易从字面猜出，如 Tawíil il-lisáan「放肆的」（舌头长）、xafíif id-damm「迷人的」（血轻）、thagíil id-damm「乏味的」（血重）。这类复合形容词与普通形容词一样，要与所修饰的名词在性和数上一致；当它修饰定名词时，其中的形容词成分也随之带定冠词。阴性形式要显出「隐藏的 ت」，如 xafíifat id-damm；复数既可用破碎式（如 il-xifáaf id-damm），也可用完整式（如 qaliilíin il-ádab）。",
+      "examples": [
+        {"ar": "رَيَّالٌ كَثِيرُ الْمَالِ.", "zh": "一个富有的人。", "roman": "rayyáal kathíir il-maal"},
+        {"ar": "اَلرَّيَّالُ الْكَثِيرُ الْمَالِ.", "zh": "那个富有的人。", "roman": "ir-rayyáal il-kathíir il-maal"},
+        {"ar": "هَالْبِنْتُ خَفِيفَةُ الدَّمِّ.", "zh": "这个女孩很迷人。", "roman": "hal-bint xafíifat id-damm."},
+        {"ar": "هَالْبَنَاتُ الْخِفَافُ الدَّمِّ.", "zh": "这些迷人的女孩。", "roman": "hal-banáat il-xifáaf id-damm"},
+        {"ar": "اِسْكُتُوا يَا قَلِيلِي الْأَدَبِ!", "zh": "安静点，你们这些没礼貌的人！", "roman": "ískitu yaa qaliilíin il-ádab!"}
+      ],
+      "tip_zh": "把这类结构当成「拥有某种属性」来理解就很顺：kathíir il-maal＝「拥有很多钱」＝富有。注意复合词里第二个名词永远带定冠词 ال。"
+    },
+    {
+      "title_zh": "「自身」的表达（bruuH 与 nafs）",
+      "body_zh": "表示「亲自、独自（by myself / by himself 等）」，海湾阿拉伯语用 ruuH（灵魂、自身）加代词，通常写成 bruuH + 代词：sawwáyt háadha brúuHi「我自己做了这件事」。bruuH 还常习惯性地表示「分别地、各自地」，如「我把洋葱和西红柿分开种」。在反身意义上，「自」有时并不明说，而是包含在 تَفَعَّلَ（tiCaCCaC）类动词里，如 id-daríisha tibánnadat「窗户自己关上了」；但 ruuH＋代词也常作反身宾语，如 járaH rúuHah 9an qaSd「他故意弄伤了自己」。nafs 可以完全同样的方式表示反身，另外还常表示「正是同一个……」，如 nafs ish-shay「同一件事」、háadhi nafs il-ghúrfa「正是同一个房间」。",
+      "examples": [
+        {"ar": "صَوَّيْتُ هَذَا بِرُوحِي.", "zh": "这件事是我自己做的。", "roman": "sawwáyt háadha brúuHi."},
+        {"ar": "صَارَ الْيَاهِلُ يَمْشِي بِرُوحِهِ.", "zh": "那孩子开始自己走路了。", "roman": "Saar il-yáahil yímshi brúuHah."},
+        {"ar": "اَلْمَاكِينَةُ وَاقِفَةٌ بِرُوحِهَا، مَا حَدٌّ وَقَّفَهَا.", "zh": "机器自己停了，没有人去停它。", "roman": "il-makíina wáagfa brúuHha, máHHad waggáfha."},
+        {"ar": "جَرَحَ رُوحَهُ عَنْ قَصْدٍ.", "zh": "他故意弄伤了自己。", "roman": "járaH rúuHah 9an qaSd."},
+        {"ar": "هَذِهِ نَفْسُ الْغُرْفَةِ الَّتِي نَزَلْتُ فِيهَا قَبْلَ إِحْدَى عَشْرَةَ سَنَةً!", "zh": "这正是我十一年前住过的那个房间！", "roman": "háadhi nafs il-ghúrfa~lli nizált fiiha gábil iHdá9shar sána!"},
+        {"ar": "مُشْكِلَتِي نَفْسُ مُشْكِلَتِكِ.", "zh": "我的问题和你的（女性）问题一样。", "roman": "mushkílti nafs mushkíltik."}
+      ],
+      "tip_zh": "bruuH 重在「亲身、独自」，nafs 既可反身又可表示「同一个」。对照记忆：sáa9id rúuHik「你自己帮自己（对女性）」与 nafs ish-shay「同一件事」。"
+    }
+  ],
+  "exercises": [
+    {
+      "title_zh": "练习一 · 用动词名词改写（15.1）",
+      "prompt_zh": "把下列句子改写成含动词名词的同义句，可用书末答案核对。",
+      "items": [
+        {"q_zh": "他不同意帮助俱乐部。", "answer_ar": "مَا وَافَقَ عَلَى مُسَاعَدَةِ النَّادِي.", "answer_zh": "用 مُسَاعَدَة 代替 yisáa9id，动词名词替代从句。", "roman": "maa wáafag 9ala musáa9adat in-náadi."},
+        {"q_zh": "在卧室里吸烟是被禁止的。", "answer_ar": "التَّدْخِينُ مَمْنُوعٌ فِي غُرْفَةِ النَّوْمِ.", "answer_zh": "动词名词作主语，泛指活动需带定冠词。", "roman": "it-tadxíin mamnúu9 fi ghúrfat in-noom."},
+        {"q_zh": "他们做的事对我们毫无用处。", "answer_ar": "تِسْوَاتُهُمْ مَا بْتُفِيدُنَا أَبَدًا.", "answer_zh": "تِسْوَا＋代词作主语，替代「他们所做的事」。", "roman": "tiswáathum maa btifíidna ábadan."},
+        {"q_zh": "谁允许你（女）进来的？", "answer_ar": "مِنْهُ سَمَحَ لَكِ بِالدُّخُولِ؟", "answer_zh": "用动词名词 دُخُول 代替 tidxalíin。", "roman": "mínhu símaH lich id-duxúul?"},
+        {"q_zh": "只要看见他的脸我就生气。", "answer_ar": "مُجَرَّدُ شُوفَتِهِ تُزَعِّلُنِي.", "answer_zh": "مُجَرَّد＋动词名词表示「一……就……」。", "roman": "mujárrad shóofat il-wijh máalah tizá99ilni."},
+        {"q_zh": "检查员命令警察拦住公交车。", "answer_ar": "الْمُفَتِّشُ أَمَرَ الشُّرْطِيَّ بِتَوْقِيفِ الْبَاصِّ.", "answer_zh": "用 تَوْقِيف 代替 yiwággif。", "roman": "il-mufáttish ʼámar ish-shúrTi bi tawgíif il-baaS."},
+        {"q_zh": "他买卖公寓，这是他的行当。", "answer_ar": "بَيْعٌ وَشِرَاءُ شِقَقٍ، هَذَا شُغْلُهُ.", "answer_zh": "بَيْع 与 شِرَاء 两个动词名词对举。", "roman": "bay9 u shiráa shiqqáat, haay shúghlah."},
+        {"q_zh": "他不是有意打碎玻璃的。", "answer_ar": "كَسَّرَ الْجَامَ بِدُونِ قَصْدٍ.", "answer_zh": "بِدُونِ قَصْد 代替 bidúun maa yáqSud。", "roman": "kássar il-jaam bidúun qaSd."},
+        {"q_zh": "这些书需要扔掉。", "answer_ar": "هَالْكُتُبُ تَبِّي لِهَا قَطَاعٌ.", "answer_zh": "动词名词 قَطَاع 表示「需要被扔掉」。", "roman": "hal-kútub tábbi liha gaTáaT."},
+        {"q_zh": "这里禁止停车！", "answer_ar": "مَمْنُوعٌ تَوْقِيفُ السَّيَّارَاتِ إِهْنِي!", "answer_zh": "禁止语用 مَمْنُوعٌ＋动词名词。", "roman": "mamnúu9 tawgíif is-sayyaaráat ihni!"},
+        {"q_zh": "他不知道怎么游泳。", "answer_ar": "مَا يَعْرِفُ السِّبَاحَةَ.", "answer_zh": "用动词名词 سِبَاحَة 代替「怎么游」。", "roman": "ma y9árf is-sibáaHa."},
+        {"q_zh": "他说的话需要核实。", "answer_ar": "قُولَتُهُ تَبِّي لِهَا تَحْقِيقٌ.", "answer_zh": "قُولَة 是 قَالَ 的「一次说」，配 تَحْقِيق。", "roman": "góolah yábbi lih taHqíiq."}
+      ]
+    },
+    {
+      "title_zh": "练习二 · 用聚合否定翻译（15.2）",
+      "prompt_zh": "用 maa…illa、maa…wa la、la…la 等聚合否定结构把句子译成阿拉伯语。",
+      "items": [
+        {"q_zh": "他只听到所说内容的一小部分。", "answer_ar": "مَا سَمِعَ إِلَّا قَلِيلًا مِنَ الْحَچِي.", "answer_zh": "maa…illa 表「只」。", "roman": "maa síma9 illa galíil min il-Háchi."},
+        {"q_zh": "车灯和电池都没修好。", "answer_ar": "لَا لَيْتَاتُ السَّيَّارَةِ وَلَا الْبِطْرِيَّةُ مَصَلَّحَةٌ.", "answer_zh": "la…la 否定两个名词性主语。", "roman": "la laytáat is-sayyáara wa la l-bítri máalha mSállaHa."},
+        {"q_zh": "他既没鼓励我们，也没帮助我们。", "answer_ar": "مَا أَعْطَانَا تَشْجِيعًا وَلَا مُسَاعَدَةً.", "answer_zh": "maa…wa la 否定两个动词名词宾语。", "roman": "maa 9aTáana tashjíi9 wa la musáa9ada."},
+        {"q_zh": "你不会做饭，又不想学——我要炒你鱿鱼！", "answer_ar": "مَا تَعْرِفُ تَطْبَخُ وَلَا تَبِّي تَتَعَلَّمُ: بَفَنِّشِك!", "answer_zh": "maa…wa la 并列否定两个动词。", "roman": "maa t9arf tíTbax wa la tábbi tit9állam: bafánnishik!"},
+        {"q_zh": "多练就会进步。", "answer_ar": "بِتِتَحَسَّنُ بِكَثْرَةِ الْمُمَارَسَةِ.", "answer_zh": "用 كَثْرَة（大量）表达「频繁」。", "roman": "bititHássan bi káthrat il-mumáarasa."},
+        {"q_zh": "我不喜欢讨价还价，无论在集市还是跟出租车司机。", "answer_ar": "مَا أَحِبُّ الْمُسَاوَمَةَ، لَا فِي السُّوقِ وَلَا وِيَّةُ سُوَّاقِ التَّاكْسِي.", "answer_zh": "la…la 否定两个介词短语。", "roman": "maa aHibb il-musáawama, la fis-suug wa la wíyya suwwáag it-takáasi."},
+        {"q_zh": "她因为烦心事既吃不下也睡不着。", "answer_ar": "مَا قَدَرَتْ تَأْكُلُ وَلَا تَنَامُ مِنْ هُمُومِهَا.", "answer_zh": "maa…wa la 并列否定两个动词。", "roman": "maa gídrat táakil wa la tináam min humúumha."},
+        {"q_zh": "他们既没礼貌也没品德！", "answer_ar": "لَا أَدَبَ وَلَا أَخْلَاقَ عِنْدَهُمْ!", "answer_zh": "la…la 否定抽象名词。", "roman": "la ʼádab wa la axláaq 9índhum!"},
+        {"q_zh": "这周我们既没收到也没寄出任何信件。", "answer_ar": "مُبْ لَاقِيينَ وَلَا مُطَرِّشِينَ مَكَاتِيبَ هَالسُّبُوعِ.", "answer_zh": "用 مُبْ（不）＋ wa la 结构。", "roman": "mub laagyíin wa la mTarrishíin makaatíib has-subúu9."},
+        {"q_zh": "这件事你也好，别人也好，都帮不了我。", "answer_ar": "لَا إِنْتَ وَلَا غَيْرُكَ يَقْدِرُ يُسَاعِدُنِي فِي هَذَا.", "answer_zh": "la…la 否定代词与名词。", "roman": "la ínta wa la gháyrik yígdar yisáa9idni fi háadha."},
+        {"q_zh": "我找了，但没找到苹果，也没找到橙子。", "answer_ar": "دَوَّرْتُ، لَكِنْ مَا لِقَيْتُ بُرْتُغَالًا وَلَا تُفَّاحًا.", "answer_zh": "maa…wa la 否定两个宾语。", "roman": "dawwárt, láakin maa ligáyt burtugáal wa la tuffáaH."},
+        {"q_zh": "他是个好人：上班不迟到，也不早退。", "answer_ar": "رَيَّالٌ زَيْنٌ: مَا يَجِي الشُّغْلَ مُتَأَخِّرًا وَلَا يَرُوحُ قَبْلَ نِهَايَةِ الدَّوَامِ.", "answer_zh": "maa…wa la 并列否定两个动词。", "roman": "rayyáal zayn: maa iyíi sh-shúghul mitʼáxxir wa la yirúuH gábil niháayat id-dawáam."}
+      ]
+    },
+    {
+      "title_zh": "练习三 · 「自身」表达翻译（15.3）",
+      "prompt_zh": "用 bruuH＋代词或 nafs 把句子译成阿拉伯语。",
+      "items": [
+        {"q_zh": "你自己做，我不会帮你！（对女性）", "answer_ar": "صَوِّ بِرُوحِكِ، أَنَا مَا بَأُسَاعِدُكِ!", "answer_zh": "bruuHik＝靠你自己（对女性）。", "roman": "saww brúuHik, ana maa basáa9dik!"},
+        {"q_zh": "他们不想独自旅行。", "answer_ar": "مَا بَغَوْا يُسَافِرُونَ بِرُوحِهِمْ.", "answer_zh": "bruuHhum＝靠他们自己。", "roman": "maa bághaw yisaafrúun brúuHhum."},
+        {"q_zh": "他不会帮你的，你自己帮自己吧！（对女性）", "answer_ar": "مَا بَيُسَاعِدُكِ هَذَا؛ سَاعِدْ رُوحَكِ!", "answer_zh": "ruuHak＋动词作反身宾语。", "roman": "maa biysáa9dik háadha; sáa9id rúuHik!"},
+        {"q_zh": "她问了我同样的问题——我给了她同样的答案。", "answer_ar": "سَأَلَتْنِي نَفْسَ السُّؤَالِ – أَعْطَيْتُهَا نَفْسَ الْجَوَابِ.", "answer_zh": "nafs 表「同样的」。", "roman": "siʼlátni nafs is-suʼáal – 9aTáytha nafs il-jawáab."},
+        {"q_zh": "你的事和我的事一样。（对女性）", "answer_ar": "شُغْلُكِ نَفْسُ شُغْلِي.", "answer_zh": "nafs 连接两个名词表「相同」。", "roman": "shúghlik nafs shúghli (or shúghlatik nafs shúghlati)."},
+        {"q_zh": "我没把东西全放在同一处：钉子单独放盒里，钩子单独放袋里。", "answer_ar": "مَا وَدَّيْتُ السَّامَانَ كُلَّهُ فِي نَفْسِ الْمُكَانِ؛ وَدَّيْتُ الْمَسَامِيرَ فِي صَنْدُوقٍ بِرُوحِهَا وَالْچِلَالِيبَ فِي چِيسٍ بِرُوحِهَا.", "answer_zh": "bruuHha 在此表「分别地」。", "roman": "maa waddáyt is-saamáan kíllah fi nafs il-mukáan; waddáyt il-masaamíir fi Sandúug brúuHhum wil-chilaalíib fi chiis brúuHhum."},
+        {"q_zh": "我没开窗——它自己开了。", "answer_ar": "مَا بَطَّلْتُ الدَّرِيشَةَ – تَبَطَّلَتْ بِرُوحِهَا.", "answer_zh": "bruuHha 表「自行」。", "roman": "maa baTTált id-daríisha – tibáTTalat brúuHha."},
+        {"q_zh": "这正是那位老妇人进去过的房子。", "answer_ar": "هَذَا نَفْسُ الْبَيْتِ الَّذِي دَشَّتَهُ الْعَجُوزُ.", "answer_zh": "nafs 表「正是同一个」。", "roman": "háadha nafs il-bayt illi dáshshatah l-9ajúuz."},
+        {"q_zh": "被偷的钱包和这个一样。", "answer_ar": "الْمِحْفَظَةُ الْمَبْيُوعَةُ نَفْسُ هَاذِي.", "answer_zh": "nafs 后接指示代词表「与……相同」。", "roman": "il-míHfaDHa l-mabyúuga nafs háadhi."},
+        {"q_zh": "你们别独自去那个地区——太危险了！（对复数）", "answer_ar": "لَازِمٌ مَا تَرُوحُونَ الْفُرَيْجِ ذَاكَ بِرُوحِكُمْ – وَايِدٌ خَطَرٌ!", "answer_zh": "bruuHkum＝靠你们自己。", "roman": "láazim maa truuHúun il-firíij dhaak brúuHkum – wáayid xáTar!"}
+      ]
+    },
+    {
+      "title_zh": "练习四 · 阅读短文《斋戒的益处》（15.4）",
+      "prompt_zh": "阅读海湾人谈斋戒益处的短文，把句子译成中文，并找出其中的动词名词。",
+      "items": [
+        {"q_zh": "短文把身体比作什么？", "answer_ar": "الْجِسْمُ مِثْلُ مُحَرِّكِ السَّيَّارَةِ.", "answer_zh": "把身体比作汽车发动机，需要定期保养、检查、清洁和调校，否则两三年内就会损坏。", "roman": "il-jísim míthil il-áala maal sayyáara."},
+        {"q_zh": "找出短文里的动词名词并说明出处。", "answer_ar": "صَوْمٌ، فَائِدَةٌ، خِدْمَةٌ، تَشْيِيكٌ، تَنْظِيفٌ، تَعْدِيلٌ، أَمْرَاضٌ، أَكْلٌ.", "answer_zh": "分别来自 صَامَ、فَادَ、خَدَمَ、چَيَّك、نَظَّفَ、عَدَّلَ、مَرِضَ、أَكَلَ。", "roman": "Soom, fáyda, xídma, tachyíik, tanDHíif, ta9díil, amráaD, ákil."},
+        {"q_zh": "短文末尾说疾病增多的主要原因是什么？", "answer_ar": "مِنَ الْأَكْلِ الزَّائِدِ.", "answer_zh": "因为吃得过多（过量饮食）。", "roman": "min il-ákil iz-záayid …"}
+      ]
+    },
+    {
+      "title_zh": "练习五 · 朱哈笑话（15.5）",
+      "prompt_zh": "读朱哈看医生的笑话，回答下列问题并体会其中的动词名词。",
+      "items": [
+        {"q_zh": "医生给了朱哈什么叮嘱？", "answer_ar": "قَالَ لَهُ الدُّكْتُورُ: لَيْن تَشْرَبُ هَذَا الدَّوَاءَ، خُضِّ الْقَارُورَةَ.", "answer_zh": "医生给药时装在瓶子里，叮嘱他服药时要摇动瓶子。", "roman": "gaal lih id-dáxtar ʻlayn bitíshrab had-dáwa, xuDD il-ghársha.ʼ"},
+        {"q_zh": "朱哈回家后做了什么？", "answer_ar": "رَاحَ الْبَيْتَ وَشَرَبَ الدَّوَاءَ بِدُونِ مَا يَخُضُّهُ.", "answer_zh": "他回家后没摇瓶子就把药喝了。", "roman": "il-Hiin júHa raaH il-báyt u shárab id-dáwa bidúun maa yixúDDah."},
+        {"q_zh": "朱哈后来为什么说「我在肚子里摇它」？", "answer_ar": "قَالَ: نَسِيتُ أَنْ أَخُضَّ الْقَارُورَةَ قَبْلَ أَنْ أَشْرَبَ الدَّوَاءَ – هَذَا أَنَا أَخُضُّهُ فِي بَطْنِي!", "answer_zh": "他忘了服药前摇瓶，事后想起才想起，于是说现在要在肚子里把它摇一摇。", "roman": "ila yigúul ʻnisáyt axúDD il-ghársha gábil la áshrab id-dáwa – háadha ana axúDDah fi báTni!ʼ"}
+      ]
+    },
+    {
+      "title_zh": "练习六 · 街头标识阅读",
+      "prompt_zh": "读一读海湾街头的禁止标识，把它们译成中文，注意「مَمْنُوع＋动词名词」与否定祈使句两种句式。",
+      "items": [
+        {"q_zh": "ممنوع الوقوف", "answer_ar": "مَمْنُوعٌ الْوُقُوفُ", "answer_zh": "禁止停车。", "roman": "mamnúu9 il-wuqúuf"},
+        {"q_zh": "ممنوع التدخين", "answer_ar": "مَمْنُوعٌ التَّدْخِينُ", "answer_zh": "禁止吸烟。", "roman": "mamnúu9 at-tadxíin"},
+        {"q_zh": "ممنوع الدخول", "answer_ar": "مَمْنُوعٌ الدُّخُولُ", "answer_zh": "禁止入内。", "roman": "mamnúu9 ad-dukhúul"},
+        {"q_zh": "ممنوع الخروج", "answer_ar": "مَمْنُوعٌ الْخُرُوجُ", "answer_zh": "禁止外出。", "roman": "mamnúu9 al-khurúuj"},
+        {"q_zh": "لا تدخن", "answer_ar": "لَا تُدَخِّنْ", "answer_zh": "请勿吸烟。", "roman": "laa tudáxxin"},
+        {"q_zh": "لا تلوث الفلج", "answer_ar": "لَا تُلوِّثِ الْفَلَجَ", "answer_zh": "请勿污染灌溉水渠（fálaj 为阿曼乡村常见的引水渠）。", "roman": "laa tuláwwith al-fálaj"},
+        {"q_zh": "لا تقف هنا", "answer_ar": "لَا تَقِفْ هُنَا", "answer_zh": "请勿在此停留。", "roman": "laa táqif húnaa"},
+        {"q_zh": "لا تخرج من هنا", "answer_ar": "لَا تَخْرُجْ مِنْ هُنَا", "answer_zh": "请勿从此离开。", "roman": "laa táxruj min húnaa"}
+      ]
+    }
+  ],
+  "letters": [],
+  "summary_zh": "本单元围绕动词名词（المصدر）展开：你学会了强式、空心、弱式动词的常见词型以及各派生式的对应规律，并看到它如何像英语的 -ing 一样表示活动、替代从句、作「回声」强调。接着你掌握了三类聚合否定——maa…illa 表「只」，maa…wa la 与 la…la 表「既不……也不」——以及「形容词＋定名词」构成的复合形容词和 bruuh、nafs 表示「自身、同样」的用法。通过《斋戒的益处》短文和朱哈笑话，你熟悉了动词名词在真实语篇中的高频出现。最后的街头禁止标识阅读，则把这些语法点带回了日常生活。"
+}

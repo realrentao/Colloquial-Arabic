@@ -24,6 +24,7 @@ window.LIBRARY = {
       authors: "简·怀特威克（Jane Wightwick）／马哈茂德·加法尔（Mahmoud Gaafar）",
       edition: "Routledge 第三版，2014",
       entry: "books/egyptian-arabic/index.html",
+      brief: "埃及方言入门到进阶的完整课程。",
       summary: "埃及方言入门到进阶的完整课程。本站将原书全部罗马音转写改写为带完整元音标注的阿拉伯文，英文讲解润色为中文，并按「发音 → 字母 → 15 个单元 → 语法总表 → 词汇表」重整为可逐级展开的学习流程。",
       tags: ["埃及方言", "零起点 → B1", "带元音标注", "中文精讲", "已接入"],
       stats: [
@@ -43,6 +44,7 @@ window.LIBRARY = {
       authors: "穆罕默德·阿尔-马斯里（Mohammad Al-Masri）",
       edition: "Routledge 第一版，2016",
       entry: "books/levantine-arabic/index.html",
+      brief: "黎凡特方言（叙利亚、黎巴嫩、约旦、巴勒斯坦一带）零起点到 B1 的完整课程。",
       summary: "黎凡特方言（叙利亚、黎巴嫩、约旦、巴勒斯坦一带）零起点到 B1 的完整课程。本站将原书罗马音转写改写为带完整元音标注的阿拉伯文，英文讲解润色为中文，并按「发音 → 字母 → 13 个单元 → 语法总表 → 词汇总表」重整为可逐级展开的学习流程。",
       tags: ["黎凡特方言", "零起点 → B1", "带元音标注", "中文精讲", "已接入"],
       stats: [
@@ -52,6 +54,26 @@ window.LIBRARY = {
         { label: "练习题", value: "370" }
       ],
       level: "第 02 册 · 已接入"
+    },
+    {
+      id: "gulf-arabic",
+      status: "active",
+      title_zh: "海湾口语",
+      title_ar: "اَلْعَرَبِيَّةُ الْخَلِيجِيَّةُ",
+      title_original: "Colloquial Arabic of the Gulf · The Complete Course for Beginners",
+      authors: "克莱夫·霍尔斯（Clive Holes）",
+      edition: "Routledge 第一版，2016",
+      entry: "books/gulf-arabic/index.html",
+      brief: "海湾方言（科威特、巴林、卡塔尔、沙特东部、阿联酋、阿曼）零起点到 B1 的完整课程。",
+      summary: "海湾方言（科威特、巴林、卡塔尔、沙特东部、阿联酋、阿曼）零起点到 B1 的完整课程。本站将原书罗马音转写改写为带完整元音标注的阿拉伯文，英文讲解润色为中文，并按「发音 → 字母 → 21 个单元（含 2 个复习单元）→ 语法总表 → 词汇总表」重整为可逐级展开的学习流程，对话按海湾六国男女声分角色配音。",
+      tags: ["海湾方言", "零起点 → B1", "带元音标注", "中文精讲", "已接入"],
+      stats: [
+        { label: "课程单元", value: "21" },
+        { label: "情景对话", value: "246" },
+        { label: "词条", value: "2157" },
+        { label: "练习题", value: "782" }
+      ],
+      level: "第 03 册 · 已接入"
     }
   ]
 };

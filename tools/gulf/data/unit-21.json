@@ -1,0 +1,261 @@
+{
+  "id": 21,
+  "slug": "unit-21",
+  "title_ar": "كُنْتُ أَرْسُمُ تَمَامًا",
+  "title_zh": "我从前画得很好",
+  "title_roman": "kint ársim tamáam",
+  "subtitle_zh": "卡恩（kaan）与叶昆（yikúun）动词串、更多连词、「如同」与「我认为」、-an 副词",
+  "level_zh": "高级",
+  "goals": [
+    "掌握含 kaan／yikúun 的动词串：过去常常、过去已完成、将正在进行、将已经完成",
+    "学习 kíllmin、kíllmaa、wáynmaa、míthilmaa、maadáam 等更多连词",
+    "学会用 chinn-／kinn- 表达「如同、好像」",
+    "掌握 9ála báali、9ála DHánni 等表示「我认为」的说法",
+    "学会 ba9D 表示「一些」和「互相」，以及以 -an 结尾的常见副词"
+  ],
+  "is_review": false,
+  "cultural_point": {
+    "title_zh": "海湾的「阿英混说」：9arabíizi（عَرَبِيزِي）",
+    "body_zh": "近几十年，海湾国家的可支配收入大幅增长，教育投入也随之猛增。四十年前，海湾只有一所大学——1966 年开办的科威特大学；如今已有数十所大学，既有公办也有私立，还有英美高校的分校。在这类高校里，商科、工商管理以及应用与纯理科多用英语授课，而蓬勃发展的英文私立中小学又为它们输送生源。教育扩张之外，跨国公司的涌入（仅迪拜就有一千多家设办事处）、赴西方旅行的激增以及西方媒体的浸染，使精通英语的海湾阿拉伯人数量呈爆炸式增长。在日益全球化的经济中，英语成了许多人的工作语言；他们在家人和同胞之间仍说海湾阿拉伯语，但频繁接触英语使两种语言常常交织在一起。于是人们造了一个新词 9arabíizi（عَرَبِيزِي），由 9árabi（阿拉伯语）与 inglíizi（英语）拼合而成，类似英语里的「Spanglish」「Franglais」。2006 年还出现了一部同名喜剧电影。这种混说并非海湾独有，约旦、埃及也有，只是海湾的使用者似乎最多。书中举了两个例子：一位在炼油厂工作的巴林人描述工作时夹着 tónki（油罐）、kruud（原油）、díizal（柴油）、bambáat（泵）、ikstínjah（换热器）、híitar（加热器）等英语技术词；而电影中一位 24 岁的科威特姑娘自我介绍时，直接在阿拉伯语句与英语句之间整段切换，并自称「我说 9arabíizi」。海湾内部对此不无忧虑，有人认为阿拉伯语受到威胁；但作为全球化经济与教育的产物，9arabíizi 看来已扎根并会长期存在。",
+    "tip_zh": "学习时要区分两种现象：把英语技术词嵌进阿拉伯语（如 tónki、bambáat）只是工作场景中的借词；真正的 9arabíizi 是在阿拉伯语与英语之间整句、整段地切换。与海湾人交谈时听到英语词不必意外；正如我们说中文时也自然夹用「OK」「PPT」，语言混用是全球化时代的普遍现象。"
+  },
+  "dialogues": [
+    {
+      "title_zh": "考驾驶执照",
+      "title_ar": "الْحُصُولُ عَلَى رُخْصَةِ السِّيَاقَةِ",
+      "context_zh": "甲乙二人谈论在海湾（以科威特为背景）考取驾照的流程：先到警察局登记、验视力，再参加路考，车辆通常用教练的，通过后还要给教练一笔谢礼。",
+      "lines": [
+        {
+          "speaker_zh": "甲",
+          "ar": "إِذَا تَبِّي تِحَصِّل عَلَى رُخْصَةِ السِّيَاقَةِ … لَيْسَان، يَعْنِي … شَلَازِم تَصَوِّي؟",
+          "zh": "如果你想考驾照……驾照，我是说……该怎么做？",
+          "roman": "ídha tábbi tiHáSSil 9ála rúxSat is-siyáaqa … láysan, yá9ni … sh-láazim tsáwwi?"
+        },
+        {
+          "speaker_zh": "乙",
+          "ar": "أَوَّل تْرُوحْ شْيِسَمُّونَهُ الْقَلْعَة، وَيِسَجِّلُونِيكْ وَيِفْحَصُونَ عَلَى النَّظَرِ. عُقُبْ يَوْمَيْن تَقْرِيبًا يَعْطُونِيكْ النَّتِيجَةَ: إِذَا سِتَّة فِي سِتَّة زَيْن، وَإِذَا ضَعِيف يِقُولُونَ لِكْ جِيبْ النَّظَّارَةَ اِلْبَسْ نَظَّارَةً … هَايِ الِّي يِقُولُونَ، أَنَا خُبْ مَا رِحْتُ …",
+          "zh": "首先你去——他们管它叫什么来着——那个「城堡」（警察局），他们在那里给你登记、查视力。大约两天后把结果给你：要是六分满分，那就好；要是视力弱，他们就让你去配眼镜、戴眼镜……反正他们是这么说的，我自己还没去过……",
+          "roman": "áwwal trúuH sh-yisammúunah – il-gál9a – u yisajjilúunik u yifHaSúun 9ala n-náDHar. 9ógub yoomáyn taqríiban ya9Túunik in-natíija: ídha sítta fi sítta, zayn, u idha Da9íif yiguulúun lik 'jiib in-naDHDHáara, ílbas naDHDHáara' … haayilli yiguulúun, ána xub maa riHt …"
+        },
+        {
+          "speaker_zh": "甲",
+          "ar": "وَبَعْدَيْن، تَاخِذْ التِّسْت؟",
+          "zh": "然后你就参加路考？",
+          "roman": "u ba9adáyn, táaxidh it-tist?"
+        },
+        {
+          "speaker_zh": "乙",
+          "ar": "أَي، التِّسْت. تِدِيشّ وِيَّة الدَّابِطِ وَإِذَا شَافِكْ تَمَام نِجَحْتَ، شَافِكْ مُو تَمَام رَدَّيْتَ.",
+          "zh": "对，路考。你和一名警官一起上车，如果他觉得你没问题你就通过；觉得你不行，你就得重考。",
+          "roman": "ay, it-tist. tidíshsh wíyya D-DáabiT u ídha sháafik tamáam nijáHt, sháafik mu tamáam raddáyt."
+        },
+        {
+          "speaker_zh": "甲",
+          "ar": "وَالسَّيَّارَة لَازِمٌ أَنْ تَكُونَ مَالْ السَّايِقِ نَفْسَهُ؟",
+          "zh": "那车一定要是考生本人的吗？",
+          "roman": "wis-sayyáara láazim tikúun maal is-sáayiq náfsah?"
+        },
+        {
+          "speaker_zh": "乙",
+          "ar": "لَا، عَادَةً مَالْ الْمُعَلِّمِ. تَاخِذْهَا سَاعَةً، تِدِيشّ وِيَّة الدَّابِطِ وَتَعْطِيهِ إِجْرَةً. إِذَا نِجَحْتَ تَعْطِيهِ إِكْرَامِيَّةً يَعْنِي چِذِي هَدِيَّةً بِمُنَاسَبَةِ النَّجَاحِ، يَعْنِي.",
+          "zh": "不，通常是教练的。你借用一小时，带着车和警官一起去，并付给教练一笔费用。如果通过，你就给他一笔奖金——也就是类似因为通过而送的礼，我是说。",
+          "roman": "la, 9áadatan maal il-mu9állim. táaxidhha sáa9a, tidíshsh wiyya D-DáabiT u ta9Tíih íjra. ídha nijáHt ta9Tíih ikraamíyya ya9ni chidhíi hádiya bi munaasábat in-najáaH, ya9ni."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {"ar": "كَانَ / يَكُونُ", "zh": "是；成为", "roman": "kaan/yikúun", "note_zh": "本单元复合时态的核心助动词"},
+    {"ar": "لَازِم", "zh": "必要的；必须", "roman": "láazim", "note_zh": "与 kaan 连用表示过去的需要或义务"},
+    {"ar": "أَثَاث", "zh": "家具", "roman": "aatháath"},
+    {"ar": "أَبَدًا", "zh": "从不；一点也不", "roman": "ábadan"},
+    {"ar": "أَوْرْتَايْم", "zh": "加班", "roman": "awirtáym", "note_zh": "来自英语 overtime"},
+    {"ar": "أَوَّلْمَا", "zh": "第一次……时；一……就……", "roman": "áwwalmaa"},
+    {"ar": "بَال", "zh": "头脑；心思", "roman": "baal"},
+    {"ar": "عَلَى بَالٍ", "zh": "我认为（就「我」而言）", "roman": "9ála baal", "note_zh": "后接人称代词，如 9abáali、9abáalik"},
+    {"ar": "غَيَّرَ الْبَالَ", "zh": "改变主意", "roman": "gháyyar il-baal"},
+    {"ar": "بَدَلًا مِنْ", "zh": "代替；而不是", "roman": "bádalan min"},
+    {"ar": "بَيَّنَ / يُبَيِّنُ", "zh": "出现；显出", "roman": "báyyan/yibáyyin"},
+    {"ar": "چَيْفْمَا", "zh": "无论怎样；不管如何", "roman": "cháyfmaa"},
+    {"ar": "چِنّ\/كِنّ", "zh": "好像；如同", "roman": "chinn-/kinn-", "note_zh": "后接后缀代词，如 chínnah、chínnak"},
+    {"ar": "دَقَّ / يَدُقُّ", "zh": "敲；打", "roman": "dagg/yidígg"},
+    {"ar": "عَلَى ظَنٍّ", "zh": "我认为；据我看", "roman": "9ála DHann", "note_zh": "如 9aDHánni、9aDHánnhum"},
+    {"ar": "فَرْق", "zh": "差别；间隔", "roman": "farg"},
+    {"ar": "غَصْبًا عَلَى", "zh": "不情愿地；被迫地", "roman": "gháSban 9ála", "note_zh": "后接后缀代词"},
+    {"ar": "حَرْب / حُرُوب", "zh": "战争（阴性名词）", "roman": "Harb (f.)/Hurúub"},
+    {"ar": "حِين / أَحْيَان", "zh": "时候；时期", "roman": "Hiin/aHyáan"},
+    {"ar": "حُرِّيَّة", "zh": "自由", "roman": "Hurríyya"},
+    {"ar": "إِجْرَة", "zh": "费用", "roman": "íjra"},
+    {"ar": "إِكْرَامِيَّة", "zh": "奖金；酬谢礼", "roman": "ikraamíyya"},
+    {"ar": "اِسْتَأْجَرَ / يَسْتَأْجِرُ", "zh": "租用；雇用", "roman": "istáajar/yistáajir"},
+    {"ar": "اِسْتَعْجَلَ / يَسْتَعْجِلُ", "zh": "匆忙；赶时间", "roman": "istá9jal/yistá9jil"},
+    {"ar": "اِتَّصَلَ / يَتَّصِلُ", "zh": "取得联系（fi）", "roman": "ittáSal/yittáSil (fi)"},
+    {"ar": "اِخْتَلَفَ / يَخْتَلِفُ", "zh": "不同；有分歧", "roman": "ixtálaf/yixtálif"},
+    {"ar": "اِعْتَقَدَ / يَعْتَقِدُ", "zh": "相信；认为", "roman": "i9táqad/yi9táqid"},
+    {"ar": "اِعْتِبَارًا مِنْ", "zh": "自……起生效", "roman": "i9tibáaran min"},
+    {"ar": "جَوَّدَ / يُجَوِّدُ", "zh": "抓住；握住", "roman": "jáwwad/yijáwwid"},
+    {"ar": "كَمَّلَ / يُكَمِّلُ", "zh": "完成", "roman": "kámmal/yikámmil"},
+    {"ar": "كَرَهَ / يَكْرَهُ", "zh": "憎恨", "roman": "kárah/yíkrah"},
+    {"ar": "كَرِيم / كِرَام", "zh": "慷慨的；仁厚的", "roman": "karíim/kiráam"},
+    {"ar": "كُلّْمَا", "zh": "无论何时；无论什么", "roman": "kíllmaa"},
+    {"ar": "كُلِّمَنْ", "zh": "无论谁；凡是……的人", "roman": "kíllmin"},
+    {"ar": "لَيْسَان", "zh": "驾驶执照", "roman": "láysan"},
+    {"ar": "رُخْصَة سِيَاقَة", "zh": "驾驶执照", "roman": "rúxSat siyáaqa"},
+    {"ar": "مَا دَامَ", "zh": "只要", "roman": "maadáam"},
+    {"ar": "مَجَال", "zh": "空间；余地", "roman": "majáal"},
+    {"ar": "مَشَّى / يُمَشِّي", "zh": "推进（工程）；开车", "roman": "máshsha/yimáshshi"},
+    {"ar": "مَثَل / أَمْثَال", "zh": "例子；谚语", "roman": "máthal/amtháal"},
+    {"ar": "مَوْقِف / مَوَاقِف", "zh": "情况；位置", "roman": "máwqif/mawáaqif"},
+    {"ar": "مَيِّت", "zh": "死的", "roman": "máyyit"},
+    {"ar": "مِطْرَقَة / مَطَارِق", "zh": "锤子", "roman": "míTraga/maTáarig"},
+    {"ar": "مِثْلْمَا", "zh": "正如；就像", "roman": "míthilmaa"},
+    {"ar": "بِمُنَاسَبَةِ", "zh": "值……之际；为庆祝……", "roman": "bi munaasábat", "note_zh": "后接名词"},
+    {"ar": "مُقَابَلَة / مُقَابَلَات", "zh": "会面；会见", "roman": "muqáabla(aat)"},
+    {"ar": "مُوَظَّف / مُوَظَّفُونَ", "zh": "职员；官员", "roman": "muwáDHDHaf (iin)"},
+    {"ar": "مُعْتَقَد / مُعْتَقَدَات", "zh": "信念", "roman": "mu9táqad(aat)"},
+    {"ar": "نَاطُور / نَوَاطِير", "zh": "守夜人；门卫", "roman": "naaTúur/nawaaTíir"},
+    {"ar": "نَظَر", "zh": "视力；视觉", "roman": "náDHar"},
+    {"ar": "نَظَّارَة / نَظَّارَات", "zh": "眼镜", "roman": "naDHDHáara(aat)"},
+    {"ar": "نَجَاح", "zh": "成功", "roman": "najáaH"},
+    {"ar": "نَتِيجَة / نَتَائِج", "zh": "结果", "roman": "natíija/natáayij"},
+    {"ar": "نَوْبَة وَاحْدَة", "zh": "一口气；一次性", "roman": "nóoba wáHda"},
+    {"ar": "قَرْيَة / قُرَى", "zh": "村庄", "roman": "qárya/qúra"},
+    {"ar": "رَأْسًا", "zh": "直接地", "roman": "ráʼsan", "note_zh": "同义词 síida"},
+    {"ar": "رَدَّ / يَرُدُّ", "zh": "重复；再做", "roman": "radd/yiridd/radáad"},
+    {"ar": "سَجَّلَ / يُسَجِّلُ", "zh": "记录；登记", "roman": "sájjal/yisájjil"},
+    {"ar": "صُدْفَةً", "zh": "偶然地；碰巧", "roman": "Súdfatan"},
+    {"ar": "شْقَدّْمَا", "zh": "无论多少", "roman": "shgáddmaa"},
+    {"ar": "شِكْثِيرْمَا", "zh": "无论多少", "roman": "shkíthirmaa"},
+    {"ar": "شْوَقّْتْمَا", "zh": "无论何时", "roman": "shwáqtmaa", "note_zh": "此类句中可替代 kíllmaa"},
+    {"ar": "تَمَام", "zh": "极好；完美", "roman": "tamáam"},
+    {"ar": "تَقْرِيبًا", "zh": "大约；差不多", "roman": "taqríiban"},
+    {"ar": "تِلِفُون / تِلِفُونَات", "zh": "电话", "roman": "tilifúun(aat)"},
+    {"ar": "تِسْت / تِسْتَات", "zh": "驾驶考试", "roman": "tist(aat)"},
+    {"ar": "تَوَقَّعَ / يَتَوَقَّعُ", "zh": "预料；期待", "roman": "tiwáqqa9/yitwáqqa9"},
+    {"ar": "تَعَطَّلَ / يَتَعَطَّلُ", "zh": "抛锚；失业", "roman": "ti9áTTal/yit9áTTal"},
+    {"ar": "تُفْقَة", "zh": "枪", "roman": "túfga/tífag"},
+    {"ar": "وَالِدَيْنِ", "zh": "父母", "roman": "waalidáyn", "note_zh": "后接后缀代词表示「我的／你的父母」"},
+    {"ar": "بَعْض", "zh": "一些；若干", "roman": "ba9D", "note_zh": "后接定名词表示「……中的一部分」"},
+    {"ar": "بَعْضُهُمْ بَعْضًا", "zh": "互相；彼此", "roman": "ba9Dhum ba9D"},
+    {"ar": "خُبْ", "zh": "真是；的确（加强语气）", "roman": "xub"},
+    {"ar": "يَوْمْمَا", "zh": "一……就……", "roman": "yóommaa"},
+    {"ar": "عَدَم", "zh": "缺乏；不足", "roman": "9ádam"},
+    {"ar": "عَوَّرَ / يُعَوِّرُ", "zh": "使疼痛；伤害", "roman": "9áwwar/yi9áwwir"},
+    {"ar": "مُتَغَدٍّ", "zh": "已经吃过午饭的", "roman": "mitgháddi"}
+  ],
+  "grammar": [
+    {
+      "title_zh": "19.1 含 kaan／yikúun 的动词串",
+      "body_zh": "海湾阿拉伯语用助动词 kaan（过去式「是、成为」）或 yikúun（未完成式）加另一个动词，来表达英语中的复合时态。kaan＋未完成式（人称要一致）相当于 used to，表示过去习惯性动作；kaan＋主动形容词（主动分词）把两个过去动作或状态连起来，表示在第二个动作发生时第一个已经开始或完成，持续性动词常译作「当时正在……」。若把 láazim 看作主动形容词，kaan láazim 可表达过去的需要或义务；注意表示「有必要」时，kaan 与 láazim 都不随主语的性、数变化。yikúun＋未完成式表示对将来动作的推测「届时会正在……」；yikúun＋主动形容词或过去式动词表示预料某事在将来「已经完成」。yikúun 则要与后面的动词或分词保持性、数一致。",
+      "examples": [
+        {"ar": "كُنْتُ أَرْسُمُ تَمَامًا يَوْمَ كُنْتُ فِي الْمَدْرَسَةِ", "zh": "我从前在学校时画画很好。", "roman": "kint ársim tamáam yoom kint fil-madrása"},
+        {"ar": "كَانَ يَشْتَغِلُ نَاطُورًا أَوَّلَ", "zh": "他从前当过守夜人。", "roman": "kaan yishtághil naaTúur áwwal"},
+        {"ar": "كَانَتِ الْمُبَارَاةُ بَادِيَةً حِينَ وَصَلْنَا", "zh": "我们到达时，比赛已经开始了。", "roman": "il-mubáara káanat báadya min wuSálna"},
+        {"ar": "لَمَّا خَابَرْتُهَا كَانَتْ مُتَغَدِّيَةً", "zh": "我给她打电话时，她已经吃过午饭了。", "roman": "min xaabártha káanat mitgháddiya"},
+        {"ar": "لَا تَمُرَّ عَلَيْهِمُ الْحِينَ، يَكُونُونَ يَتَعَشُّونَ", "zh": "现在别去他们家，他们这会儿该在吃晚饭了。", "roman": "la timúrr 9aláyhum il-Hiin, yikuunúun yit9ashshúun"},
+        {"ar": "حين تَرَانِي السَّنَةَ الْقَادِمَةَ سَأَكُونُ قَدْ حَصَلْتُ عَلَى الشَّهَادَةِ", "zh": "明年你见到我时，我就已经拿到文凭了。", "roman": "HaSSált min tishúufni s-sána l-jáaya, akúun 9ala sh-shaháada miHáSSil"}
+      ],
+      "tip_zh": "kaan láazim yirúuH（他当时必须去）、kaan mub láazim yirúuH（他当时不必去）、kaan láazim maa yirúuH（他当时不该去）三式意义不同；后两式的否定词位置不可混淆。"
+    },
+    {
+      "title_zh": "19.2 更多连词",
+      "body_zh": "本单元补充一批连接从句的词。kíllmin 意为「无论谁、凡是……的人」，kíllmaa 意为「无论什么、每当」，cháyfmaa「无论怎样」，wáynmaa「无论哪里」，shkíthirmaa 与 shgáddmaa「无论多少」，shwáqtmaa「无论何时」（在这类句中可替代 kíllmaa）。另有 míthilmaa「正如、就像」，áwwalmaa「第一次……时」，yóommaa「一……就……」，maadáam「只要」。这些词把时间、条件、让步等关系清楚地连接起来，是书面与口语都常用的衔接手段。",
+      "examples": [
+        {"ar": "كُلِّمَنْ يَأْتِ مَقْبُولٌ", "zh": "谁来都会受到欢迎。", "roman": "kíllmin iyi, magbúul"},
+        {"ar": "كُلَّمَا تَحَدَّثَ عَنِ ابْنِهِ الْمَيِّتِ أَخَذَ يَبْكِي", "zh": "他一谈到自己死去的儿子，就哭了起来。", "roman": "kíllmaa taHáchcha 9an wíldah il-máyyit, gaam yíbchi"},
+        {"ar": "وَيْنَمَا دَوَّرَ لَمْ يَجِدْ أَحَدًا يَقْدِرُ عَلَى حَلِّ مُشْكِلَتِهِ", "zh": "他到处找，也没找到能解决他问题的人。", "roman": "wáynmaa dáwwar, maa líga lih áHad yígdar yiHíll mushkíltah"},
+        {"ar": "مَا دَامَ رِجْلُكَ تُؤْلِمُكَ فَلَا تَقُمْ مِنَ الْفِرَاشِ", "zh": "只要你的腿还疼，就别下床。", "roman": "maadáam ríilik ti9áwrik la tigúum min il-faráash"}
+      ],
+      "tip_zh": "kíllmaa 的语义依上下文可为「每当」或「无论什么」，如 kíllmaa miHtáaja lih 既可理解为「无论她需要什么」，也可理解为「每当她需要它」。"
+    },
+    {
+      "title_zh": "19.3 「如同、好像」：chinn-／kinn-",
+      "body_zh": "连词 chinn-（也写作 kinn-）后接后缀代词，意思是「好像、如同」，也可引出整句表示「好像……似的」。它用来把人或事物比作另一件事物，带有鲜明的口语色彩。",
+      "examples": [
+        {"ar": "وَجْهُكَ چِنَّهُ قُوطِيٌّ مَخْفُوضٌ!", "zh": "你的脸像个压扁的罐头！", "roman": "wájhik chínnah gúuTi muxáffaS!"},
+        {"ar": "بَصَلٌ شَكْبِرَهُ چِنَّهُ تُفَّاحَةٌ!", "zh": "洋葱大得像个苹果！", "roman": "báSal sh-kúbrah chínnah tuffáaH!"},
+        {"ar": "قَامُوا يَفْتَشُونَ عَلَى الزَّرْعِ كِنَّكُمْ خُبَرَاءُ", "zh": "他们开始查看庄稼，好像自己是专家似的。", "roman": "gáamaw yifatshúun 9ála z-zar9 kínnhum xubaráa."}
+      ],
+      "tip_zh": "chinn- 后的人称后缀与介词短语的后缀写法一致：chínnah「像他」、chínnak「像你（男）」、chínnich「像你（女）」、kínnhum「像他们」。"
+    },
+    {
+      "title_zh": "19.4 表示「我认为」的几个说法",
+      "body_zh": "除 fi ráʼyi「依我看」外，海湾口语常用 9ála báali（或 9abáali）「在我看来、我原以为」，以及 9ála DHánni（或 9aDHánni）「我想、我猜测」。两者都用来引出说话人的看法，尤其常用于表达「原以为其实并非如此」的纠正语气；baal 与 DHann 都可以附加其他人称代词，如 9abáalik「你（女）以为」、9aDHánnhum「他们以为」。",
+      "examples": [
+        {"ar": "وَاللهِ؟ عَلَى بَالِي أَكْثَرُ مِنْ هَاذَا.", "zh": "真的？我原以为不止这些呢。", "roman": "wállah? 9abáali ákthar min háadha."},
+        {"ar": "عَلَى بَالِكِ بِنْتٌ حَلْوَةٌ، مُو چِذِي؟", "zh": "你觉得她是个漂亮姑娘，对吧（对女性说）？", "roman": "9abáalik bint Hálwa, muu chidhíi?"},
+        {"ar": "عَلَى ظَنِّهِمْ مُو لَازِمٌ يُكَمِّلُوا دِرَاسَتَهُمْ هَذِهِ السَّنَةَ", "zh": "他们以为今年不必完成学业。", "roman": "9aDHánnhum mub láazim yikamlúun diráasathum has-sána."},
+        {"ar": "كَيْفَ كَانَتِ الْحَفْلَةُ؟ – عَلَى ظَنِّي مُو شَيْءٌ.", "zh": "晚会怎么样？——我觉得不怎么样。", "roman": "– il-Háfla chayf káanat? – 9aDHánni mub shay."}
+      ],
+      "tip_zh": "9abáali 更偏「我本以为（后来发现不对）」，9aDHánni 更偏「我猜、我判断」；回答对事情的评时常用来委婉表达负面看法。"
+    },
+    {
+      "title_zh": "19.5 ba9D：「一些」与「互相」",
+      "body_zh": "ba9D 本义是「……中的一些」。后接确定的名词时表示「一些、一部分」，如 ba9D in-naas「有些人」；后接后缀代词再加（il-）ba9D，则构成表示「互相、彼此」的结构，字面是「他们中的一些人（对）另一些人」，如「他们互相憎恨」「他们打了一架」。若动词需要介词，介词要放在 ba9D 之前，如 9árraf ... bá9Dhum 9ála ba9D「他把官员们互相作了介绍」。",
+      "examples": [
+        {"ar": "بَعْضُ النَّاسِ يَعْتَقِدُونَ أَنَّ التِّلِفِزْيُونَ حَرَامٌ", "zh": "有些人认为电视是（宗教上）被禁止的。", "roman": "ba9D in-naas yi9taqidúun inn it-tilivizyúun Haráam."},
+        {"ar": "رَأْسُهُ يُؤْلِمُنِي فِي بَعْضِ الْأَحْيَانِ", "zh": "我的头时不时地疼。", "roman": "ráasi yi9awwírni fi ba9D il-aHyáan."},
+        {"ar": "يَكْرَهُونَ بَعْضَهُمْ بَعْضًا", "zh": "他们互相憎恨。", "roman": "yikrahúun bá9Dhum ba9D."},
+        {"ar": "عَرَّفَ الْمُوَظَّفِينَ بَعْضَهُمْ عَلَى بَعْضٍ", "zh": "他把官员们互相作了介绍。", "roman": "9árraf il-muwaDHDHafíin bá9Dhum 9ála ba9D."}
+      ],
+      "tip_zh": "「互相」结构里第二个 ba9D 前常有定冠词 il-，且第一个 ba9D 常带所属后缀（如 bá9Dhum「他们中的一部分」）；两词之间不可插入别的成分。"
+    },
+    {
+      "title_zh": "19.6 以 -an 结尾的副词",
+      "body_zh": "海湾阿拉伯语（与其他方言一样）常在名词或形容词后加 -an 构成副词，用来说明动作的方式或时间。常见的有 9áadatan「通常」、Táb9an「自然、当然」、taqríiban「大约」、Súdfatan「偶然」、ábadan「从不、绝不」、aHyáanan「有时」、ráʼsan「直接地」、i9tibáaran min「自……起」、bádalan min「代替」。bádalan min 虽是连词，但也由名词 bádal 加 -an 构成，故一并说明。",
+      "examples": [
+        {"ar": "عَادَةً مَا تَزِيدُ يَوْمِيَّةُ الْعَامِلِ عَلَى سِتَّةِ دَنَانِيرَ", "zh": "工人的日工资通常不超过六个第纳尔。", "roman": "9áadatan maa tizíid yoomíyyat il-9áamil 9ála sitt danaaníir."},
+        {"ar": "لَقَيْتُهُ صُدْفَةً فِي الشَّارِعِ", "zh": "我在街上偶然遇见了他。", "roman": "ligáytah Súdfatan fish-sháari9."},
+        {"ar": "هَلْ مَسْتَعْمِلٌ هَذِهِ الْآلَةَ مِنْ قَبْلُ؟ – أَبَدًا.", "zh": "你以前用过这个工具吗？——从来没有。", "roman": "– mistá9mil hal-áala min gábil? – ábadan."},
+        {"ar": "بَعَثْتُ وَاحِدًا بَدَلًا مِنْ أَنْ أَرُوحَ إِلَى الِاجْتِمَاعِ نَفْسِي", "zh": "我派了个人去，代替我自己去开会。", "roman": "baTárrish wáaHid bádalan min arúuH il-ijtimáa9 náfsi."}
+      ],
+      "tip_zh": "i9tibáaran min 也可用 min … ráayiH 替代，如 min báachir ráayiH「从明天起」；ráʼsan 的同义词是 síida「径直」。"
+    }
+  ],
+  "exercises": [
+    {
+      "title_zh": "练习一 · 用 kaan／yikúun 复合时态翻译",
+      "prompt_zh": "把下列句子译成阿拉伯语，注意复合时态中 kaan／yikúun 与后面动词或分词的人称、性、数一致。",
+      "items": [
+        {"q_zh": "我们到达时，电影已经开始了。", "answer_ar": "مِنْ وُصُولِنَا كَانَ الْفِيلْمُ بَادِيًا", "answer_zh": "用 kaan＋主动形容词，表示到达前比赛／电影已经开始。"},
+        {"q_zh": "我们看见他们已经搬完了家具。", "answer_ar": "شِفْنَا كَانُوا مُخَلِّصِينَ شَيْلَانَ الْأَثَاثِ", "answer_zh": "shifna káanaw mxalSíin shayaláan il-aatháath。"},
+        {"q_zh": "她上飞机时穿着一条绿裙子。", "answer_ar": "مِنْ رُكُوبِهَا الطَّائِرَةَ كَانَتْ لَابِسَةً تَنُّورَةً خَضْرَاءَ", "answer_zh": "min ríkbat iT-Tayyáara káanat láabsa tannúura xáDra。"},
+        {"q_zh": "我跟 him 联系上时，他已经改变了主意。", "answer_ar": "لَمَّا اِتَّصَلْتُ بِهِ كَانَ مُغَيِّرًا بَالَهُ", "answer_zh": "layn ittaSált fiih, kaan migháyyir báalah。"},
+        {"q_zh": "我以前对照相机很感兴趣，还拍了很多照片。", "answer_ar": "كُنْتُ أَهْتَمُّ بِآلَاتِ التَّصْوِيرِ وَآخُذُ صُوَرًا كَثِيرَةً", "answer_zh": "kint ahtámm bi aaláat it-taSwíir u áaxidh Súwar wáayid。"},
+        {"q_zh": "我刚到海湾时当过木匠。", "answer_ar": "أَوَّلَمَا جِئْتُ إِلَى الْخَلِيجِ كُنْتُ أَعْمَلُ نَجَّارًا", "answer_zh": "áwwalmaa yiit il-xalíij kint ashtághil najjáar。"},
+        {"q_zh": "科威特人从前都吃些什么？", "answer_ar": "شْكَانُوا الْكُوَيْتِيُّونَ يَأْكُلُونَ أَوَّلَ؟", "answer_zh": "sh-káanaw il-kuwaytiyyíin yaaklúun áwwal?"},
+        {"q_zh": "你回来时我就已经拿到驾照了。", "answer_ar": "مِنْ تَرْجِعُ أَكُونُ مُحَصِّلًا عَلَى رُخْصَةِ السِّيَاقَةِ", "answer_zh": "min tírja9 akúun miHáSSil 9ala rúxSat siyáaqa。"}
+      ]
+    },
+    {
+      "title_zh": "练习二 · 用 kaan láazim 表达「本该／不必」",
+      "prompt_zh": "仿照例子，用 kaan láazim 的适当形式翻译下列对话，注意否定词 mub 与 maa 的位置。",
+      "items": [
+        {"q_zh": "——他把钉子敲进了墙里。——他本该把它敲进门里！", "answer_ar": "– دَقَّ الْمِسْمَارَ فِي الْحَائِطِ. – كَانَ لَازِمًا يَدُقَّهُ فِي الْبَابِ!", "answer_zh": "dagg il-mismáar fil-HáayiT. – kaan láazim yidíggah fil-baab!"},
+        {"q_zh": "——他坐了 15 路公交车。——他本该坐 50 路！", "answer_ar": "– رَكِبَ الْبَاصَ رَقْمَ خَمْسَةَ عَشَرَ. – كَانَ لَازِمًا يَرْكَبُ الرَّقْمَ خَمْسِينَ!", "answer_zh": "rikab il-baaS ráqam xamstá9shar. – kaan láazim yírkub ir-ráqam xamsíin!"},
+        {"q_zh": "——他给了我那把大锤子。——他本该给你那把小的！", "answer_ar": "– أَعْطَانِي الْمِطْرَقَةَ الْكَبِيرَةَ. – كَانَ لَازِمًا يُعْطِيكَ الصُّغِيرَةَ!", "answer_zh": "9aTáani l-míTraga l-kabíira. – kaan láazim ya9Tíik iS-Saghíira!"},
+        {"q_zh": "——我租了一辆两门车。——你本该租一辆皮卡！", "answer_ar": "– اِسْتَأْجَرْتُ سَيَّارَةً أَبُوَ دَخْلَتَيْنِ. – كَانَ لَازِمًا تَسْتَأْجِرُ وَنَايْتًا!", "answer_zh": "istaajárt sayyáara abu daxlatáyn. – kaan láazim tistáajir wanáyt!"},
+        {"q_zh": "——阿里在哪儿？——不在这儿，准是回家了。——他本该再多待两个钟头！", "answer_ar": "– وَيْنَ عَلِيٌّ؟ – مُو مَوْجُودٍ، لَا بُدَّ أَنَّهُ رَاحَ إِلَى الْبَيْتِ. – كَانَ لَازِمًا يَتِمُّ سَاعَتَيْنِ بَعْدَ!", "answer_zh": "wayn 9áli? – muu mawjúud. láazim raaH il-bayt. – kaan láazim yitímm saa9atáyn bá9ad!"},
+        {"q_zh": "——你能借我十个第纳尔吗？——抱歉，我把薪水全花光了。——你本不该全花掉！", "answer_ar": "– هَلْ يُمْكِنُكَ أَنْ تُقْرِضَنِي عَشَرَةَ دَنَانِيرَ؟ – آسِفٌ، أَنْفَقْتُ كُلَّ رَاتِبِي. – كَانَ لَازِمًا مَا تُنْفِقَهُ كُلَّهُ!", "answer_zh": "múmkin tisallíf líi 9áshra danaaníir? – mitʼássif, Siráft kill ma9áashi. – kaan láazim maa tíSrufah kíllah!"},
+        {"q_zh": "——脏盘子在哪儿？——我刚洗了。——你其实不必洗！", "answer_ar": "– وَيْنَ الْمَوَاعِينُ الْوَاسِخَةُ؟ – تَوًّا غَاسِلٌ لَهَا. – كَانَ مُو لَازِمًا أَنْ تَفْعَلَ هَاذَا!", "answer_zh": "wayn il-mawaa9íin il-wásxa? – táwni ghaasílhum. – kaan mub láazim tsáwwi háadha!"},
+        {"q_zh": "——工头在哪儿？——准是去仓库了。——他本不该把这些人单独留下！", "answer_ar": "– وَيْنَ الْمُشْرِفُ؟ – لَا بُدَّ أَنَّهُ رَاحَ إِلَى الْمَخْزَنِ. – كَانَ لَازِمًا مَا يَخَلِّي هَؤُلَاءِ الرِّجَالَ بِرُوحِهِمْ!", "answer_zh": "wayn it-tindáyl? – láazim raaH il-máxzan. – kaan láazim maa yixálli har-rayaayíil brúuHhum!"}
+      ]
+    },
+    {
+      "title_zh": "练习三 · 用连词翻译",
+      "prompt_zh": "把下列句子译成阿拉伯语，正确使用 kíllmaa、kíllmin、maadáam、míthilmaa、wáynmaa 等连词。",
+      "items": [
+        {"q_zh": "无论你想要什么，我们都能弄到。", "answer_ar": "كُلَّمَا تُبْغِي نَقْدِرُ أَنْ نُحَصِّلَهُ", "answer_zh": "kíllmaa tábbi, nígdar niHáSlah."},
+        {"q_zh": "每当你需要什么，就到我这里来。", "answer_ar": "كُلَّمَا اِحْتَجْتَ إِلَى شَيْءٍ مُرَّ عَلَيَّ", "answer_zh": "kíllmaa tiHtáaj ila shay, múrr 9alíyyi."},
+        {"q_zh": "只要我在这里，我就会一直设法跟他联系。", "answer_ar": "مَا دَامَ أَنَا هُنَا سَأُواصِلُ الْمُحَاوَلَةَ لِلِاتِّصَالِ بِهِ", "answer_zh": "maadáam ána íhni, batímm aHáawil attáSil fiih."},
+        {"q_zh": "如你所知，他回来时我就会把信寄出了。", "answer_ar": "مِثْلَمَا تَعْلَمُ، سَأَكُونُ قَدْ أَرْسَلْتُ الرِّسَالَةَ قَبْلَ أَنْ يَرْجِعَ", "answer_zh": "míthilmaa tádri, akúun Tarrásht ir-risáala min yírja9."},
+        {"q_zh": "无论你去哪里，别忘了把地址留给我。", "answer_ar": "وَيْنَمَا تَذْهَبْ لَا تَنْسَ أَنْ تَتْرُكَ عُنْوَانَكَ عِنْدِي", "answer_zh": "wáynmaa truuH, la tínsa tixálli 9unwáanik 9índi."},
+        {"q_zh": "凡是进博物馆的人都得付 250 费尔。", "answer_ar": "كُلُّ مَنْ يَدْخُلُ الْمُتْحَفَ لَازِمٌ أَنْ يَدْفَعَ مِئَتَيْنِ وَخَمْسِينَ فِلْسًا", "answer_zh": "kíllmin yidíshsh il-mátHaf láazim yídfa9 miyatáyn u xamsíin fils."},
+        {"q_zh": "无论你当时多饿，都不该吃那个。", "answer_ar": "شْقَدّْمَا كُنْتَ جَائِعًا، كَانَ لَازِمًا مَا تَأْكُلَ هَاذَا", "answer_zh": "shgáddmaa kint yuu9áan, kaan láazim maa táakil háadha."},
+        {"q_zh": "无论你花多少钱，都别把钱浪费在没用的东西上。", "answer_ar": "شِكْثِيرْمَا تُنْفِقْ، لَا تُبَدِّدْ فُلُوسَكَ فِي أَشْيَاءَ لَا فَائِدَةَ فِيهَا", "answer_zh": "shkíthirmaa tíSruf, la tiDáyyi9 flúusik bi ashyá maa líha fáyda."}
+      ]
+    }
+  ],
+  "letters": [],
+  "summary_zh": "本单元系统学习了含 kaan／yikúun 的复合时态：kaan＋未完成式表示「过去常常」，kaan＋主动形容词表示「过去已完成／当时正在」，yikúun＋未完成式或主动形容词、过去式则表示「将正在进行」「将已经完成」。我们还掌握了 kíllmin、kíllmaa、wáynmaa、míthilmaa、maadáam 等连词，以及 chinn-／kinn-「如同」、9ála báali 与 9ála DHánni「我认为」、ba9D「一些／互相」和以 -an 结尾的常见副词。课文对话完整示范了在科威特考驾照的流程。文化点介绍了海湾的「阿英混说」现象，展示了全球化背景下阿拉伯语与英语的交融。"
+}
