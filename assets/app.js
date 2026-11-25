@@ -43,7 +43,7 @@
   window.renderLibrary = function () {
     var grid = document.getElementById('book-grid');
     if (!grid || !window.LIBRARY) return;
-    var lib = window.LIBRARY, books = lib.books || [], total = Math.max(lib.totalSlots || 6, books.length + 3);
+    var lib = window.LIBRARY, books = lib.books || [], total = Math.max(lib.totalSlots || 6, books.length);
     var html = books.map(activeCard).join('');
     for (var i = books.length; i < total; i++) html += placeholderCard(i);
     grid.innerHTML = html;

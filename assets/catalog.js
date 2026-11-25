@@ -74,6 +74,66 @@ window.LIBRARY = {
         { label: "练习题", value: "782" }
       ],
       level: "第 03 册 · 已接入"
+    },
+    {
+      id: "glossika-f1",
+      status: "active",
+      title_zh: "Glossika 阿语 · 一级",
+      title_ar: "الْعَرَبِيَّةُ · الْمُسْتَوَى الْأَوَّل",
+      title_original: "Glossika Mass Sentences · English–Arabic (F1)",
+      authors: "Glossika 语言学习系统",
+      edition: "ENARARE F1 · 1000 句",
+      entry: "books/glossika-f1/index.html",
+      brief: "1000 句高频句型，中文 / 标准阿语 / 埃及阿语三栏对照。",
+      summary: "1000 句高频句型，每句以中文替换原书英文，并列保留标准阿语与埃及阿语的原书元音标注及罗马音。中文配年轻男声，两种阿语均用原书配套真人录音，点击各栏即可发音。",
+      tags: ["Glossika", "句库 · 1000 句", "标准阿语 + 埃及阿语", "真人配音", "已接入"],
+      stats: [
+        { label: "单元", value: "20" },
+        { label: "例句", value: "1000" },
+        { label: "对照语种", value: "3" },
+        { label: "真人录音", value: "2000" }
+      ],
+      level: "第 04 册 · 已接入"
+    },
+    {
+      id: "glossika-f2",
+      status: "active",
+      title_zh: "Glossika 阿语 · 二级",
+      title_ar: "الْعَرَبِيَّةُ · الْمُسْتَوَى الثَّانِي",
+      title_original: "Glossika Mass Sentences · English–Arabic (F2)",
+      authors: "Glossika 语言学习系统",
+      edition: "ENARARE F2 · 1000 句",
+      entry: "books/glossika-f2/index.html",
+      brief: "1000 句进阶句型，中文 / 标准阿语 / 埃及阿语三栏对照。",
+      summary: "1000 句进阶句型，每句以中文替换原书英文，并列保留标准阿语与埃及阿语的原书元音标注及罗马音。中文配年轻男声，两种阿语均用原书配套真人录音，点击各栏即可发音。",
+      tags: ["Glossika", "句库 · 1000 句", "标准阿语 + 埃及阿语", "真人配音", "已接入"],
+      stats: [
+        { label: "单元", value: "20" },
+        { label: "例句", value: "1000" },
+        { label: "对照语种", value: "3" },
+        { label: "真人录音", value: "2000" }
+      ],
+      level: "第 05 册 · 已接入"
+    },
+    {
+      id: "glossika-f3",
+      status: "active",
+      title_zh: "Glossika 阿语 · 三级",
+      title_ar: "الْعَرَبِيَّةُ · الْمُسْتَوَى الثَّالِث",
+      title_original: "Glossika Mass Sentences · English–Arabic (F3)",
+      authors: "Glossika 语言学习系统",
+      edition: "ENARARE F3 · 1000 句",
+      entry: "books/glossika-f3/index.html",
+      brief: "1000 句高阶表达，中文 / 标准阿语 / 埃及阿语三栏对照。",
+      summary: "1000 句高阶表达，每句以中文替换原书英文，并列保留标准阿语与埃及阿语的原书元音标注及罗马音。中文配年轻男声，两种阿语均用原书配套真人录音，点击各栏即可发音。",
+      tags: ["Glossika", "句库 · 1000 句", "标准阿语 + 埃及阿语", "真人配音", "已接入"],
+      stats: [
+        { label: "单元", value: "20" },
+        { label: "例句", value: "1000" },
+        { label: "对照语种", value: "3" },
+        { label: "真人录音", value: "2000" }
+      ],
+      level: "第 06 册 · 已接入"
     }
   ]
 };

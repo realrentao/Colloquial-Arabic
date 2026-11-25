@@ -1,0 +1,37 @@
+/* ===== Glossika 三语对照句库 · 专用样式 ===== */
+
+/* 教材首页单元网格 */
+.g-unit-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.g-unit{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow);transition:.18s;color:var(--ink)}
+.g-unit:hover{border-color:var(--teal);box-shadow:var(--shadow-lg);transform:translateY(-2px);color:var(--ink)}
+.gu-num{font-family:var(--font-ar);font-size:26px;font-weight:700;color:var(--gold);min-width:44px;text-align:center}
+.gu-body{flex:1;min-width:0}
+.gu-title{font-weight:700;font-size:15.5px}
+.gu-sub{font-size:12.5px;color:var(--ink-3);margin-top:3px}
+.gu-go{font-size:13px;color:var(--teal);font-weight:600;white-space:nowrap}
+.g-hero{background:linear-gradient(135deg,var(--teal-d),var(--teal));color:#fff}
+.g-hero h1{color:#fff}
+
+/* 三栏对照表 */
+.g-tip{background:var(--gold-soft);border:1px solid var(--gold-l);border-radius:10px;padding:10px 15px;font-size:13.5px;color:var(--ink-2);margin-bottom:16px}
+.g-table{width:100%;border-collapse:collapse;font-size:15px}
+.g-table thead th{background:var(--teal);color:#fff;font-size:13px;font-weight:600;padding:12px 14px;text-align:left;position:sticky;top:64px;z-index:2}
+.g-table tbody tr{border-bottom:1px solid var(--line-2);transition:background .15s}
+.g-table tbody tr:nth-child(even){background:rgba(243,237,225,.35)}
+.g-table tbody tr:hover{background:var(--gold-soft)}
+.g-table td{padding:13px 14px;vertical-align:top;line-height:1.85}
+.g-num{color:var(--ink-3);font-size:12.5px;font-variant-numeric:tabular-nums;padding-top:16px!important}
+.g-zh{color:var(--ink);font-size:15.5px;cursor:pointer}
+.g-zh.playable:hover{background:var(--gold-soft)}
+.g-ar{font-family:var(--font-ar);font-size:19px;line-height:2.1}
+.g-ar .playable{cursor:pointer;padding:1px 3px;margin:-1px -3px;border-radius:5px}
+.g-roman{font-family:var(--font-cn);font-size:11.5px;color:var(--ink-3);font-style:italic;line-height:1.5;margin-top:5px;display:none;letter-spacing:0}
+body.show-roman .g-roman{display:block}
+.g-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
+
+@media (max-width:760px){
+  .g-table{font-size:13px}
+  .g-ar{font-size:16px}
+  .g-table td{padding:9px 8px}
+  .g-unit-grid{grid-template-columns:1fr}
+}
